@@ -1,0 +1,168 @@
+:root {
+  --treble: #3468c0;
+  --bass: #2f9e6b;
+  --bg: #12141a;
+  --panel: #1c1f28;
+  --panel-2: #262a37;
+  --border: #363c4c;
+  --text: #e7e9f0;
+  --muted: #9198ab;
+  --accent: #ffb454;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  padding: 20px 28px 10px;
+  border-bottom: 1px solid var(--border);
+}
+header h1 { margin: 0 0 4px; font-size: 22px; }
+.subtitle { margin: 0; color: var(--muted); font-size: 13px; }
+
+main {
+  padding: 20px 28px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+section {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+section h2 { margin: 0 0 10px; font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+
+/* Chord palette */
+#chord-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.chord-chip {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.chord-chip:hover { border-color: var(--accent); }
+.chord-chip .count { color: var(--muted); font-size: 11px; margin-left: 4px; }
+
+/* Pattern strip (the sequence of slots) */
+#pattern-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 74px;
+  padding: 10px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  align-items: center;
+}
+#pattern-strip:empty::before {
+  content: "Click a chord above to add a slot to your pattern.";
+  color: var(--muted);
+  font-size: 13px;
+}
+.slot {
+  position: relative;
+  width: 92px;
+  min-height: 60px;
+  background: var(--panel-2);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+  text-align: center;
+}
+.slot.selected { border-color: var(--accent); }
+.slot.playing { border-color: #ff5d5d; box-shadow: 0 0 0 2px rgba(255,93,93,.35); }
+.slot .chord-name { font-size: 16px; font-weight: 600; }
+.slot .variant-label { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.slot .remove-btn {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: none;
+  background: #7a2f2f;
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  cursor: pointer;
+  padding: 0;
+}
+
+#pattern-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+button {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+button:hover:not(:disabled) { border-color: var(--accent); }
+button:disabled { opacity: .4; cursor: not-allowed; }
+#pattern-controls label { color: var(--muted); font-size: 13px; display: flex; align-items: center; gap: 6px; }
+#tempo { width: 64px; background: var(--panel); color: var(--text); border: 1px solid var(--border); border-radius: 4px; padding: 4px; }
+
+/* Variant grid (bar options for the currently selected slot) */
+#variant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+.variant-card {
+  background: var(--panel-2);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+.variant-card:hover { border-color: var(--accent); }
+.variant-card.chosen { border-color: #5fd67d; }
+.variant-card .measure-label { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+
+/* Piano-roll canvas rendering shared by variant cards + phrase view */
+.roll { display: block; width: 100%; height: 60px; background: #0d0f14; border-radius: 4px; }
+.roll-legend { font-size: 10px; color: var(--muted); margin-top: 3px; }
+.roll-legend .t { color: var(--treble); }
+.roll-legend .b { color: var(--bass); }
+
+#phrase-view {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+#phrase-view:empty::before {
+  content: "Your assembled phrase will appear here once you add chords and pick bar variants.";
+  color: var(--muted);
+  font-size: 13px;
+}
+.phrase-bar { flex: 0 0 auto; width: 130px; }
+.phrase-bar .roll { height: 70px; }
+.phrase-bar .label { font-size: 11px; text-align: center; color: var(--muted); margin-top: 3px; }
+.phrase-bar.playing .roll { outline: 2px solid #ff5d5d; }

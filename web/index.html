@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Chord Pattern Phrase Builder</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Chord Pattern Phrase Builder</h1>
+    <p class="subtitle">Build a chord progression, pick a bar variant for each chord, then play back the assembled phrase.</p>
+  </header>
+
+  <main>
+    <section id="pattern-section">
+      <h2>1. Build your pattern</h2>
+      <div id="chord-palette"></div>
+      <div id="pattern-strip"></div>
+      <div id="pattern-controls">
+        <button id="clear-pattern">Clear pattern</button>
+        <button id="play-phrase" disabled>▶ Play phrase</button>
+        <button id="stop-phrase" disabled>■ Stop</button>
+        <label>Tempo <input type="number" id="tempo" min="40" max="240" value="110" /> BPM</label>
+      </div>
+    </section>
+
+    <section id="picker-section">
+      <h2>2. Choose a bar variant for the selected slot</h2>
+      <p id="picker-hint">Add a chord to the pattern, then click its slot to see every available bar option for that chord.</p>
+      <div id="variant-grid"></div>
+    </section>
+
+    <section id="phrase-section">
+      <h2>3. Your assembled phrase</h2>
+      <div id="phrase-view"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
