@@ -1,0 +1,70 @@
+Galant "Circle Progression" phrase plan (Bars 1-8)
+Progression: I-V-vi-iii-IV-I-ii(7)-V(-I), mapped to the merged library's
+standard chord names (C as tonic reference): C-G-Am-Em-F-C-Dm-G(-C)
+
+Goal: choose which bar-variant (motif) to use at each position so that (a)
+the melodic contour (rising/falling/neither, major-3rd rule) reinforces the
+harmonic function at that point in the phrase, and (b) each bar's first note
+lands close to the previous bar's last note (common tone or step), so the
+melody reads as one continuous line rather than 8 disconnected fragments.
+
+Per-chord data available (merged_bars.json, treble voice, n = usable bars):
+  C  (n=60): rising=18 falling=19 neither=23 - first notes mostly C/G/E, last mostly C/E/G
+  G  (n=38): rising=17 falling=5  neither=16 - first notes mostly G/D/B, last mostly G/B/D
+  Am (n=36): rising=16 falling=3  neither=17 - first notes mostly A/E/C, last mostly A/C/E
+  Em (n=34): rising=16 falling=3  neither=15 - first notes mostly E/B/G, last mostly E/G/B
+  F  (n=37): rising=16 falling=5  neither=16 - first notes mostly F/C/A, last mostly F/A/C
+  Dm (n=35): rising=16 falling=3  neither=16 - first notes mostly D/A/F, last mostly D/F/A
+
+Caveat: every chord except C has a small "falling" pool (only 3-5 bars). C is
+falling-rich (19) because most of "Descending motifs" landed on C. Save true
+"falling" contour for the bars where it matters harmonically (the two
+strongest cadential drops: bar 6 back to tonic, bar 8's dominant close) and
+use "neither" elsewhere rather than forcing falling where the pool is thin.
+
+Recommended contour per bar, and why:
+  Bar 1  C   neither  - calm opening statement, establishes the tonic before motion begins
+  Bar 2  G   rising   - root motion C->G is the phrase's first lift; rising reinforces it
+  Bar 3  Am  rising   - continues the upward drift (G->A is a step up)
+  Bar 4  Em  neither  - mediant "turn"/suspension point before the second half; let it hover
+  Bar 5  F   rising   - fresh subdominant energy opens the consequent phrase
+  Bar 6  C   falling  - F->C is a strong resolution; falling melody mirrors the harmonic drop
+  Bar 7  Dm  rising   - pre-dominant, building toward the final cadence
+  Bar 8  G   falling  - dominant close; falling contour mirrors the melody settling toward the
+                         implied tonic (bar 9/next phrase)
+
+Suggested connective tones between bars (root-position triads, closest voice leading):
+  C->G:  common tone G                (C-E-G share G with G-B-D)
+  G->Am: step (B->C or D->C)          (leading tone / step into Am's 3rd)
+  Am->Em: common tone E               (A-C-E share E with E-G-B)
+  Em->F: half step (E->F or B->C)     (classic iii->IV melodic motion)
+  F->C:  common tone C                (F-A-C share C with C-E-G)
+  C->Dm: step (C->D or E->D)          (into ii)
+  Dm->G: common tone D                (D-F-A share D with G-B-D)
+  G->C:  half step (B->C, leading tone resolution) - the authentic-cadence close
+
+Worked example (greedy: match each bar's first note to the previous bar's last
+note within the required contour, using real bars already in the library):
+
+  bar  chord  contour   measure  start  end   gap-to-prev-end (semitones)
+  1    C      neither   1        C      C     -
+  2    G      rising    77       B      E     1
+  3    Am     rising    148      E      A     0
+  4    Em     neither   189      G      G     2
+  5    F      rising    38       F      A#    2
+  6    C      falling   13       C      F     2
+  7    Dm     rising    112      F      A#    0
+  8    G      falling   85       B      D     1
+
+All gaps are 2 semitones or less (mostly common tone or a single step), so
+this specific set of 8 bars can be built in the app right now (add C, G, Am,
+Em, F, C, Dm, G to the pattern, then pick bar 1, 77, 148, 189, 38, 13, 112, 85
+in the variant picker for each slot) and should read as one coherent,
+directionally-sensible phrase rather than 8 unrelated fragments.
+
+This is one valid solution, not the only one - any bar whose start is within
+a step or two of the previous bar's end, and whose own contour matches the
+table above, will work about as well. Bars picked at random from a chord's
+full pool (ignoring contour/endpoint) will sometimes still connect smoothly
+(most bars start/end on chord tones) but will not reliably reinforce the
+phrase's rise-fall shape the way this planned selection does.

@@ -80,7 +80,15 @@ def main():
     lines.append(f"*M{data['beats']}/{data['beatType']}\t*M{data['beats']}/{data['beatType']}")
     lines.append(f"*MM{round(data['tempo'])}\t*MM{round(data['tempo'])}")
 
+    written = 0
     for bar in data["bars"]:
+        # Skip bars that are silent in both staves (nothing but rests) - a
+        # redundant whole-bar rest carries no information for analysis.
+        if all(e["type"] == "rest" for e in bar["trebleNotation"]) and all(
+            e["type"] == "rest" for e in bar["bassNotation"]
+        ):
+            continue
+        written += 1
         lines.append(f"=\t=")
         lines.append(f"!{bar['chord']}\t!{bar['chord']}")
         treble = dict(onsets_with_tokens(bar["trebleNotation"]))
@@ -92,7 +100,7 @@ def main():
     lines.append("*-\t*-")
 
     OUT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"Wrote {len(data['bars'])} bars of Humdrum **kern data to {OUT_PATH}")
+    print(f"Wrote {written} bars of Humdrum **kern data to {OUT_PATH} ({len(data['bars']) - written} silent bars omitted)")
 
 
 if __name__ == "__main__":

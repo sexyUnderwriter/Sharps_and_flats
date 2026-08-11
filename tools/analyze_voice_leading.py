@@ -9,12 +9,13 @@ voice. If they are more than a major 3rd apart (> 4 semitones), the bar is
 Run: python3 tools/analyze_voice_leading.py
 """
 import json
+import sys
 from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BARS_JSON = ROOT / "data" / "bars.json"
-OUT_PATH = ROOT / "analysis" / "voice_leading.log"
+BARS_JSON = ROOT / "data" / "merged_bars.json"
+OUT_PATH = ROOT / "analysis" / "voice_leading_merged.log"
 
 STEP_SEMITONES = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
 MAJOR_THIRD_SEMITONES = 4
@@ -38,7 +39,9 @@ def classify(events):
 
 
 def main():
-    data = json.loads(BARS_JSON.read_text(encoding="utf-8"))
+    bars_path = Path(sys.argv[1]) if len(sys.argv) > 1 else BARS_JSON
+    out_path = Path(sys.argv[2]) if len(sys.argv) > 2 else OUT_PATH
+    data = json.loads(bars_path.read_text(encoding="utf-8"))
     bars = data["bars"]
 
     overall = Counter()
@@ -77,11 +80,11 @@ def main():
     lines.append("")
     lines.append("Per-bar detail (measure, chord, contour, first->last MIDI):")
     for measure, chord, result, first_midi, last_midi in per_bar:
-        lines.append(f"  {measure:3d}  {chord:8s} {result:8s} {first_midi}->{last_midi}")
+        lines.append(f"  {measure:4d}  {chord:8s} {result:8s} {first_midi}->{last_midi}")
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"Wrote voice-leading analysis for {total} bars to {OUT_PATH}")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"Wrote voice-leading analysis for {total} bars to {out_path}")
 
 
 if __name__ == "__main__":
