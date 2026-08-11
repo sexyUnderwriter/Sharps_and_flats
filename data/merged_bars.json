@@ -78204,7 +78204,12 @@
      "duration": 1536
     }
    ],
-   "bass": [],
+   "bass": [
+    {
+     "type": "rest",
+     "duration": 3072
+    }
+   ],
    "trebleNotation": [
     {
      "type": "note",
@@ -78272,7 +78277,18 @@
      "octave": 5
     }
    ],
-   "bassNotation": []
+   "bassNotation": [
+    {
+     "type": "rest",
+     "duration": 3072,
+     "dots": 0,
+     "vexDuration": "wr",
+     "tieStart": false,
+     "tieStop": false,
+     "tupletStart": false,
+     "tupletStop": false
+    }
+   ]
   },
   {
    "measure": 1023,

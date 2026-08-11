@@ -301,6 +301,18 @@ def build_descending_bars():
             continue  # silent in both staves - not a usable playable bar
 
         ticks_per_bar = divisions * beats * 4 // beat_type
+
+        # A staff with zero notated duration (e.g. a bar where the composer
+        # left the bass empty with no rest) is a full-bar rest on that staff.
+        for staff_key in ("1", "2"):
+            events = raw_voices.get(staff_key) or []
+            if sum(e["duration"] for e in events) == 0:
+                raw_voices[staff_key] = [{
+                    "type": "rest", "duration": ticks_per_bar, "dots": 0,
+                    "vexDuration": vex_duration_for(None, 0, True, ticks_per_bar, divisions),
+                    "tieStart": False, "tieStop": False, "tupletStart": False, "tupletStop": False,
+                }]
+
         bars.append({
             "measure": measure_num + DESCENDING_MEASURE_OFFSET,
             "chord": chord,
