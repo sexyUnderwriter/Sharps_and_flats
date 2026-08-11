@@ -20,6 +20,9 @@ ROOT = Path(__file__).resolve().parent.parent
 XML_PATH = ROOT / "motifs.musicxml"
 BARS_TXT_PATH = ROOT / "Bars.txt"
 OUT_PATH = ROOT / "data" / "bars.json"
+# The web app loads this <script> instead of fetch()-ing bars.json, so it
+# keeps working when opened via file:// or served with web/ as the root.
+JS_OUT_PATH = ROOT / "web" / "bars-data.js"
 
 TYPE_TO_VEX = {
     "whole": "w",
@@ -286,7 +289,13 @@ def main():
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(data, indent=1), encoding="utf-8")
-    print(f"Wrote {len(bars)} bars across {len(chord_groups)} chord groups to {OUT_PATH}")
+
+    JS_OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    JS_OUT_PATH.write_text(
+        "window.BARS_DATA = " + json.dumps(data) + ";\n", encoding="utf-8"
+    )
+
+    print(f"Wrote {len(bars)} bars across {len(chord_groups)} chord groups to {OUT_PATH} and {JS_OUT_PATH}")
 
 
 if __name__ == "__main__":
