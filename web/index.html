@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <title>Chord Pattern Phrase Builder</title>
 <link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js"></script>
 </head>
 <body>
   <header>
@@ -18,21 +19,26 @@
       <div id="pattern-strip"></div>
       <div id="pattern-controls">
         <button id="clear-pattern">Clear pattern</button>
+        <button id="randomize-bars" disabled>🎲 Randomize bars</button>
         <button id="play-phrase" disabled>▶ Play phrase</button>
         <button id="stop-phrase" disabled>■ Stop</button>
         <label>Tempo <input type="number" id="tempo" min="40" max="240" value="110" /> BPM</label>
+        <div id="view-toggle" class="view-toggle" role="group" aria-label="Visualization style">
+          <button id="view-roll" class="view-toggle-btn active" type="button">📊 Graph</button>
+          <button id="view-notation" class="view-toggle-btn" type="button">🎼 Notes</button>
+        </div>
       </div>
     </section>
 
-    <section id="picker-section">
-      <h2>2. Choose a bar variant for the selected slot</h2>
-      <p id="picker-hint">Add a chord to the pattern, then click its slot to see every available bar option for that chord.</p>
-      <div id="variant-grid"></div>
+    <section id="phrase-section">
+      <h2>2. Your assembled phrase</h2>
+      <div id="phrase-view"></div>
     </section>
 
-    <section id="phrase-section">
-      <h2>3. Your assembled phrase</h2>
-      <div id="phrase-view"></div>
+    <section id="picker-section">
+      <h2>3. Choose a bar variant for the selected slot</h2>
+      <p id="picker-hint">Add a chord to the pattern, then click its slot to see every available bar option for that chord.</p>
+      <div id="variant-grid"></div>
     </section>
   </main>
 
