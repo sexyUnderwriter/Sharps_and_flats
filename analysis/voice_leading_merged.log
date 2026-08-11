@@ -1,23 +1,23 @@
 Voice-leading contour analysis (treble voice)
 Rule: rising/falling if first and last sounding note differ by more than a
 major 3rd (4 semitones); otherwise neither.
-Bars analyzed: 351
+Bars analyzed: 477
 
 Overall distribution:
-  rising    147  ( 41.9%)
-  falling    55  ( 15.7%)
-  neither   149  ( 42.5%)
+  rising    147  ( 30.8%)
+  falling   181  ( 37.9%)
+  neither   149  ( 31.2%)
 
 By chord:
   C        (n= 60): rising=18, falling=19, neither=23
-  F        (n= 37): rising=16, falling=5, neither=16
-  G        (n= 38): rising=17, falling=5, neither=16
-  Dm       (n= 35): rising=16, falling=3, neither=16
-  Am       (n= 36): rising=16, falling=3, neither=17
-  Em       (n= 34): rising=16, falling=3, neither=15
-  Cm       (n= 34): rising=16, falling=3, neither=15
-  Gm       (n= 34): rising=16, falling=3, neither=15
-  Bdim     (n= 35): rising=16, falling=3, neither=16
+  F        (n= 51): rising=16, falling=19, neither=16
+  G        (n= 55): rising=17, falling=22, neither=16
+  Dm       (n= 50): rising=16, falling=18, neither=16
+  Am       (n= 52): rising=16, falling=19, neither=17
+  Em       (n= 50): rising=16, falling=19, neither=15
+  Cm       (n= 50): rising=16, falling=19, neither=15
+  Gm       (n= 50): rising=16, falling=19, neither=15
+  Bdim     (n= 51): rising=16, falling=19, neither=16
   A        (n=  2): rising=0, falling=2, neither=0
   G#       (n=  1): rising=0, falling=1, neither=0
   E        (n=  1): rising=0, falling=1, neither=0
@@ -377,3 +377,129 @@ Per-bar detail (measure, chord, contour, first->last MIDI):
   1036  A        falling  81->73
   1037  D        falling  86->78
   1038  C#dim    falling  82->70
+  2001  F        falling  65->53
+  2002  F        falling  65->53
+  2003  F        falling  69->64
+  2004  F        falling  72->67
+  2005  F        falling  72->67
+  2006  F        falling  72->67
+  2007  F        falling  65->59
+  2008  F        falling  72->64
+  2009  F        falling  65->50
+  2010  F        falling  69->60
+  2011  F        falling  72->64
+  2012  F        falling  77->71
+  2013  F        falling  72->67
+  2014  F        falling  72->63
+  2015  G        falling  67->62
+  2016  G        falling  67->55
+  2017  G        falling  67->55
+  2018  G        falling  67->62
+  2019  G        falling  71->65
+  2020  G        falling  74->69
+  2021  G        falling  74->69
+  2022  G        falling  74->69
+  2023  G        falling  67->60
+  2024  G        falling  74->65
+  2025  G        falling  67->52
+  2026  G        falling  71->62
+  2027  G        falling  74->65
+  2028  G        falling  79->72
+  2029  G        falling  74->69
+  2030  G        falling  74->64
+  2031  Dm       falling  62->57
+  2032  Dm       falling  62->50
+  2033  Dm       falling  62->50
+  2034  Dm       falling  62->57
+  2035  Dm       falling  69->64
+  2036  Dm       falling  69->64
+  2037  Dm       falling  69->64
+  2038  Dm       falling  62->55
+  2039  Dm       falling  69->60
+  2040  Dm       falling  62->47
+  2041  Dm       falling  65->57
+  2042  Dm       falling  69->60
+  2043  Dm       falling  74->67
+  2044  Dm       falling  69->64
+  2045  Dm       falling  69->59
+  2046  Am       falling  57->52
+  2047  Am       falling  57->45
+  2048  Am       falling  57->45
+  2049  Am       falling  57->52
+  2050  Am       falling  60->55
+  2051  Am       falling  64->59
+  2052  Am       falling  64->59
+  2053  Am       falling  64->59
+  2054  Am       falling  57->50
+  2055  Am       falling  64->55
+  2056  Am       falling  57->41
+  2057  Am       falling  60->52
+  2058  Am       falling  64->55
+  2059  Am       falling  69->62
+  2060  Am       falling  64->59
+  2061  Am       falling  64->53
+  2062  Em       falling  64->59
+  2063  Em       falling  64->52
+  2064  Em       falling  64->52
+  2065  Em       falling  64->59
+  2066  Em       falling  67->62
+  2067  Em       falling  71->65
+  2068  Em       falling  71->65
+  2069  Em       falling  71->65
+  2070  Em       falling  64->57
+  2071  Em       falling  71->62
+  2072  Em       falling  64->48
+  2073  Em       falling  67->59
+  2074  Em       falling  71->62
+  2075  Em       falling  76->69
+  2076  Em       falling  71->65
+  2077  Em       falling  71->60
+  2078  Cm       falling  60->55
+  2079  Cm       falling  60->48
+  2080  Cm       falling  60->48
+  2081  Cm       falling  60->55
+  2082  Cm       falling  63->58
+  2083  Cm       falling  67->62
+  2084  Cm       falling  67->62
+  2085  Cm       falling  67->62
+  2086  Cm       falling  60->53
+  2087  Cm       falling  67->58
+  2088  Cm       falling  60->44
+  2089  Cm       falling  63->55
+  2090  Cm       falling  67->58
+  2091  Cm       falling  72->65
+  2092  Cm       falling  67->62
+  2093  Cm       falling  67->56
+  2094  Gm       falling  67->62
+  2095  Gm       falling  67->55
+  2096  Gm       falling  67->55
+  2097  Gm       falling  67->62
+  2098  Gm       falling  70->65
+  2099  Gm       falling  74->68
+  2100  Gm       falling  74->68
+  2101  Gm       falling  74->68
+  2102  Gm       falling  67->60
+  2103  Gm       falling  74->65
+  2104  Gm       falling  67->51
+  2105  Gm       falling  70->62
+  2106  Gm       falling  74->65
+  2107  Gm       falling  79->72
+  2108  Gm       falling  74->68
+  2109  Gm       falling  74->63
+  2110  Bdim     falling  57->52
+  2111  Bdim     falling  57->45
+  2112  Bdim     falling  57->45
+  2113  Bdim     falling  57->52
+  2114  Bdim     falling  62->56
+  2115  Bdim     falling  65->59
+  2116  Bdim     falling  65->59
+  2117  Bdim     falling  65->59
+  2118  Bdim     falling  57->51
+  2119  Bdim     falling  65->56
+  2120  Bdim     falling  57->43
+  2121  Bdim     falling  62->52
+  2122  Bdim     falling  65->56
+  2123  Bdim     falling  69->63
+  2124  Bdim     falling  65->59
+  2125  Bdim     falling  65->54
+  2126  G        falling  67->55

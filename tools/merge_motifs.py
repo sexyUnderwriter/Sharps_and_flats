@@ -190,6 +190,92 @@ def best_chord_name(events_by_staff):
     return f"{PC_NAMES_SHARP[root]}{qual_label}"
 
 
+MAJOR_THIRD_SEMITONES = 4
+LETTER_INDEX = {"C": 0, "D": 1, "E": 2, "F": 3, "G": 4, "A": 5, "B": 6}
+LETTERS = "CDEFGAB"
+
+# Diatonic scale (alter per natural letter) each chord's melodies are drawn
+# from, used as the reference collection for melodic inversion.
+MAJOR_CONTEXT_SCALE = {l: 0 for l in LETTERS}
+MINOR_CONTEXT_SCALE = {"C": 0, "D": 0, "E": -1, "F": 0, "G": 0, "A": -1, "B": -1}
+CHORD_SCALE = {
+    "C": MAJOR_CONTEXT_SCALE, "F": MAJOR_CONTEXT_SCALE, "G": MAJOR_CONTEXT_SCALE,
+    "Dm": MAJOR_CONTEXT_SCALE, "Am": MAJOR_CONTEXT_SCALE, "Em": MAJOR_CONTEXT_SCALE,
+    "Cm": MINOR_CONTEXT_SCALE, "Gm": MINOR_CONTEXT_SCALE, "Bdim": MINOR_CONTEXT_SCALE,
+}
+# Chords whose "falling" pool is thin (see analysis/voice_leading_merged.log);
+# these get supplemented by diatonically inverting their "rising" bars.
+THIN_FALLING_CHORDS = ["F", "G", "Dm", "Am", "Em", "Cm", "Gm", "Bdim"]
+
+
+def midi(note):
+    return (note["octave"] + 1) * 12 + STEP_SEMITONES[note["step"]] + note.get("alter", 0)
+
+
+def classify_contour(events):
+    notes = [e for e in events if e["type"] == "note"]
+    if not notes:
+        return "neither"
+    diff = midi(notes[-1]) - midi(notes[0])
+    if diff > MAJOR_THIRD_SEMITONES:
+        return "rising"
+    if diff < -MAJOR_THIRD_SEMITONES:
+        return "falling"
+    return "neither"
+
+
+def invert_note_diatonically(note, scale, pivot_position):
+    """Mirror one note's staff position (letter+octave) around pivot_position,
+    then re-derive its alteration from the target scale, preserving (mirrored)
+    any chromatic deviation the original note had from that scale."""
+    position = note["octave"] * 7 + LETTER_INDEX[note["step"]]
+    mirrored = 2 * pivot_position - position
+    new_octave, degree = divmod(mirrored, 7)
+    new_step = LETTERS[degree]
+    chromatic_offset = note.get("alter", 0) - scale[note["step"]]
+    new_alter = scale[new_step] - chromatic_offset
+    return {**note, "step": new_step, "alter": new_alter, "octave": new_octave}
+
+
+def invert_treble_diatonically(events, scale):
+    notes_only = [e for e in events if e["type"] == "note"]
+    if not notes_only:
+        return None
+    pivot = notes_only[0]["octave"] * 7 + LETTER_INDEX[notes_only[0]["step"]]
+    return [invert_note_diatonically(e, scale, pivot) if e["type"] == "note" else e for e in events]
+
+
+def build_inverted_falling_bars(bars, next_measure_start):
+    """For chords with few "falling" bars, diatonically invert their "rising"
+    bars' treble melody (bass/harmony untouched) to create new falling bars.
+    Only keeps a result if it actually classifies as falling afterward."""
+    inverted = []
+    next_measure = next_measure_start
+    for bar in bars:
+        chord = bar["chord"]
+        if chord not in THIN_FALLING_CHORDS:
+            continue
+        if classify_contour(bar["treble"]) != "rising":
+            continue
+        scale = CHORD_SCALE[chord]
+        new_treble_notation = invert_treble_diatonically(bar["trebleNotation"], scale)
+        if new_treble_notation is None:
+            continue
+        new_treble = merge_ties(new_treble_notation)
+        if classify_contour(new_treble) != "falling":
+            continue
+        inverted.append({
+            **bar,
+            "measure": next_measure,
+            "source": "inverted",
+            "derivedFrom": bar["measure"],
+            "treble": new_treble,
+            "trebleNotation": new_treble_notation,
+        })
+        next_measure += 1
+    return inverted
+
+
 def build_descending_bars():
     tree = ET.parse(DESCENDING_XML)
     part = tree.getroot().find("part")
@@ -241,7 +327,9 @@ def main():
 
     descending_bars = build_descending_bars()
 
-    all_bars = motifs_bars + descending_bars
+    inverted_bars = build_inverted_falling_bars(motifs_bars + descending_bars, next_measure_start=2001)
+
+    all_bars = motifs_bars + descending_bars + inverted_bars
     chord_order = []
     for label in ROMAN_TO_STANDARD.values():
         if label not in chord_order:
@@ -266,6 +354,7 @@ def main():
     JS_OUT.write_text("window.BARS_DATA = " + json.dumps(merged) + ";\n", encoding="utf-8")
 
     print(f"Merged {len(motifs_bars)} motifs bars + {len(descending_bars)} descending bars "
+          f"+ {len(inverted_bars)} diatonically-inverted falling bars "
           f"= {len(all_bars)} bars across {len(chord_groups)} chords")
     print(f"Wrote {MERGED_OUT} and {JS_OUT}")
 

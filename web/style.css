@@ -144,6 +144,10 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   background: var(--accent);
   color: #1a1408;
 }
+.view-toggle-btn.muted {
+  background: #7a2f2f;
+  color: #fff;
+}
 
 /* Variant grid (bar options for the currently selected slot) */
 #variant-grid {

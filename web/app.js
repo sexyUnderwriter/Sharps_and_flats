@@ -16,6 +16,7 @@ const pattern = [];
 let selectedSlotIndex = null;
 let playToken = 0; // increments to invalidate in-flight playback highlighting
 let viewMode = "roll"; // "roll" (piano-roll graph) or "notation" (sheet music)
+const muted = { treble: false, bass: false }; // isolate playback per staff
 
 function init() {
   if (!window.BARS_DATA) {
@@ -368,19 +369,37 @@ function renderPhrase() {
 // --- Playback (Web Audio API) ---------------------------------------------
 
 let audioCtx = null;
+let trebleGainNode = null;
+let bassGainNode = null;
 const activeNodes = [];
 const activeTimers = [];
 
 function ensureAudioCtx() {
-  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    trebleGainNode = audioCtx.createGain();
+    bassGainNode = audioCtx.createGain();
+    trebleGainNode.gain.value = muted.treble ? 0 : 1;
+    bassGainNode.gain.value = muted.bass ? 0 : 1;
+    trebleGainNode.connect(audioCtx.destination);
+    bassGainNode.connect(audioCtx.destination);
+  }
   return audioCtx;
+}
+
+function setMuted(staff, value) {
+  muted[staff] = value;
+  const node = staff === "treble" ? trebleGainNode : bassGainNode;
+  if (node) node.gain.setValueAtTime(value ? 0 : 1, audioCtx.currentTime);
+  document.getElementById(`mute-${staff}`).classList.toggle("muted", value);
+  document.getElementById(`mute-${staff}`).textContent = `${value ? "🔇" : "🔊"} ${staff === "treble" ? "Treble" : "Bass"}`;
 }
 
 function midiToFreq(m) {
   return 440 * Math.pow(2, (m - 69) / 12);
 }
 
-function scheduleNote(ctx, startTime, duration, midi, gainPeak) {
+function scheduleNote(ctx, destination, startTime, duration, midi, gainPeak) {
   const osc = ctx.createOscillator();
   const gain = ctx.createGain();
   osc.type = "triangle";
@@ -391,7 +410,7 @@ function scheduleNote(ctx, startTime, duration, midi, gainPeak) {
   gain.gain.linearRampToValueAtTime(gainPeak, startTime + attack);
   gain.gain.setValueAtTime(gainPeak, Math.max(startTime + attack, startTime + duration - release));
   gain.gain.linearRampToValueAtTime(0.0001, startTime + duration);
-  osc.connect(gain).connect(ctx.destination);
+  osc.connect(gain).connect(destination);
   osc.start(startTime);
   osc.stop(startTime + duration + 0.02);
   activeNodes.push(osc);
@@ -416,18 +435,18 @@ function playPhrase() {
     const barDuration = bar.ticksPerBar * secPerTick;
     secPerBar.push(barDuration);
 
-    const scheduleStaff = (events, gainPeak) => {
+    const scheduleStaff = (events, gainPeak, destination) => {
       let t = startTime;
       for (const ev of events) {
         const dur = ev.duration * secPerTick;
         if (ev.type === "note") {
-          scheduleNote(ctx, t, dur, midiOf(ev), gainPeak);
+          scheduleNote(ctx, destination, t, dur, midiOf(ev), gainPeak);
         }
         t += dur;
       }
     };
-    scheduleStaff(bar.treble, 0.18);
-    scheduleStaff(bar.bass, 0.15);
+    scheduleStaff(bar.treble, 0.18, trebleGainNode);
+    scheduleStaff(bar.bass, 0.15, bassGainNode);
 
     startTime += barDuration;
   });
@@ -489,6 +508,8 @@ function wireControls() {
   });
   document.getElementById("view-roll").addEventListener("click", () => setViewMode("roll"));
   document.getElementById("view-notation").addEventListener("click", () => setViewMode("notation"));
+  document.getElementById("mute-treble").addEventListener("click", () => setMuted("treble", !muted.treble));
+  document.getElementById("mute-bass").addEventListener("click", () => setMuted("bass", !muted.bass));
 }
 
 function setViewMode(mode) {
