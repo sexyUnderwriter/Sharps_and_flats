@@ -1,0 +1,150 @@
+Game Prompt v2
+
+Here is a refined set of requirements and game rules for a set of musical tokens used in this application.
+
+1. Core token logic
+1. Each token represents one beat.
+2. The value of one beat is one quarter note.
+3. A token may contain no more than 4 subdivisions of the beat. (Maximum: 4 sixteenth notes)
+4. The range of playable pitches is from C3 (middle C) to G4.
+5. Each note in a token must be either:
+   - a chord tone of the active tonal family, or
+   - a known non-chord tone allowed by Baroque convention (e.g. escape tones, leading tones, appoggiaturas, suspensions, passing tones, neighboring tones, accented lower neighbors, etc.).
+6. The game supports four tonal families:
+   - C major
+   - F major
+   - G major
+   - D minor
+7. Token values and card types:
+   - 0 = Quarter Rest
+   - 1-3 = Quarter Note
+   - 4-6 = Pair of Eighth Notes
+   - 7-8 = Four Sixteenth Notes
+   - 9 = 3:2 Tuplet (three notes in the span of two beats)
+8. Duplicate tokens are required to make the pool statistically useful. Start with 4 copies of each token.
+
+2. Game format
+The game is a 2-4 player card game inspired by Apples to Apples and Uno, but based on music and phrase construction.
+
+3. Objective
+Players build hands of musical tokens (beats) and combine them into a phrase that is 4 to 8 beats long.
+
+4. Shared board / flop
+There is a shared flop of some number of cards (suggestion: 4 cards) that are house cards. Any player may use those cards in their phrase.
+
+5. Turn structure
+Each round follows this flow:
+- A round target is chosen by the active judge or by agreement at the table.
+- All players build a phrase of 4 to 8 beats using their hand plus any number of flop cards, subject to the legal rules below.
+- Once players have an adequate hand, each player presents their phrase aloud by playing it on an instrument or singing it.
+- Players vote on which phrase is best for the round target.
+- The round continues until the table decides to end the game or a set number of rounds have been played.
+
+6. Round target / judging criteria
+A round target can be any of the following, or a similar goal set by the table:
+- Best phrase in C major
+- Best phrase in F major
+- Best phrase in G major
+- Best phrase in D minor
+- Best phrase ending on tonic
+- Best phrase with a clear leading tone resolution
+- Best phrase with the strongest rhythmic contrast
+- Best phrase using the most house cards effectively
+- Best phrase with the most memorable melodic contour
+
+The target should be announced before players build their phrases so everyone is solving the same problem.
+
+7. Legal phrase construction rules
+A legal phrase must satisfy all of the following:
+- 4 to 8 beats total length
+- Built from tokens only
+- Notes must fit within the allowed pitch range: C3 to G4
+- Notes must respect the current tonal family
+- Notes must be either:
+  - chord tones, or
+  - accepted non-chord tones under Baroque convention
+- Tokens must be used in the proper order when building a phrase: no rearranging a token’s internal rhythmic substructure in a way that breaks the token definition
+- A phrase should be playable and singable without requiring impossible fingerings or unsupported leaps
+- Phrase construction should reward musicality, not just token legality
+
+8. Scoring
+The goal is for players to build winning phrases. The player with the most winning phrases at the end of the game wins.
+
+Suggested scoring model:
+- Round winner receives 2 points
+- Runner-up or strongest non-winner receives 1 point
+- Bonus point for using the flop in a particularly effective way
+- Bonus point for a phrase that clearly resolves to the tonic or a strong cadence
+
+9. Design goals
+This game should feel like:
+- Apples to Apples for musicality: a public target and a social voting structure
+- Uno for phrase construction: a shared flop, fast token-driven play, and tactical card usage
+- A musical improvisation game: players build short phrases under constraints instead of composing long pieces
+
+10. Recommended game flow for implementation
+- 2-4 players
+- Each player starts with a hand of 5-7 beat tokens
+- The flop contains 4 shared house cards
+- Each round has a target tonal family and/or phrase goal
+- Players build 4-8 beat phrases using hand tokens and flop cards
+- Each player performs their phrase
+- All players vote on the best phrase
+- The round winner is awarded points
+- Game ends after a fixed number of rounds or when one player exceeds a target score
+
+11. Implementation note for future development
+The system should eventually support:
+- phrase legality validation
+- tonal-family matching checks
+- non-chord tone detection
+- phrase playability checks
+- vote weighting or round target generation
+- AI-assisted phrase generation and evaluation
+
+This prompt is a working design document to guide further iteration and product development.
+
+Questions for refinement
+1. Should the round target always be a tonal family, or should the active judge sometimes choose a different phrase goal (e.g. a cadence, rhythmic shape, or melodic contour)?
+
+Round target should be a tonal family with one or more chords from the list of chords the game is built around (C, F, G, Dm). Judge is picking the best to infer that progression and overal musicality (voice leading, melodic countour).
+
+2. Should the flop cards be:
+   - fixed as house cards that every player can use,
+   - random cards selected from the deck,
+   - or a mix of both?
+
+   Flop cards are random from the deck, like in Poker. Every player can use them to enhance their hand. 
+3. Should players be allowed to discard and redraw cards mid-round, or should hand size and card drafting stay fixed until the end of the round?
+
+One round of discard is allowed.
+
+4. Should the game be judged purely by human vote, or should there also be a rule-based scoring layer that checks legal phrase construction automatically?
+
+Generally this is human vote only.  There isn't an easy way to objectively score a phrase that is generated.
+
+5. Should the game support solo play or only multiplayer?
+
+Multiplayer only.  
+
+6. Should players sing/play phrases immediately, or should phrasing require a visual notation / card-sequence preview before performance?
+
+Players turn over their hand and play their phrase at the end of each round.
+
+7. Should the phrase be judged only on musicality, or also on how effectively it uses the shared flop cards?
+
+Musicality only.
+
+8. Should there be a “wild” card system, or should all tokens stay within the fixed legal token categories?
+
+Leave wild cards out for now.  We may add them in later.
+
+9. Should players be able to freely combine different tonal families in one phrase, or should each phrase be locked to one tonal family?
+
+As the tokens each are one beat, they may apply to multiple tonalities (a B natural in C is the 7th degree and a leading tone, or it is the third of the V chord.). Each card can be played against any tonality.
+
+10. Should the active judge rotate every round, or stay fixed for a full game?
+
+Judge can rotate but doesn't have to.  Judge also plays the cards for everyone, so only one player is playing an instrument. If there are less experienced players, the most confident sight reader is the judge.
+
+Answer these questions in-line below so the rules can be refined accurately.

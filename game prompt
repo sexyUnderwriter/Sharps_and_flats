@@ -1,0 +1,18 @@
+Here is a list of requirements for a set of tokens used for this application:
+1. Each token = one beat.
+2. The value of a beat is one quarter note.
+3. There can be no more than 4 subdivisions of the beat in a token. (4 16th notes)
+4. The range of note values is from C3 (middle c) to G4.
+5. The notes must be either chord tones or known non-chord tones that correspond to known baroque convention (escape tones, leading tones, etc.)
+6. There are four families of tonality: C major, F major, G major, D minor.  
+7. Token list: 0 = Quarter Rest, 1-3= quarter note, 4-6 = pair of eighths, 7-8= four sixteeths, 9= 3:2
+8. Duplicates are required to increase or decrease the token pool to a statistically useful pool.  Start with 4 copies of each token.
+
+Instructions:
+Theorize this as a card game that is Apples to Apples meets Uno, based on music. 2-4 players
+
+Goal: Players build hands of tokens (beats) to create a phrase that is 4 to 8 beats long.
+There is a flop of some amount (say 4 cards) that are house cards.  Any player can use them in their phrase.
+Once players have an adqueate hand, they show their hand and play it on their instrument (or sing it). 
+Players vote on the best one, then play continues.  Player with the most number of winning phrases wins.
+
