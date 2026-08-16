@@ -1,0 +1,5157 @@
+{
+  "schemaVersion": "1.0.0",
+  "deck": {
+    "name": "Expanded Starter Phrase Deck",
+    "game": "music-phrase-game",
+    "families": [
+      "C major",
+      "F major",
+      "G major",
+      "D minor"
+    ],
+    "prototypeState": "prototype",
+    "description": "Expanded prototype deck with approximately 120 cards. The deck preserves tonal-family boundaries while adding enough variety for richer phrase selection and more realistic round-to-round play.",
+    "createdAt": "2026-08-16T23:22:52.761330+00:00",
+    "updatedAt": "2026-08-16T23:22:52.761593+00:00",
+    "author": "Copilot",
+    "notes": "This expanded deck keeps four tonal families and broadens the available phrase vocabulary without introducing unrelated key families. It is designed for prototyping and further balance tuning."
+  },
+  "cards": [
+    {
+      "id": "C-0001",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "breath",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "C major breath rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "C-0002",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "C major cadential rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "C-0003",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "tension",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "C major suspension rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "C-0004",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "recovery",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "C major reset rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "C-0005",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic stability",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stable root",
+      "tags": [
+        "tonic",
+        "stable",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Root tone for phrase opening and closure."
+    },
+    {
+      "id": "C-0006",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic third",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "settling tone",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Third degree keeps the phrase singable and grounded."
+    },
+    {
+      "id": "C-0007",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "dominant pull",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "tension tone",
+      "tags": [
+        "dominant",
+        "tension",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Dominant-like motion creates clear tension."
+    },
+    {
+      "id": "C-0008",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "leading-tone motion",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach tone",
+      "tags": [
+        "leading",
+        "tension",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Useful for strong arrival and melodic urge."
+    },
+    {
+      "id": "C-0009",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "passing step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "passing",
+        "stepwise",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Stepwise motion keeps the phrase flowing."
+    },
+    {
+      "id": "C-0010",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "subdominant support",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "supporting tone",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Adds shape without disturbing tonal identity."
+    },
+    {
+      "id": "C-0011",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "upper neighbor",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "extension tone",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion gives local contour and elegance."
+    },
+    {
+      "id": "C-0012",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "cadential arrival",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "release tone",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+    },
+    {
+      "id": "C-0013",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Up Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "smooth",
+        "scalar",
+        "continuation"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+    },
+    {
+      "id": "C-0014",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Down Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "release",
+      "tags": [
+        "smooth",
+        "scalar",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A relaxed descending motion supports phrase closure."
+    },
+    {
+      "id": "C-0015",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Move",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion adds tonal color without excess tension."
+    },
+    {
+      "id": "C-0016",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Rise",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Rising dominant motion energizes the phrase."
+    },
+    {
+      "id": "C-0017",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Drift",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "settling",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A softer drift from tonic-support tone."
+    },
+    {
+      "id": "C-0018",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Leading Jump",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach",
+      "tags": [
+        "leading",
+        "cadential",
+        "tension"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A quick approach to a pitch goal."
+    },
+    {
+      "id": "C-0019",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Arc Contour",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "melodic",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "The paired notes create clear contour."
+    },
+    {
+      "id": "C-0020",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Turn Figure",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A turning figure gives rhetorical motion."
+    },
+    {
+      "id": "C-0021",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Ascending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "scalar",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+    },
+    {
+      "id": "C-0022",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Descending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "fall",
+      "tags": [
+        "scalar",
+        "descending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar descent creates a stable exit."
+    },
+    {
+      "id": "C-0023",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Turning Run",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Turning motion adds character and motion."
+    },
+    {
+      "id": "C-0024",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Burst",
+      "difficulty": "hard",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Emphasizes tension before release."
+    },
+    {
+      "id": "C-0025",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Cadential Lift",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "arrival",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A lush cadential lift with phrase-final impact."
+    },
+    {
+      "id": "C-0026",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Fill",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "ornament",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+    },
+    {
+      "id": "C-0027",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Color",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "support",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A gentle support pattern for a longer phrase."
+    },
+    {
+      "id": "C-0028",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Tonic Sparkle",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stability",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+    },
+    {
+      "id": "C-0029",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "arpeggio bloom",
+      "tags": [
+        "tonic",
+        "triplet",
+        "arpeggio"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+    },
+    {
+      "id": "C-0030",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "C major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "cadential triplet",
+      "tags": [
+        "triplet",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+    },
+    {
+      "id": "F-0001",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "breath",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "F major breath rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "F-0002",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "F major cadential rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "F-0003",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "tension",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "F major suspension rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "F-0004",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "recovery",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "F major reset rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "F-0005",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic stability",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stable root",
+      "tags": [
+        "tonic",
+        "stable",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Root tone for phrase opening and closure."
+    },
+    {
+      "id": "F-0006",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic third",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "settling tone",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Third degree keeps the phrase singable and grounded."
+    },
+    {
+      "id": "F-0007",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "dominant pull",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "tension tone",
+      "tags": [
+        "dominant",
+        "tension",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Dominant-like motion creates clear tension."
+    },
+    {
+      "id": "F-0008",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "leading-tone motion",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach tone",
+      "tags": [
+        "leading",
+        "tension",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Useful for strong arrival and melodic urge."
+    },
+    {
+      "id": "F-0009",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "passing step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "passing",
+        "stepwise",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Stepwise motion keeps the phrase flowing."
+    },
+    {
+      "id": "F-0010",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "subdominant support",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "supporting tone",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Adds shape without disturbing tonal identity."
+    },
+    {
+      "id": "F-0011",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "upper neighbor",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "extension tone",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion gives local contour and elegance."
+    },
+    {
+      "id": "F-0012",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "cadential arrival",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "release tone",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+    },
+    {
+      "id": "F-0013",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Up Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "smooth",
+        "scalar",
+        "continuation"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+    },
+    {
+      "id": "F-0014",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Down Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "release",
+      "tags": [
+        "smooth",
+        "scalar",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A relaxed descending motion supports phrase closure."
+    },
+    {
+      "id": "F-0015",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Move",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion adds tonal color without excess tension."
+    },
+    {
+      "id": "F-0016",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Rise",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Rising dominant motion energizes the phrase."
+    },
+    {
+      "id": "F-0017",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Drift",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "settling",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A softer drift from tonic-support tone."
+    },
+    {
+      "id": "F-0018",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Leading Jump",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach",
+      "tags": [
+        "leading",
+        "cadential",
+        "tension"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A quick approach to a pitch goal."
+    },
+    {
+      "id": "F-0019",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Arc Contour",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "melodic",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "The paired notes create clear contour."
+    },
+    {
+      "id": "F-0020",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Turn Figure",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A turning figure gives rhetorical motion."
+    },
+    {
+      "id": "F-0021",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Ascending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "scalar",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+    },
+    {
+      "id": "F-0022",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Descending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "fall",
+      "tags": [
+        "scalar",
+        "descending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar descent creates a stable exit."
+    },
+    {
+      "id": "F-0023",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Turning Run",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Turning motion adds character and motion."
+    },
+    {
+      "id": "F-0024",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Burst",
+      "difficulty": "hard",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Emphasizes tension before release."
+    },
+    {
+      "id": "F-0025",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Cadential Lift",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "arrival",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A lush cadential lift with phrase-final impact."
+    },
+    {
+      "id": "F-0026",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Fill",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "ornament",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+    },
+    {
+      "id": "F-0027",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Color",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "support",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A gentle support pattern for a longer phrase."
+    },
+    {
+      "id": "F-0028",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Tonic Sparkle",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stability",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+    },
+    {
+      "id": "F-0029",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "arpeggio bloom",
+      "tags": [
+        "tonic",
+        "triplet",
+        "arpeggio"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+    },
+    {
+      "id": "F-0030",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "F major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "cadential triplet",
+      "tags": [
+        "triplet",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+    },
+    {
+      "id": "G-0001",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "breath",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "G major breath rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "G-0002",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "G major cadential rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "G-0003",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "tension",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "G major suspension rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "G-0004",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "recovery",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "G major reset rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "G-0005",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic stability",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stable root",
+      "tags": [
+        "tonic",
+        "stable",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Root tone for phrase opening and closure."
+    },
+    {
+      "id": "G-0006",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic third",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "settling tone",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Third degree keeps the phrase singable and grounded."
+    },
+    {
+      "id": "G-0007",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "dominant pull",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "tension tone",
+      "tags": [
+        "dominant",
+        "tension",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Dominant-like motion creates clear tension."
+    },
+    {
+      "id": "G-0008",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "F#",
+          "octave": 4,
+          "alter": 1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "leading-tone motion",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach tone",
+      "tags": [
+        "leading",
+        "tension",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Useful for strong arrival and melodic urge."
+    },
+    {
+      "id": "G-0009",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "passing step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "passing",
+        "stepwise",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Stepwise motion keeps the phrase flowing."
+    },
+    {
+      "id": "G-0010",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "subdominant support",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "supporting tone",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Adds shape without disturbing tonal identity."
+    },
+    {
+      "id": "G-0011",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "upper neighbor",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "extension tone",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion gives local contour and elegance."
+    },
+    {
+      "id": "G-0012",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "F#",
+          "octave": 4,
+          "alter": 1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "cadential arrival",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "release tone",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+    },
+    {
+      "id": "G-0013",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Up Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "smooth",
+        "scalar",
+        "continuation"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+    },
+    {
+      "id": "G-0014",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Down Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "release",
+      "tags": [
+        "smooth",
+        "scalar",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A relaxed descending motion supports phrase closure."
+    },
+    {
+      "id": "G-0015",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Move",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion adds tonal color without excess tension."
+    },
+    {
+      "id": "G-0016",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Rise",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Rising dominant motion energizes the phrase."
+    },
+    {
+      "id": "G-0017",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Drift",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "settling",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A softer drift from tonic-support tone."
+    },
+    {
+      "id": "G-0018",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "F#",
+          "octave": 4,
+          "alter": 1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Leading Jump",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach",
+      "tags": [
+        "leading",
+        "cadential",
+        "tension"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A quick approach to a pitch goal."
+    },
+    {
+      "id": "G-0019",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Arc Contour",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "melodic",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "The paired notes create clear contour."
+    },
+    {
+      "id": "G-0020",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Turn Figure",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A turning figure gives rhetorical motion."
+    },
+    {
+      "id": "G-0021",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Ascending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "scalar",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+    },
+    {
+      "id": "G-0022",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Descending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "fall",
+      "tags": [
+        "scalar",
+        "descending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar descent creates a stable exit."
+    },
+    {
+      "id": "G-0023",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Turning Run",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Turning motion adds character and motion."
+    },
+    {
+      "id": "G-0024",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "F#",
+          "octave": 4,
+          "alter": 1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Burst",
+      "difficulty": "hard",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Emphasizes tension before release."
+    },
+    {
+      "id": "G-0025",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "F#",
+          "octave": 4,
+          "alter": 1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Cadential Lift",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "arrival",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A lush cadential lift with phrase-final impact."
+    },
+    {
+      "id": "G-0026",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Fill",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "ornament",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+    },
+    {
+      "id": "G-0027",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Color",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "support",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A gentle support pattern for a longer phrase."
+    },
+    {
+      "id": "G-0028",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Tonic Sparkle",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stability",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+    },
+    {
+      "id": "G-0029",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "B",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "arpeggio bloom",
+      "tags": [
+        "tonic",
+        "triplet",
+        "arpeggio"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+    },
+    {
+      "id": "G-0030",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "G major"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "F#",
+          "octave": 4,
+          "alter": 1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "cadential triplet",
+      "tags": [
+        "triplet",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+    },
+    {
+      "id": "D-0001",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "breath",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "D minor breath rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "D-0002",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "D minor cadential rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "D-0003",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "tension",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "D minor suspension rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "D-0004",
+      "tokenType": 0,
+      "rhythm": "quarterRest",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "rest placeholder"
+        }
+      ],
+      "duration": 1,
+      "function": "rests / breath",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": true,
+      "phraseRole": "breath point",
+      "tags": [
+        "rest",
+        "recovery",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "D minor reset rest: a short breathing point that restores rhythmic clarity."
+    },
+    {
+      "id": "D-0005",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic stability",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stable root",
+      "tags": [
+        "tonic",
+        "stable",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Root tone for phrase opening and closure."
+    },
+    {
+      "id": "D-0006",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "tonic third",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "settling tone",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Third degree keeps the phrase singable and grounded."
+    },
+    {
+      "id": "D-0007",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "dominant pull",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "tension tone",
+      "tags": [
+        "dominant",
+        "tension",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Dominant-like motion creates clear tension."
+    },
+    {
+      "id": "D-0008",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "leading-tone motion",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach tone",
+      "tags": [
+        "leading",
+        "tension",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Useful for strong arrival and melodic urge."
+    },
+    {
+      "id": "D-0009",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "passing step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "passing",
+        "stepwise",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Stepwise motion keeps the phrase flowing."
+    },
+    {
+      "id": "D-0010",
+      "tokenType": 1,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "subdominant support",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "supporting tone",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Adds shape without disturbing tonal identity."
+    },
+    {
+      "id": "D-0011",
+      "tokenType": 2,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "upper neighbor",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "extension tone",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion gives local contour and elegance."
+    },
+    {
+      "id": "D-0012",
+      "tokenType": 3,
+      "rhythm": "quarter",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "primary"
+        }
+      ],
+      "duration": 1,
+      "function": "cadential arrival",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "release tone",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+    },
+    {
+      "id": "D-0013",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Up Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "continuation",
+      "tags": [
+        "smooth",
+        "scalar",
+        "continuation"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+    },
+    {
+      "id": "D-0014",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Down Step",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "release",
+      "tags": [
+        "smooth",
+        "scalar",
+        "release"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A relaxed descending motion supports phrase closure."
+    },
+    {
+      "id": "D-0015",
+      "tokenType": 4,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Move",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "smooth",
+        "supportive"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Neighbor motion adds tonal color without excess tension."
+    },
+    {
+      "id": "D-0016",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Rise",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Rising dominant motion energizes the phrase."
+    },
+    {
+      "id": "D-0017",
+      "tokenType": 5,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Drift",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "settling",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A softer drift from tonic-support tone."
+    },
+    {
+      "id": "D-0018",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Leading Jump",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "approach",
+      "tags": [
+        "leading",
+        "cadential",
+        "tension"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A quick approach to a pitch goal."
+    },
+    {
+      "id": "D-0019",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Arc Contour",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "melodic",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "The paired notes create clear contour."
+    },
+    {
+      "id": "D-0020",
+      "tokenType": 6,
+      "rhythm": "eighthPair",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "leading note"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "response"
+        }
+      ],
+      "duration": 1,
+      "function": "Turn Figure",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "cadential"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A turning figure gives rhetorical motion."
+    },
+    {
+      "id": "D-0021",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Ascending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "lift",
+      "tags": [
+        "scalar",
+        "ascending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+    },
+    {
+      "id": "D-0022",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Descending Scalar",
+      "difficulty": "medium",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "fall",
+      "tags": [
+        "scalar",
+        "descending",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact scalar descent creates a stable exit."
+    },
+    {
+      "id": "D-0023",
+      "tokenType": 7,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Turning Run",
+      "difficulty": "medium",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "turn",
+      "tags": [
+        "ornament",
+        "turn",
+        "melodic"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Turning motion adds character and motion."
+    },
+    {
+      "id": "D-0024",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Dominant Burst",
+      "difficulty": "hard",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "push",
+      "tags": [
+        "dominant",
+        "tension",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "Emphasizes tension before release."
+    },
+    {
+      "id": "D-0025",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "Bb",
+          "octave": 4,
+          "alter": -1,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Cadential Lift",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "arrival",
+      "tags": [
+        "cadence",
+        "arrival",
+        "leading"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A lush cadential lift with phrase-final impact."
+    },
+    {
+      "id": "D-0026",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "E",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Neighbor Fill",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "ornament",
+      "tags": [
+        "neighbor",
+        "ornament",
+        "smooth"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+    },
+    {
+      "id": "D-0027",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "G",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Subdominant Color",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "support",
+      "tags": [
+        "subdominant",
+        "supportive",
+        "safe"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A gentle support pattern for a longer phrase."
+    },
+    {
+      "id": "D-0028",
+      "tokenType": 8,
+      "rhythm": "sixteenthFour",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 1"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 2"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 3"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "event 4"
+        }
+      ],
+      "duration": 1,
+      "function": "Tonic Sparkle",
+      "difficulty": "easy",
+      "rarity": "common",
+      "isRest": false,
+      "phraseRole": "stability",
+      "tags": [
+        "tonic",
+        "bright",
+        "stable"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+    },
+    {
+      "id": "D-0029",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "F",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "easy",
+      "rarity": "uncommon",
+      "isRest": false,
+      "phraseRole": "arpeggio bloom",
+      "tags": [
+        "tonic",
+        "triplet",
+        "arpeggio"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+    },
+    {
+      "id": "D-0030",
+      "tokenType": 9,
+      "rhythm": "triplet32",
+      "familyCompatibility": [
+        "D minor"
+      ],
+      "notes": [
+        {
+          "step": "A",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 1"
+        },
+        {
+          "step": "C",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 2"
+        },
+        {
+          "step": "D",
+          "octave": 4,
+          "alter": 0,
+          "duration": 1,
+          "isChordTone": true,
+          "isNonChordTone": false,
+          "role": "triplet 3"
+        }
+      ],
+      "duration": 2,
+      "function": "triplet motion",
+      "difficulty": "medium",
+      "rarity": "rare",
+      "isRest": false,
+      "phraseRole": "cadential triplet",
+      "tags": [
+        "triplet",
+        "cadence",
+        "arrival"
+      ],
+      "sourcePool": "expanded-prototype",
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+Deck Specification Document
+
+Purpose
+This document defines the card deck architecture for the musical phrase card game described in the game rules document. It converts the rules into a game-ready deck structure, enabling implementation in a playable app or prototype.
+
+Game Scope
+- 2–4 players
+- Shared flop of 4 random cards
+- Each player holds a hand of 6 cards
+- Each player gets one discard action per round
+- Phrase length is exactly 8 beats
+- Round target is a tonal family and optional phrase objective
+- Deck supports C major, F major, G major, and D minor
+- Human voting decides the round winner
+
+1. Deck Composition Overview
+The deck is built from beat-sized tokens. Each token represents one beat of musical value. The deck is not a full notation deck; it is a micro-phrase deck built from rhythm + pitch combinations that fit the tonal logic of the game.
+
+The deck should be organized around the following core elements:
+- token rhythm type
+- tonal family compatibility
+- function within the key
+- risk / difficulty level
+- duplication count
+- phrase usefulness
+
+2. Token Categories
+The game uses the token family defined in the rules:
+
+0 = Quarter Rest
+1–3 = Quarter Note
+4–6 = Pair of Eighth Notes
+7–8 = Four Sixteenth Notes
+9 = 3:2 Tuplet
+
+Each token category will have multiple musical realizations, but the rhythm identity remains fixed.
+
+3. Tonal Families Supported
+The base game supports four families:
+- C major
+- F major
+- G major
+- D minor
+
+Each card can be compatible with one or more of these families, depending on the pitch content and musical function.
+
+4. Legal Pitch Universe
+The valid pitch range for all cards is:
+- C3 to G4
+
+This range limits the deck to playable, singable, and easy-to-implement melodic material.
+
+5. Musical Logic Rules for Card Construction
+Each token is built only from notes that satisfy the following rules:
+- chord tones of the active tonal family
+- or acceptable Baroque non-chord tones
+- or a rest token
+
+Allowed Baroque-style non-chord tones include:
+- passing tones
+- neighboring tones
+- accentuated lower neighbors
+- escape tones
+- appoggiaturas
+- leading tones
+- suspensions
+
+The built deck should treat non-chord tones as optional but valid if they support phrase flow and do not break tonal clarity.
+
+6. Function Categories for Tokens
+Each token should be tagged with a musical role to make deck balance and phrase quality easier to evaluate.
+
+Primary function categories:
+- tonic stability
+- dominant pull
+- subdominant support
+- passing tone motion
+- neighbor tone motion
+- leading-tone emphasis
+- cadential arrival
+- melodic lift / ascent
+- rhythmic accent / articulation
+- rests / breath
+
+Cards should not necessarily be limited to a single function, but each card should be assignable to a primary role in a tonal phrase.
+
+7. Card Data Model
+Each card in the deck should be represented as a structured object.
+
+Recommended fields:
+- id: unique string
+- tokenType: integer (0–9)
+- rhythm: text label (rest, quarter, eighthPair, sixteenthFour, triplet32)
+- familyCompatibility: array of tonal families
+- notes: array of pitch objects
+- duration: beat count or subdivision value
+- function: string
+- difficulty: easy | medium | hard
+- rarity: common | uncommon | rare
+- isRest: boolean
+- phraseRole: string
+- tags: array of strings
+- sourcePool: deck | flop
+
+Example:
+{
+  "id": "C-M-01",
+  "tokenType": 1,
+  "rhythm": "quarter",
+  "familyCompatibility": ["C major", "F major", "G major", "D minor"],
+  "notes": [{"step": "C", "octave": 4, "alter": 0}],
+  "duration": 1,
+  "function": "tonic",
+  "difficulty": "easy",
+  "rarity": "common",
+  "isRest": false,
+  "phraseRole": "stable root",
+  "tags": ["tonic", "stable", "safe"],
+  "sourcePool": "deck"
+}
+
+8. Deck Architecture
+The deck is best built in layers.
+
+Layer 1: Token Types
+Token types are the main rhythm family categories.
+
+Layer 2: Family-Pool Templates
+For each tonal family, create a separate pool of note patterns and musical functions.
+
+Layer 3: Token Realizations
+Each rhythm category gets a set of realizations based on notes that fit the family.
+
+Layer 4: Rarity and Duplicate Counts
+Cards are duplicated according to their usefulness and viability.
+
+9. Family-Specific Note Pools
+Each tonal family should have a manually defined note pool.
+
+C major
+- Stable tones: C, E, G
+- Supporting tones: D, F, A, B
+- Leading tone: B to C
+- Useful dissonances: D, F, A, B depending on context
+- Good cadential use: C, G, B, C
+
+F major
+- Stable tones: F, A, C
+- Supporting tones: Bb, D, E, G
+- Leading tone: E to F
+- Useful dissonances: G, Bb, C, A depending on context
+
+G major
+- Stable tones: G, B, D
+- Supporting tones: C, E, F#, A
+- Leading tone: F# to G
+- Useful dissonances: A, C, E, F# depending on context
+
+D minor
+- Stable tones: D, F, A
+- Supporting tones: C, E, G, Bb
+- Leading tone: C# to D
+- Useful dissonances: E, G, Bb, C depending on context
+
+Note: D minor has a minor tonic signature. The deck should treat C# as a valid leading tone where appropriate, while still allowing natural C to fit as a supporting tone in smooth melodic motion.
+
+10. Token Templates by Rhythm Type
+The card deck should be generated from explicit templates. These templates are reusable across tonal families.
+
+10.1 Rest Tokens
+- quarter rest
+- single rest beat
+- simple rest pulse to create phrase breathing room
+
+10.2 Quarter Note tokens
+Common patterns:
+- root tone
+- third tone
+- fifth tone
+- leading tone
+- passing tone tone
+- neighbor tone
+- accented approach tone
+
+Examples:
+- C4 quarter note on tonic
+- G3 quarter note on dominant support
+- B4 quarter note leading to C5
+- E4 quarter note as a stable upper neighbor
+
+10.3 Pair of Eighth Notes
+Common patterns:
+- stepwise motion
+- neighboring tone motion
+- passing tone pairs
+- tonic-dominant support motion
+- scalar approach
+
+Examples:
+- C4–D4
+- B4–C5
+- A4–G4
+- F4–G4
+
+10.4 Four Sixteenth Notes
+Common patterns:
+- scalar pickup motion
+- tension release pattern
+- passive melodic motion
+- grouped ornamentation patterns
+
+Examples:
+- C4–D4–E4–F4
+- B4–A4–G4–F4
+- E4–F4–G4–A4
+
+10.5 3:2 Tuplet Tokens
+Triplet cards should be used to create rhythmic contrast and phrasing interest.
+
+Examples:
+- C4–E4–G4 over two beats
+- D4–F4–A4 over two beats
+- B4–C5–D5 over two beats
+
+These cards should be a bit more specialized and higher risk because they create more rhythmic tension.
+
+11. Deck Balance Strategy
+The deck should not be all “safe” notes. It should include enough tension and melodic movement to make phrase-building interesting.
+
+Recommended distribution:
+- 35% stable / chord-tone cards
+- 25% melodic passing / neighbor cards
+- 20% tension / leading-tone cards
+- 10% cadential resolution cards
+- 5% rest cards
+- 5% rhythmic contrast cards (triplets, unusual groupings)
+
+This ensures that players can build phrases while still needing to think about how to use the deck effectively.
+
+12. Difficulty Buckets
+To support table strategy and deck pacing, cards should be assigned a difficulty rating.
+
+Easy cards
+- safe chord tones
+- simple stepwise movement
+- obvious tonic/dominant motion
+- straight quarter notes or simple eighth pairs
+
+Medium cards
+- passing-tone motion
+- more by-context melodic material
+- chord-tone pairs with slight melodic stretch
+
+Hard cards
+- leading-tone emphasis
+- appoggiatura-like approach tones
+- sixteenth-note runs and triplets
+- more demanding melodic contour
+
+13. Rarity and Duplication
+The rules say start with 4 copies of each token. This is a good base, but the deck should still have weighted rarity based on usefulness.
+
+Suggested rules:
+- Common cards: 4 copies
+- Uncommon cards: 2–3 copies
+- Rare cards: 1 copy
+
+The purpose is to create a playable deck with enough common options and a few exciting rare cards.
+
+14. Flop Card Rules
+The flop is a random 4-card reveal drawn from the deck.
+
+The flop should include a mix of:
+- safe cards
+- melodic cards
+- tension cards
+- any one rhythmic oddity if possible
+
+This ensures the shared board stays tactically interesting without making it too random or impossible to use.
+
+15. Phrase Value Heuristics
+A phrase should have a high-level value profile for future scoring logic or AI evaluation.
+
+Possible attributes:
+- tonal clarity
+- melodic flow
+- rhythmic contrast
+- cadential strength
+- use of stable tones
+- use of tension and release
+- phrase completion
+
+Even though human vote is primary, these heuristics can be useful later for app-side validation or assistance.
+
+16. Recommended Implementation Phases
+Phase 1: Prototype deck
+- 3 rhythm categories
+- 2 tonal families
+- 20–30 cards total
+- simple pitch sets only
+
+Phase 2: Full family deck
+- all four tonal families
+- all rhythm categories
+- balanced card duplication
+
+Phase 3: Evaluation model
+- phrase legality checks
+- tonal fit scoring
+- phrase-quality heuristics
+- judge support tools
+
+17. Card Generation Rules
+Cards should be generated from a template set. The generator should:
+- choose a rhythm type
+- choose a tonal family compatibility
+- choose a likely function
+- generate pitch patterns from the family’s legal note pool
+- assign difficulty and rarity
+- assign tags and phrase role
+- create a unique ID
+
+18. Example Card Set
+Sample quarter-note cards:
+- C-major tonic quarter note
+- C-major leading tone quarter note
+- F-major subdominant quarter note
+- G-major dominant quarter note
+- D-minor tonic quarter note
+- D-minor leading tone quarter note
+
+Sample eighth-pair cards:
+- C-major stepwise motion: C–D
+- F-major neighbor motion: G–F
+- G-major scalar motion: F#–G
+- D-minor passing tone: E–F
+
+Sample sixteenth-card:
+- C-major scalar ascent: C–D–E–F
+- G-major tension release: B–A–G–F#
+- D-minor motion: D–E–F–G
+
+Sample triplet card:
+- C major triad outline: C–E–G over two beats
+- F major triad outline: F–A–C over two beats
+- G major triad outline: G–B–D over two beats
+- D minor triad outline: D–F–A over two beats
+
+19. Final Design Principle
+The deck should feel like a musical micro-phrase toolkit, not like a random note generator.
+
+Each card should be:
+- rhythmically clear
+- tonally plausible
+- useful in short melodic phrases
+- exciting enough to create strategic choices
+- simple enough for quick table play
+
+This makes the deck robust for both human play and future software support.
+
+20. Implementation Summary
+For implementation, the next logical step is to create:
+- four tonal-family note pools
+- rhythm templates for each token type
+- function labels for each token
+- rarity buckets
+- duplication counts
+- card generation engine
+- sample deck file for prototype testing
+
+This deck specification should be treated as the source-of-truth design document for the next engineering pass.

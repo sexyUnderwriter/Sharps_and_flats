@@ -11,7 +11,7 @@ Here is a list of requirements for a set of tokens used for this application:
 Instructions:
 Theorize this as a card game that is Apples to Apples meets Uno, based on music. 2-4 players
 
-Goal: Players build hands of tokens (beats) to create a phrase that is 4 to 8 beats long.
+Goal: Players build hands of tokens (beats) to create a phrase that is exactly 8 beats long.
 There is a flop of some amount (say 4 cards) that are house cards.  Any player can use them in their phrase.
 Once players have an adqueate hand, they show their hand and play it on their instrument (or sing it). 
 Players vote on the best one, then play continues.  Player with the most number of winning phrases wins.

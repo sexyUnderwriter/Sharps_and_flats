@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/music-phrase-deck.schema.json",
+  "title": "Music Phrase Deck",
+  "description": "Schema for the tonal phrase deck used in the music card game. This is intentionally extensible so the data can evolve during prototyping without breaking compatibility.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "deck",
+    "cards"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "Version of the deck schema used to validate this document.",
+      "examples": ["1.0.0", "1.1.0"]
+    },
+    "deck": {
+      "$ref": "#/$defs/deckMeta"
+    },
+    "cards": {
+      "type": "array",
+      "description": "All playable cards in the deck, including common cards and prototype-only cards.",
+      "items": {
+        "$ref": "#/$defs/card"
+      }
+    }
+  },
+  "$defs": {
+    "deckMeta": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "name",
+        "game",
+        "families",
+        "prototypeState"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Human-readable deck name."
+        },
+        "game": {
+          "type": "string",
+          "description": "Game identifier or codename."
+        },
+        "families": {
+          "type": "array",
+          "description": "Supported tonal families for this deck.",
+          "items": {
+            "$ref": "#/$defs/tonalFamily"
+          },
+          "minItems": 1
+        },
+        "prototypeState": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "prototype",
+            "playtest",
+            "balanced",
+            "production"
+          ],
+          "description": "Current stage of deck development."
+        },
+        "description": {
+          "type": "string",
+          "description": "Narrative summary of deck purpose and intended behavior."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "author": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "tonalFamily": {
+      "type": "string",
+      "enum": [
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
+      ]
+    },
+    "card": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "tokenType",
+        "rhythm",
+        "familyCompatibility",
+        "notes",
+        "duration",
+        "function",
+        "difficulty",
+        "rarity",
+        "isRest",
+        "phraseRole",
+        "tags",
+        "sourcePool"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique card identifier. Should remain stable across deck revisions when possible.",
+          "examples": [
+            "C-M-001",
+            "G-PR-014",
+            "D-TR-010"
+          ]
+        },
+        "tokenType": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9,
+          "description": "Fixed rhythm family token type: 0 rest, 1-3 quarter note, 4-6 eighth pair, 7-8 sixteenths, 9 triplet."
+        },
+        "rhythm": {
+          "type": "string",
+          "enum": [
+            "quarterRest",
+            "quarter",
+            "eighthPair",
+            "sixteenthFour",
+            "triplet32"
+          ],
+          "description": "Readable rhythm label that maps to tokenType."
+        },
+        "familyCompatibility": {
+          "type": "array",
+          "description": "Tonal families this card can fit in without breaking the rules.",
+          "items": {
+            "$ref": "#/$defs/tonalFamily"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "array",
+          "description": "One or more pitch objects that define the card's melodic content.",
+          "items": {
+            "$ref": "#/$defs/note"
+          },
+          "minItems": 1
+        },
+        "duration": {
+          "type": "number",
+          "description": "Beat value or aggregate duration for the card.",
+          "minimum": 0.25,
+          "maximum": 4,
+          "examples": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        "function": {
+          "type": "string",
+          "description": "Primary tonal function of the card.",
+          "examples": [
+            "tonic stability",
+            "dominant pull",
+            "passing tone motion",
+            "cadential arrival"
+          ]
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": [
+            "easy",
+            "medium",
+            "hard"
+          ]
+        },
+        "rarity": {
+          "type": "string",
+          "enum": [
+            "common",
+            "uncommon",
+            "rare"
+          ]
+        },
+        "isRest": {
+          "type": "boolean",
+          "description": "Whether this card is a rest slot or musical content."
+        },
+        "phraseRole": {
+          "type": "string",
+          "description": "Role the card tends to play inside a short phrase.",
+          "examples": [
+            "stable root",
+            "approach tone",
+            "release tone",
+            "breath point"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "description": "Keywords used for filtering, balancing, or phrase heuristics.",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "sourcePool": {
+          "type": "string",
+          "enum": [
+            "deck",
+            "flop",
+            "prototype",
+            "test"
+          ],
+          "description": "Where the card originated from in the deck lifecycle."
+        },
+        "designNotes": {
+          "type": "string",
+          "description": "Optional prose note for design intent or future balancing comments."
+        },
+        "familySpecific": {
+          "type": "object",
+          "description": "Optional family-specific metadata for tuning balance or phrase-generation heuristics.",
+          "additionalProperties": true,
+          "properties": {
+            "C major": {
+              "$ref": "#/$defs/familySpecificMeta"
+            },
+            "F major": {
+              "$ref": "#/$defs/familySpecificMeta"
+            },
+            "G major": {
+              "$ref": "#/$defs/familySpecificMeta"
+            },
+            "D minor": {
+              "$ref": "#/$defs/familySpecificMeta"
+            }
+          }
+        }
+      }
+    },
+    "note": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "step",
+        "octave",
+        "alter"
+      ],
+      "properties": {
+        "step": {
+          "type": "string",
+          "enum": [
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "A",
+            "B"
+          ]
+        },
+        "octave": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 5,
+          "description": "Pitch octave, limited to the design range C3 to G4."
+        },
+        "alter": {
+          "type": "integer",
+          "enum": [-1, 0, 1],
+          "description": "Semitone alteration: -1 for flat, 0 for natural, 1 for sharp."
+        },
+        "duration": {
+          "type": "number",
+          "description": "Optional per-note duration, when the card's note is subdivided."
+        },
+        "isChordTone": {
+          "type": "boolean",
+          "default": true
+        },
+        "isNonChordTone": {
+          "type": "boolean",
+          "default": false
+        },
+        "role": {
+          "type": "string",
+          "description": "Optional note-specific musical role, such as tonic, leading tone, passing tone."
+        }
+      }
+    },
+    "familySpecificMeta": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "preferred": {
+          "type": "boolean",
+          "default": false
+        },
+        "supportWeight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "usageNotes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

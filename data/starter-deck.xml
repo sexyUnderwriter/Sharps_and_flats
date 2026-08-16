@@ -1,0 +1,1255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<deck schemaVersion="1.0.0">
+  <meta>
+    <name>Starter Phrase Deck</name>
+    <game>music-phrase-game</game>
+    <description>A compact deck built for early playtesting. Each tonal family gets a small set of cards spanning rests, quarters, eighth pairs, sixteenth groups, and triplet motion.</description>
+    <createdAt>2026-08-16T00:00:00Z</createdAt>
+    <updatedAt>2026-08-16T00:00:00Z</updatedAt>
+    <author>Copilot</author>
+    <notes>This starter deck is intentionally small and highly reusable. It is designed to support rapid iteration on rules, card balance, and phrase evaluation before expanding to a full-sized deck.</notes>
+    <families>
+      <family>C major</family>
+      <family>F major</family>
+      <family>G major</family>
+      <family>D minor</family>
+    </families>
+    <prototypeState>prototype</prototypeState>
+  </meta>
+  <cards>
+    <card>
+      <id>C-0001</id>
+      <tokenType>0</tokenType>
+      <rhythm>quarterRest</rhythm>
+      <duration>1</duration>
+      <function>rests / breath</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>true</isRest>
+      <phraseRole>breath point</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>C</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>rest placeholder</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>rest</tag>
+        <tag>breath</tag>
+        <tag>supportive</tag>
+      </tags>
+      <designNotes>Simple rest token for phrase pacing; useful as a reset point between melodic ideas.</designNotes>
+    </card>
+    <card>
+      <id>C-0002</id>
+      <tokenType>1</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>tonic stability</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>stable root</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>C</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>tonic</tag>
+        <tag>stable</tag>
+        <tag>safe</tag>
+      </tags>
+      <designNotes>Anchor tone for phrase opening and closure.</designNotes>
+    </card>
+    <card>
+      <id>C-0003</id>
+      <tokenType>2</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>tonic stability</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>settling tone</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>tonic</tag>
+        <tag>bright</tag>
+        <tag>stable</tag>
+      </tags>
+      <designNotes>A clear melodic third; supports smooth phrase completion.</designNotes>
+    </card>
+    <card>
+      <id>C-0004</id>
+      <tokenType>3</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>leading-tone emphasis</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>approach tone</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>B</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>leading tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>leading</tag>
+        <tag>tension</tag>
+        <tag>cadential</tag>
+      </tags>
+      <designNotes>Useful for strong arrival formulas, especially into C at phrase end.</designNotes>
+    </card>
+    <card>
+      <id>C-0005</id>
+      <tokenType>4</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>passing tone motion</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>continuation</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>C</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>D</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>passing</tag>
+        <tag>stepwise</tag>
+        <tag>smooth</tag>
+      </tags>
+      <designNotes>A simple stepwise motion that keeps phrases moving without overcomplicating the tonal target.</designNotes>
+    </card>
+    <card>
+      <id>C-0006</id>
+      <tokenType>5</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>dominant pull</function>
+      <difficulty>medium</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>tension release</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>dominant</role>
+        </note>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>lower neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>dominant</tag>
+        <tag>neighbor</tag>
+        <tag>release</tag>
+      </tags>
+      <designNotes>Creates clear dominant-to-tonic motion in miniature.</designNotes>
+    </card>
+    <card>
+      <id>C-0007</id>
+      <tokenType>7</tokenType>
+      <rhythm>sixteenthFour</rhythm>
+      <duration>1</duration>
+      <function>melodic lift / ascent</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>lift</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>C</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>D</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+        <note>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>upper neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>scalar</tag>
+        <tag>ascending</tag>
+        <tag>ornament</tag>
+      </tags>
+      <designNotes>Useful for phrase acceleration and melodic momentum without creating a jarring tonal event.</designNotes>
+    </card>
+    <card>
+      <id>C-0008</id>
+      <tokenType>9</tokenType>
+      <rhythm>triplet32</rhythm>
+      <duration>2</duration>
+      <function>cadential arrival</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>arrival</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>C major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>C</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>fifth</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>triplet</tag>
+        <tag>arpeggio</tag>
+        <tag>cadence</tag>
+      </tags>
+      <designNotes>Triplet arpeggio gives a strong but still idiomatic tonic-and-dominant flavor.</designNotes>
+    </card>
+    <card>
+      <id>F-0001</id>
+      <tokenType>0</tokenType>
+      <rhythm>quarterRest</rhythm>
+      <duration>1</duration>
+      <function>rests / breath</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>true</isRest>
+      <phraseRole>breath point</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>rest placeholder</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>rest</tag>
+        <tag>breath</tag>
+        <tag>supportive</tag>
+      </tags>
+      <designNotes>A rest in F major helps create phrase contrast and cadential spacing.</designNotes>
+    </card>
+    <card>
+      <id>F-0002</id>
+      <tokenType>1</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>tonic stability</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>stable root</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>tonic</tag>
+        <tag>stable</tag>
+        <tag>safe</tag>
+      </tags>
+      <designNotes>A direct tonic statement that anchors the phrase center.</designNotes>
+    </card>
+    <card>
+      <id>F-0003</id>
+      <tokenType>2</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>subdominant support</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>supporting tone</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>A</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>subdominant</tag>
+        <tag>supportive</tag>
+        <tag>stable</tag>
+      </tags>
+      <designNotes>Strongly idiomatic within F major harmonic motion.</designNotes>
+    </card>
+    <card>
+      <id>F-0004</id>
+      <tokenType>3</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>leading-tone emphasis</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>approach tone</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>leading tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>leading</tag>
+        <tag>tension</tag>
+        <tag>resolve</tag>
+      </tags>
+      <designNotes>Adds the expected pull toward F at phrase completion.</designNotes>
+    </card>
+    <card>
+      <id>F-0005</id>
+      <tokenType>4</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>passing tone motion</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>continuation</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>passing</tag>
+        <tag>stepwise</tag>
+        <tag>smooth</tag>
+      </tags>
+      <designNotes>Keeps motion smooth while preserving tonic identity.</designNotes>
+    </card>
+    <card>
+      <id>F-0006</id>
+      <tokenType>5</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>dominant pull</function>
+      <difficulty>medium</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>tension release</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>C</step>
+          <octave>5</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>dominant</role>
+        </note>
+        <note>
+          <step>B</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>lower neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>dominant</tag>
+        <tag>neighbor</tag>
+        <tag>release</tag>
+      </tags>
+      <designNotes>A compact dominant preparation pattern in F major.</designNotes>
+    </card>
+    <card>
+      <id>F-0007</id>
+      <tokenType>7</tokenType>
+      <rhythm>sixteenthFour</rhythm>
+      <duration>1</duration>
+      <function>melodic lift / ascent</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>lift</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+        <note>
+          <step>A</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>B</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>upper neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>scalar</tag>
+        <tag>ascending</tag>
+        <tag>ornament</tag>
+      </tags>
+      <designNotes>Produces a rising motion that still respects the F major tonal field.</designNotes>
+    </card>
+    <card>
+      <id>F-0008</id>
+      <tokenType>9</tokenType>
+      <rhythm>triplet32</rhythm>
+      <duration>2</duration>
+      <function>cadential arrival</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>arrival</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>F major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>A</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>C</step>
+          <octave>5</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>fifth</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>triplet</tag>
+        <tag>arpeggio</tag>
+        <tag>cadence</tag>
+      </tags>
+      <designNotes>A compact F major arpeggio useful for cadential or final-beat emphasis.</designNotes>
+    </card>
+    <card>
+      <id>G-0001</id>
+      <tokenType>0</tokenType>
+      <rhythm>quarterRest</rhythm>
+      <duration>1</duration>
+      <function>rests / breath</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>true</isRest>
+      <phraseRole>breath point</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>rest placeholder</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>rest</tag>
+        <tag>breath</tag>
+        <tag>supportive</tag>
+      </tags>
+      <designNotes>G major rests help place phrase tension and release cleanly.</designNotes>
+    </card>
+    <card>
+      <id>G-0002</id>
+      <tokenType>1</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>tonic stability</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>stable root</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>tonic</tag>
+        <tag>stable</tag>
+        <tag>safe</tag>
+      </tags>
+      <designNotes>A straightforward tonic onset when the round target is G major.</designNotes>
+    </card>
+    <card>
+      <id>G-0003</id>
+      <tokenType>2</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>dominant pull</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>dominant support</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>B</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>dominant</tag>
+        <tag>supportive</tag>
+        <tag>strong</tag>
+      </tags>
+      <designNotes>Strongly idiomatic to the G major collection.</designNotes>
+    </card>
+    <card>
+      <id>G-0004</id>
+      <tokenType>3</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>leading-tone emphasis</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>approach tone</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>1</alter>
+          <duration>1</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>leading tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>leading</tag>
+        <tag>tension</tag>
+        <tag>cadential</tag>
+      </tags>
+      <designNotes>The sharp leading tone is a core G major tonal signal.</designNotes>
+    </card>
+    <card>
+      <id>G-0005</id>
+      <tokenType>4</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>passing tone motion</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>continuation</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>A</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>passing</tag>
+        <tag>stepwise</tag>
+        <tag>smooth</tag>
+      </tags>
+      <designNotes>A natural scalar motion in the major-mode collection.</designNotes>
+    </card>
+    <card>
+      <id>G-0006</id>
+      <tokenType>5</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>dominant pull</function>
+      <difficulty>medium</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>tension release</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>D</step>
+          <octave>5</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>dominant</role>
+        </note>
+        <note>
+          <step>C</step>
+          <octave>5</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>lower neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>dominant</tag>
+        <tag>neighbor</tag>
+        <tag>release</tag>
+      </tags>
+      <designNotes>Tension and release pattern that strongly suggests a G major cadence.</designNotes>
+    </card>
+    <card>
+      <id>G-0007</id>
+      <tokenType>7</tokenType>
+      <rhythm>sixteenthFour</rhythm>
+      <duration>1</duration>
+      <function>melodic lift / ascent</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>lift</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>A</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+        <note>
+          <step>B</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>C</step>
+          <octave>5</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>upper neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>scalar</tag>
+        <tag>ascending</tag>
+        <tag>ornament</tag>
+      </tags>
+      <designNotes>A bright, upward figure that works well in a melodic phrase.</designNotes>
+    </card>
+    <card>
+      <id>G-0008</id>
+      <tokenType>9</tokenType>
+      <rhythm>triplet32</rhythm>
+      <duration>2</duration>
+      <function>cadential arrival</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>arrival</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>G major</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>B</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>D</step>
+          <octave>5</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>fifth</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>triplet</tag>
+        <tag>arpeggio</tag>
+        <tag>cadence</tag>
+      </tags>
+      <designNotes>A classic G major triadic flourish that still reads as tonal and clear.</designNotes>
+    </card>
+    <card>
+      <id>D-0001</id>
+      <tokenType>0</tokenType>
+      <rhythm>quarterRest</rhythm>
+      <duration>1</duration>
+      <function>rests / breath</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>true</isRest>
+      <phraseRole>breath point</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>D</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>rest placeholder</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>rest</tag>
+        <tag>breath</tag>
+        <tag>supportive</tag>
+      </tags>
+      <designNotes>Rest tokens give D minor phrases room to breathe before resolution.</designNotes>
+    </card>
+    <card>
+      <id>D-0002</id>
+      <tokenType>1</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>tonic stability</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>stable root</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>D</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>tonic</tag>
+        <tag>stable</tag>
+        <tag>safe</tag>
+      </tags>
+      <designNotes>The minor tonic is the central point for phrase identity.</designNotes>
+    </card>
+    <card>
+      <id>D-0003</id>
+      <tokenType>2</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>tonic stability</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>settling tone</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>1</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>tonic</tag>
+        <tag>minor</tag>
+        <tag>stable</tag>
+      </tags>
+      <designNotes>A familiar stable minor third that supports a plaintive melodic center.</designNotes>
+    </card>
+    <card>
+      <id>D-0004</id>
+      <tokenType>3</tokenType>
+      <rhythm>quarter</rhythm>
+      <duration>1</duration>
+      <function>leading-tone emphasis</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>approach tone</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>C</step>
+          <octave>5</octave>
+          <alter>1</alter>
+          <duration>1</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>leading tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>leading</tag>
+        <tag>tension</tag>
+        <tag>cadential</tag>
+      </tags>
+      <designNotes>The raised leading tone is the primary D minor signal and should be used with intention.</designNotes>
+    </card>
+    <card>
+      <id>D-0005</id>
+      <tokenType>4</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>passing tone motion</function>
+      <difficulty>easy</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>continuation</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>D</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>passing</tag>
+        <tag>stepwise</tag>
+        <tag>smooth</tag>
+      </tags>
+      <designNotes>A smooth, rhetorical movement that keeps the phrase in a minor-mode flow.</designNotes>
+    </card>
+    <card>
+      <id>D-0006</id>
+      <tokenType>5</tokenType>
+      <rhythm>eighthPair</rhythm>
+      <duration>1</duration>
+      <function>dominant pull</function>
+      <difficulty>medium</difficulty>
+      <rarity>common</rarity>
+      <isRest>false</isRest>
+      <phraseRole>tension release</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>A</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>true</isChordTone>
+          <role>dominant</role>
+        </note>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.5</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>lower neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>dominant</tag>
+        <tag>neighbor</tag>
+        <tag>release</tag>
+      </tags>
+      <designNotes>A simple, effective minor-mode dominant approach.</designNotes>
+    </card>
+    <card>
+      <id>D-0007</id>
+      <tokenType>7</tokenType>
+      <rhythm>sixteenthFour</rhythm>
+      <duration>1</duration>
+      <function>melodic lift / ascent</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>lift</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>D</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>false</isChordTone>
+          <isNonChordTone>true</isNonChordTone>
+          <role>passing tone</role>
+        </note>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.25</duration>
+          <isChordTone>true</isChordTone>
+          <role>upper neighbor</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>scalar</tag>
+        <tag>ascending</tag>
+        <tag>ornament</tag>
+      </tags>
+      <designNotes>The minor-mode scalar rise is truthful but still expressive.</designNotes>
+    </card>
+    <card>
+      <id>D-0008</id>
+      <tokenType>9</tokenType>
+      <rhythm>triplet32</rhythm>
+      <duration>2</duration>
+      <function>cadential arrival</function>
+      <difficulty>medium</difficulty>
+      <rarity>uncommon</rarity>
+      <isRest>false</isRest>
+      <phraseRole>arrival</phraseRole>
+      <sourcePool>prototype</sourcePool>
+      <familyCompatibility>
+        <family>D minor</family>
+      </familyCompatibility>
+      <notes>
+        <note>
+          <step>D</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>tonic</role>
+        </note>
+        <note>
+          <step>F</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>third</role>
+        </note>
+        <note>
+          <step>A</step>
+          <octave>4</octave>
+          <alter>0</alter>
+          <duration>0.6667</duration>
+          <isChordTone>true</isChordTone>
+          <role>fifth</role>
+        </note>
+      </notes>
+      <tags>
+        <tag>triplet</tag>
+        <tag>arpeggio</tag>
+        <tag>cadence</tag>
+      </tags>
+      <designNotes>Strong minor triad orientation with a clear tonal identity.</designNotes>
+    </card>
+  </cards>
+</deck>
