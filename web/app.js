@@ -30,7 +30,7 @@ function init() {
   document.getElementById("tempo").value = Math.round(DATA.tempo);
 
   for (const bar of DATA.bars) {
-    barsByMeasure.set(bar.measure, bar);
+    barsByMeasure.set(bar.id || String(bar.measure), bar);
   }
   computeMidiRange();
   renderChordPalette();
@@ -82,8 +82,8 @@ function renderChordPalette() {
 }
 
 function addSlot(chord) {
-  const defaultMeasure = DATA.chordGroups[chord][0];
-  pattern.push({ chord, measure: defaultMeasure });
+  const defaultVariantId = DATA.chordGroups[chord][0];
+  pattern.push({ chord, measure: defaultVariantId });
   selectedSlotIndex = pattern.length - 1;
   renderPattern();
   renderVariantGrid(selectedSlotIndex);
@@ -99,17 +99,24 @@ function removeSlot(index) {
   renderPhrase();
 }
 
+function barDisplayNumber(bar) {
+  if (!bar) return "?";
+  return bar.sourceMeasure ?? bar.measure ?? "?";
+}
+
 function renderPattern() {
   const el = document.getElementById("pattern-strip");
   el.innerHTML = "";
   pattern.forEach((slot, i) => {
+    const bar = barsByMeasure.get(slot.measure) || barsByMeasure.get(String(slot.measure));
+    const displayNumber = bar ? barDisplayNumber(bar) : slot.measure;
     const div = document.createElement("div");
     div.className = "slot" + (i === selectedSlotIndex ? " selected" : "");
     div.dataset.index = String(i);
     div.innerHTML = `
       <button class="remove-btn" title="Remove">×</button>
       <div class="chord-name">${slot.chord}</div>
-      <div class="variant-label">bar ${slot.measure}</div>
+      <div class="variant-label">bar ${displayNumber}</div>
     `;
     div.addEventListener("click", (e) => {
       if (e.target.closest(".remove-btn")) return;
@@ -149,11 +156,11 @@ function renderVariantGrid(slotIndex) {
   const slot = pattern[slotIndex];
   const measures = DATA.chordGroups[slot.chord] || [];
 
-  for (const measure of measures) {
-    const bar = barsByMeasure.get(measure);
+  for (const variantId of measures) {
+    const bar = barsByMeasure.get(variantId) || barsByMeasure.get(String(variantId));
     const card = document.createElement("div");
-    card.className = "variant-card" + (measure === slot.measure ? " chosen" : "");
-    card.innerHTML = `<div class="measure-label">bar ${measure}</div>`;
+    card.className = "variant-card" + (variantId === slot.measure ? " chosen" : "");
+    card.innerHTML = `<div class="measure-label">bar ${barDisplayNumber(bar)}</div>`;
     card.appendChild(makeVisual(bar));
     if (viewMode === "roll") {
       const legend = document.createElement("div");
@@ -162,7 +169,7 @@ function renderVariantGrid(slotIndex) {
       card.appendChild(legend);
     }
     card.addEventListener("click", () => {
-      slot.measure = measure;
+      slot.measure = variantId;
       renderPattern();
       renderVariantGrid(slotIndex);
       renderPhrase();
@@ -353,14 +360,15 @@ function renderPhrase() {
   const el = document.getElementById("phrase-view");
   el.innerHTML = "";
   pattern.forEach((slot, i) => {
-    const bar = barsByMeasure.get(slot.measure);
+    const bar = barsByMeasure.get(slot.measure) || barsByMeasure.get(String(slot.measure));
+    const displayNumber = bar ? barDisplayNumber(bar) : slot.measure;
     const wrap = document.createElement("div");
     wrap.className = "phrase-bar";
     wrap.dataset.index = String(i);
     wrap.appendChild(makeVisual(bar));
     const label = document.createElement("div");
     label.className = "label";
-    label.textContent = `${slot.chord} · bar ${slot.measure}`;
+    label.textContent = `${slot.chord} · bar ${displayNumber}`;
     wrap.appendChild(label);
     el.appendChild(wrap);
   });
