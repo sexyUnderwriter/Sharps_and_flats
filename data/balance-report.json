@@ -1,0 +1,980 @@
+{
+  "gamesPerScenario": 10000,
+  "scoredGamesPerScenario": 500,
+  "totalGames": 80000,
+  "totalScoredGames": 4000,
+  "modes": [
+    "balanced",
+    "raw"
+  ],
+  "scenarios": [
+    {
+      "hand_size": 6,
+      "flop_size": 4,
+      "discard_limit": 1
+    },
+    {
+      "hand_size": 7,
+      "flop_size": 4,
+      "discard_limit": 1
+    },
+    {
+      "hand_size": 7,
+      "flop_size": 5,
+      "discard_limit": 1
+    },
+    {
+      "hand_size": 7,
+      "flop_size": 5,
+      "discard_limit": 2
+    }
+  ],
+  "results": [
+    {
+      "mode": "balanced",
+      "scenario": {
+        "hand_size": 6,
+        "flop_size": 4,
+        "discard_limit": 1
+      },
+      "scenarioName": "hand-6_flop-4_discards-1",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 500,
+      "legalSubmissions": 120000,
+      "legalPhraseRate": 1.0,
+      "medianLegalSelections": 5.0,
+      "meanLegalSelections": 10.411,
+      "noContestRounds": 0,
+      "noContestRate": 0.0,
+      "flopUsage": {
+        "2": 596,
+        "3": 3417,
+        "4": 1987
+      },
+      "meanFlopUsage": 3.232,
+      "seatWins": {
+        "P1": 166,
+        "P2": 189,
+        "P3": 145
+      },
+      "seatWinRates": {
+        "P1": 0.332,
+        "P2": 0.378,
+        "P3": 0.29
+      },
+      "tiedGames": 141,
+      "objectiveMeanScores": {
+        "G->C perfect authentic cadence": 36.026,
+        "F->C imperfect cadence": 35.597,
+        "Dm->G->C ii-V-I cadence": 36.142
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 1.0,
+        "F->C imperfect cadence": 1.0,
+        "Dm->G->C ii-V-I cadence": 1.0
+      },
+      "objectiveScoreSpread": 0.01517,
+      "meanRoundMargin": 3.135,
+      "uniquePhrases": 6000,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "quarter": 14439,
+        "triplet32": 4027,
+        "sixteenthFour": 13180,
+        "eighthPair": 12151,
+        "quarterRest": 4203
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.355,
+        "F major": 1.369,
+        "G major": 1.312,
+        "D minor": 1.5
+      },
+      "mostSelectedCards": [
+        [
+          "C-0012",
+          1084
+        ],
+        [
+          "C-0028",
+          1058
+        ],
+        [
+          "C-0006",
+          1055
+        ],
+        [
+          "C-0025",
+          1041
+        ],
+        [
+          "C-0029",
+          1040
+        ],
+        [
+          "C-0005",
+          1016
+        ],
+        [
+          "C-0030",
+          1014
+        ],
+        [
+          "C-0016",
+          929
+        ],
+        [
+          "C-0024",
+          927
+        ],
+        [
+          "C-0027",
+          890
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": true,
+        "medianLegalSelectionsBetween3And6": true,
+        "seatWinSpreadAtMost8Percent": false,
+        "objectiveScoreSpreadAtMost5Percent": true,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": false
+      }
+    },
+    {
+      "mode": "balanced",
+      "scenario": {
+        "hand_size": 7,
+        "flop_size": 4,
+        "discard_limit": 1
+      },
+      "scenarioName": "hand-7_flop-4_discards-1",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 500,
+      "legalSubmissions": 120000,
+      "legalPhraseRate": 1.0,
+      "medianLegalSelections": 25.0,
+      "meanLegalSelections": 33.884,
+      "noContestRounds": 0,
+      "noContestRate": 0.0,
+      "flopUsage": {
+        "1": 156,
+        "2": 1604,
+        "3": 3039,
+        "4": 1201
+      },
+      "meanFlopUsage": 2.881,
+      "seatWins": {
+        "P3": 175,
+        "P1": 150,
+        "P2": 175
+      },
+      "seatWinRates": {
+        "P1": 0.3,
+        "P2": 0.35,
+        "P3": 0.35
+      },
+      "tiedGames": 110,
+      "objectiveMeanScores": {
+        "G->C perfect authentic cadence": 37.144,
+        "F->C imperfect cadence": 36.526,
+        "Dm->G->C ii-V-I cadence": 37.169
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 1.0,
+        "F->C imperfect cadence": 1.0,
+        "Dm->G->C ii-V-I cadence": 1.0
+      },
+      "objectiveScoreSpread": 0.0174,
+      "meanRoundMargin": 3.071,
+      "uniquePhrases": 6000,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "sixteenthFour": 13537,
+        "eighthPair": 11926,
+        "quarter": 14888,
+        "triplet32": 4331,
+        "quarterRest": 3318
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.491,
+        "F major": 1.515,
+        "G major": 1.462,
+        "D minor": 1.567
+      },
+      "mostSelectedCards": [
+        [
+          "C-0028",
+          1193
+        ],
+        [
+          "C-0029",
+          1163
+        ],
+        [
+          "C-0006",
+          1122
+        ],
+        [
+          "C-0025",
+          1120
+        ],
+        [
+          "C-0005",
+          1105
+        ],
+        [
+          "C-0012",
+          1074
+        ],
+        [
+          "C-0016",
+          1057
+        ],
+        [
+          "C-0030",
+          1051
+        ],
+        [
+          "C-0024",
+          999
+        ],
+        [
+          "C-0017",
+          875
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": true,
+        "medianLegalSelectionsBetween3And6": false,
+        "seatWinSpreadAtMost8Percent": true,
+        "objectiveScoreSpreadAtMost5Percent": true,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": true
+      }
+    },
+    {
+      "mode": "balanced",
+      "scenario": {
+        "hand_size": 7,
+        "flop_size": 5,
+        "discard_limit": 1
+      },
+      "scenarioName": "hand-7_flop-5_discards-1",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 500,
+      "legalSubmissions": 120000,
+      "legalPhraseRate": 1.0,
+      "medianLegalSelections": 75.0,
+      "meanLegalSelections": 99.835,
+      "noContestRounds": 0,
+      "noContestRate": 0.0,
+      "flopUsage": {
+        "1": 78,
+        "2": 985,
+        "3": 2614,
+        "4": 1944,
+        "5": 379
+      },
+      "meanFlopUsage": 3.26,
+      "seatWins": {
+        "P3": 157,
+        "P1": 154,
+        "P2": 189
+      },
+      "seatWinRates": {
+        "P1": 0.308,
+        "P2": 0.378,
+        "P3": 0.314
+      },
+      "tiedGames": 122,
+      "objectiveMeanScores": {
+        "G->C perfect authentic cadence": 38.159,
+        "F->C imperfect cadence": 37.345,
+        "Dm->G->C ii-V-I cadence": 38.288
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 1.0,
+        "F->C imperfect cadence": 1.0,
+        "Dm->G->C ii-V-I cadence": 1.0
+      },
+      "objectiveScoreSpread": 0.02486,
+      "meanRoundMargin": 2.872,
+      "uniquePhrases": 6000,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "quarterRest": 2507,
+        "eighthPair": 11799,
+        "sixteenthFour": 13312,
+        "quarter": 15687,
+        "triplet32": 4695
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.569,
+        "F major": 1.744,
+        "G major": 1.683,
+        "D minor": 1.695
+      },
+      "mostSelectedCards": [
+        [
+          "C-0025",
+          1255
+        ],
+        [
+          "C-0005",
+          1244
+        ],
+        [
+          "C-0029",
+          1198
+        ],
+        [
+          "C-0028",
+          1192
+        ],
+        [
+          "C-0012",
+          1187
+        ],
+        [
+          "C-0006",
+          1160
+        ],
+        [
+          "C-0030",
+          1154
+        ],
+        [
+          "C-0024",
+          1091
+        ],
+        [
+          "C-0016",
+          1045
+        ],
+        [
+          "C-0018",
+          921
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": true,
+        "medianLegalSelectionsBetween3And6": false,
+        "seatWinSpreadAtMost8Percent": true,
+        "objectiveScoreSpreadAtMost5Percent": true,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": false
+      }
+    },
+    {
+      "mode": "balanced",
+      "scenario": {
+        "hand_size": 7,
+        "flop_size": 5,
+        "discard_limit": 2
+      },
+      "scenarioName": "hand-7_flop-5_discards-2",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 500,
+      "legalSubmissions": 120000,
+      "legalPhraseRate": 1.0,
+      "medianLegalSelections": 50.0,
+      "meanLegalSelections": 67.012,
+      "noContestRounds": 0,
+      "noContestRate": 0.0,
+      "flopUsage": {
+        "1": 49,
+        "2": 847,
+        "3": 2731,
+        "4": 1988,
+        "5": 385
+      },
+      "meanFlopUsage": 3.302,
+      "seatWins": {
+        "P2": 168,
+        "P1": 179,
+        "P3": 153
+      },
+      "seatWinRates": {
+        "P1": 0.358,
+        "P2": 0.336,
+        "P3": 0.306
+      },
+      "tiedGames": 129,
+      "objectiveMeanScores": {
+        "G->C perfect authentic cadence": 38.159,
+        "F->C imperfect cadence": 37.212,
+        "Dm->G->C ii-V-I cadence": 38.658
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 1.0,
+        "F->C imperfect cadence": 1.0,
+        "Dm->G->C ii-V-I cadence": 1.0
+      },
+      "objectiveScoreSpread": 0.03804,
+      "meanRoundMargin": 2.987,
+      "uniquePhrases": 6000,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "quarter": 15630,
+        "sixteenthFour": 13254,
+        "eighthPair": 11628,
+        "triplet32": 4726,
+        "quarterRest": 2762
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.629,
+        "F major": 1.721,
+        "G major": 1.78,
+        "D minor": 1.627
+      },
+      "mostSelectedCards": [
+        [
+          "C-0029",
+          1303
+        ],
+        [
+          "C-0012",
+          1270
+        ],
+        [
+          "C-0006",
+          1267
+        ],
+        [
+          "C-0028",
+          1256
+        ],
+        [
+          "C-0025",
+          1210
+        ],
+        [
+          "C-0005",
+          1179
+        ],
+        [
+          "C-0030",
+          1167
+        ],
+        [
+          "C-0016",
+          1039
+        ],
+        [
+          "C-0024",
+          969
+        ],
+        [
+          "C-0008",
+          896
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": true,
+        "medianLegalSelectionsBetween3And6": false,
+        "seatWinSpreadAtMost8Percent": true,
+        "objectiveScoreSpreadAtMost5Percent": true,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": false
+      }
+    },
+    {
+      "mode": "raw",
+      "scenario": {
+        "hand_size": 6,
+        "flop_size": 4,
+        "discard_limit": 1
+      },
+      "scenarioName": "hand-6_flop-4_discards-1",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 261,
+      "legalSubmissions": 7990,
+      "legalPhraseRate": 0.06658,
+      "medianLegalSelections": 0.0,
+      "meanLegalSelections": 0.221,
+      "noContestRounds": 52641,
+      "noContestRate": 0.87735,
+      "flopUsage": {
+        "2": 83,
+        "3": 205,
+        "4": 86
+      },
+      "meanFlopUsage": 3.008,
+      "seatWins": {
+        "P2": 119,
+        "P3": 55,
+        "P1": 87
+      },
+      "seatWinRates": {
+        "P1": 0.33333,
+        "P2": 0.45594,
+        "P3": 0.21073
+      },
+      "tiedGames": 40,
+      "objectiveMeanScores": {
+        "Dm->G->C ii-V-I cadence": 33.918,
+        "G->C perfect authentic cadence": 33.812,
+        "F->C imperfect cadence": 33.244
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 0.0374,
+        "F->C imperfect cadence": 0.03748,
+        "Dm->G->C ii-V-I cadence": 0.12487
+      },
+      "objectiveScoreSpread": 0.02002,
+      "meanRoundMargin": 4.388,
+      "uniquePhrases": 374,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "eighthPair": 765,
+        "triplet32": 212,
+        "quarter": 871,
+        "sixteenthFour": 772,
+        "quarterRest": 372
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.404,
+        "F major": 1.598,
+        "G major": 1.436,
+        "D minor": 1.703
+      },
+      "mostSelectedCards": [
+        [
+          "C-0015",
+          70
+        ],
+        [
+          "C-0005",
+          64
+        ],
+        [
+          "C-0025",
+          57
+        ],
+        [
+          "C-0006",
+          56
+        ],
+        [
+          "C-0001",
+          56
+        ],
+        [
+          "C-0016",
+          55
+        ],
+        [
+          "C-0002",
+          55
+        ],
+        [
+          "C-0023",
+          54
+        ],
+        [
+          "C-0021",
+          54
+        ],
+        [
+          "C-0010",
+          54
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": false,
+        "medianLegalSelectionsBetween3And6": false,
+        "seatWinSpreadAtMost8Percent": false,
+        "objectiveScoreSpreadAtMost5Percent": true,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": false
+      }
+    },
+    {
+      "mode": "raw",
+      "scenario": {
+        "hand_size": 7,
+        "flop_size": 4,
+        "discard_limit": 1
+      },
+      "scenarioName": "hand-7_flop-4_discards-1",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 392,
+      "legalSubmissions": 13655,
+      "legalPhraseRate": 0.11379,
+      "medianLegalSelections": 0.0,
+      "meanLegalSelections": 0.671,
+      "noContestRounds": 47780,
+      "noContestRate": 0.79633,
+      "flopUsage": {
+        "1": 32,
+        "2": 255,
+        "3": 330,
+        "4": 110
+      },
+      "meanFlopUsage": 2.713,
+      "seatWins": {
+        "P1": 158,
+        "P2": 155,
+        "P3": 79
+      },
+      "seatWinRates": {
+        "P1": 0.40306,
+        "P2": 0.39541,
+        "P3": 0.20153
+      },
+      "tiedGames": 91,
+      "objectiveMeanScores": {
+        "Dm->G->C ii-V-I cadence": 34.779,
+        "F->C imperfect cadence": 33.949,
+        "G->C perfect authentic cadence": 33.996
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 0.0727,
+        "F->C imperfect cadence": 0.07155,
+        "Dm->G->C ii-V-I cadence": 0.19712
+      },
+      "objectiveScoreSpread": 0.02424,
+      "meanRoundMargin": 3.569,
+      "uniquePhrases": 727,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "quarter": 1693,
+        "quarterRest": 602,
+        "eighthPair": 1542,
+        "sixteenthFour": 1558,
+        "triplet32": 421
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.228,
+        "F major": 1.641,
+        "G major": 1.572,
+        "D minor": 1.614
+      },
+      "mostSelectedCards": [
+        [
+          "C-0016",
+          119
+        ],
+        [
+          "C-0012",
+          115
+        ],
+        [
+          "C-0015",
+          113
+        ],
+        [
+          "C-0009",
+          111
+        ],
+        [
+          "C-0017",
+          110
+        ],
+        [
+          "C-0010",
+          109
+        ],
+        [
+          "C-0025",
+          107
+        ],
+        [
+          "C-0029",
+          106
+        ],
+        [
+          "C-0022",
+          105
+        ],
+        [
+          "C-0019",
+          104
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": false,
+        "medianLegalSelectionsBetween3And6": false,
+        "seatWinSpreadAtMost8Percent": false,
+        "objectiveScoreSpreadAtMost5Percent": true,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": true
+      }
+    },
+    {
+      "mode": "raw",
+      "scenario": {
+        "hand_size": 7,
+        "flop_size": 5,
+        "discard_limit": 1
+      },
+      "scenarioName": "hand-7_flop-5_discards-1",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 452,
+      "legalSubmissions": 20626,
+      "legalPhraseRate": 0.17188,
+      "medianLegalSelections": 0.0,
+      "meanLegalSelections": 1.721,
+      "noContestRounds": 42287,
+      "noContestRate": 0.70478,
+      "flopUsage": {
+        "1": 22,
+        "2": 206,
+        "3": 486,
+        "4": 292,
+        "5": 41
+      },
+      "meanFlopUsage": 3.118,
+      "seatWins": {
+        "P3": 101,
+        "P1": 178,
+        "P2": 173
+      },
+      "seatWinRates": {
+        "P1": 0.39381,
+        "P2": 0.38274,
+        "P3": 0.22345
+      },
+      "tiedGames": 127,
+      "objectiveMeanScores": {
+        "F->C imperfect cadence": 33.936,
+        "Dm->G->C ii-V-I cadence": 35.492,
+        "G->C perfect authentic cadence": 34.058
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 0.11812,
+        "F->C imperfect cadence": 0.12083,
+        "Dm->G->C ii-V-I cadence": 0.2767
+      },
+      "objectiveScoreSpread": 0.04511,
+      "meanRoundMargin": 3.598,
+      "uniquePhrases": 1047,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "eighthPair": 2166,
+        "quarter": 2529,
+        "sixteenthFour": 2214,
+        "triplet32": 634,
+        "quarterRest": 833
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.189,
+        "F major": 1.5,
+        "G major": 1.398,
+        "D minor": 1.762
+      },
+      "mostSelectedCards": [
+        [
+          "C-0006",
+          166
+        ],
+        [
+          "C-0016",
+          164
+        ],
+        [
+          "C-0012",
+          160
+        ],
+        [
+          "C-0011",
+          159
+        ],
+        [
+          "C-0010",
+          158
+        ],
+        [
+          "C-0018",
+          158
+        ],
+        [
+          "C-0025",
+          157
+        ],
+        [
+          "C-0029",
+          157
+        ],
+        [
+          "C-0002",
+          156
+        ],
+        [
+          "C-0009",
+          152
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": false,
+        "medianLegalSelectionsBetween3And6": false,
+        "seatWinSpreadAtMost8Percent": false,
+        "objectiveScoreSpreadAtMost5Percent": true,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": false
+      }
+    },
+    {
+      "mode": "raw",
+      "scenario": {
+        "hand_size": 7,
+        "flop_size": 5,
+        "discard_limit": 2
+      },
+      "scenarioName": "hand-7_flop-5_discards-2",
+      "games": 10000,
+      "scoredGames": 500,
+      "rounds": 60000,
+      "scoredRounds": 3000,
+      "submissions": 120000,
+      "completedGames": 479,
+      "legalSubmissions": 28531,
+      "legalPhraseRate": 0.23776,
+      "medianLegalSelections": 0.0,
+      "meanLegalSelections": 2.162,
+      "noContestRounds": 36449,
+      "noContestRate": 0.60748,
+      "flopUsage": {
+        "1": 54,
+        "2": 348,
+        "3": 658,
+        "4": 348,
+        "5": 43
+      },
+      "meanFlopUsage": 2.985,
+      "seatWins": {
+        "P3": 97,
+        "P1": 197,
+        "P2": 185
+      },
+      "seatWinRates": {
+        "P1": 0.41127,
+        "P2": 0.38622,
+        "P3": 0.20251
+      },
+      "tiedGames": 128,
+      "objectiveMeanScores": {
+        "G->C perfect authentic cadence": 34.517,
+        "F->C imperfect cadence": 34.07,
+        "Dm->G->C ii-V-I cadence": 36.108
+      },
+      "objectiveLegalRates": {
+        "G->C perfect authentic cadence": 0.1736,
+        "F->C imperfect cadence": 0.17597,
+        "Dm->G->C ii-V-I cadence": 0.3637
+      },
+      "objectiveScoreSpread": 0.0584,
+      "meanRoundMargin": 3.397,
+      "uniquePhrases": 1451,
+      "uniquePhraseRate": 1.0,
+      "selectedRhythms": {
+        "sixteenthFour": 3097,
+        "quarter": 3508,
+        "eighthPair": 2888,
+        "quarterRest": 1144,
+        "triplet32": 971
+      },
+      "unusedCards": 0,
+      "maxSelectionRatioByFamily": {
+        "C major": 1.261,
+        "F major": 1.52,
+        "G major": 1.591,
+        "D minor": 1.724
+      },
+      "mostSelectedCards": [
+        [
+          "C-0030",
+          244
+        ],
+        [
+          "C-0025",
+          241
+        ],
+        [
+          "C-0018",
+          228
+        ],
+        [
+          "C-0028",
+          228
+        ],
+        [
+          "C-0012",
+          228
+        ],
+        [
+          "C-0008",
+          225
+        ],
+        [
+          "C-0006",
+          224
+        ],
+        [
+          "C-0016",
+          218
+        ],
+        [
+          "C-0029",
+          214
+        ],
+        [
+          "C-0005",
+          212
+        ]
+      ],
+      "thresholds": {
+        "legalPhraseRateAtLeast90Percent": false,
+        "medianLegalSelectionsBetween3And6": false,
+        "seatWinSpreadAtMost8Percent": false,
+        "objectiveScoreSpreadAtMost5Percent": false,
+        "maxCardSelectionRatioAtMost2": true,
+        "allCardsSelected": true,
+        "meanFlopUsageBetween2And3": true
+      }
+    }
+  ]
+}

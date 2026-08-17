@@ -74,6 +74,8 @@ class RoundResult:
     objective: str
     judge: str
     flop: List[str]
+    hands: Dict[str, List[str]]
+    discards_used: Dict[str, int]
     phrases: Dict[str, List[str]]
     scores: Dict[str, float]
     winner: str
@@ -321,7 +323,7 @@ def choose_best_phrase(hand: Sequence[str], flop: Sequence[str], card_map: Dict[
         return []
     cards = [card_map[card_id] for card_id in pool]
     target_beats = 8.0
-    states: Dict[Tuple[int, int], Tuple[float, List[int], float]] = {}
+    states: Dict[int, Dict[int, Tuple[float, List[int], float]]] = {}
     best_score = float("-inf")
     best_sequence: List[int] = []
     required_families = progression_families(objective, family)
@@ -331,15 +333,10 @@ def choose_best_phrase(hand: Sequence[str], flop: Sequence[str], card_map: Dict[
         if not _card_fits_progression_position(card, 0.0, objective, family) or duration > target_beats:
             continue
         initial_score = _card_score(card, required_families[0], objective) + _position_bonus(card, objective, 0.0)
-        states[(1 << index, index)] = (initial_score, [index], duration)
+        states.setdefault(1 << index, {})[index] = (initial_score, [index], duration)
 
     for mask in range(1, 1 << len(cards)):
-        matching_states = [
-            (last_index, state)
-            for (state_mask, last_index), state in states.items()
-            if state_mask == mask
-        ]
-        for last_index, (state_score, sequence, elapsed_beats) in matching_states:
+        for last_index, (state_score, sequence, elapsed_beats) in states.get(mask, {}).items():
             if elapsed_beats == target_beats:
                 final_score = state_score + 0.5
                 if final_score > best_score:
@@ -364,10 +361,10 @@ def choose_best_phrase(hand: Sequence[str], flop: Sequence[str], card_map: Dict[
                     + _transition_bonus(cards[last_index], next_card)
                 )
                 new_mask = mask | (1 << next_index)
-                state_key = (new_mask, next_index)
-                existing_state = states.get(state_key)
+                new_mask_states = states.setdefault(new_mask, {})
+                existing_state = new_mask_states.get(next_index)
                 if existing_state is None or new_score > existing_state[0]:
-                    states[state_key] = (new_score, sequence + [next_index], new_elapsed_beats)
+                    new_mask_states[next_index] = (new_score, sequence + [next_index], new_elapsed_beats)
 
     return [pool[index] for index in best_sequence]
 
@@ -533,9 +530,9 @@ def resolve_round(
 
     eligible_scores = {player_id: score for player_id, score in scores.items() if isfinite(score)}
     if not eligible_scores:
-        winner = judge
+        winner = ""
         runner_up = None
-        round_summary = f"Round {judge} had no eligible contestants; the judge retained the round."
+        round_summary = f"Round judged by {judge} had no legal submissions; no points were awarded."
     else:
         sorted_scores = sorted(eligible_scores.items(), key=lambda item: item[1], reverse=True)
         winner = sorted_scores[0][0]
@@ -556,6 +553,8 @@ def resolve_round(
         objective=objective,
         judge=judge,
         flop=list(flop),
+        hands={player.player_id: list(player.hand) for player in players},
+        discards_used={player.player_id: player.discards_used for player in players},
         phrases=phrases,
         scores=scores,
         winner=winner,
@@ -828,6 +827,8 @@ def simulate_game(
 ) -> GameResult:
     if config is None:
         config = GameConfig()
+    if config.deal_mode not in {"balanced", "raw"}:
+        raise ValueError("deal_mode must be either 'balanced' or 'raw'.")
 
     rng = random.Random(seed)
     cards = load_deck(deck_path)
@@ -843,14 +844,23 @@ def simulate_game(
         objective = config.objective_cycle[objective_index]
         target_family = progression_resolution_family(objective)
 
-        remaining_cards, hands, flop_ids = build_progression_ready_round(
-            cards,
-            objective,
-            config.player_count,
-            config.hand_size,
-            config.flop_size,
-            rng,
-        )
+        if config.deal_mode == "balanced":
+            remaining_cards, hands, flop_ids = build_progression_ready_round(
+                cards,
+                objective,
+                config.player_count,
+                config.hand_size,
+                config.flop_size,
+                rng,
+            )
+        else:
+            remaining_cards, hands, flop_ids = build_raw_round(
+                cards,
+                config.player_count,
+                config.hand_size,
+                config.flop_size,
+                rng,
+            )
 
         for idx, hand in enumerate(hands):
             players[idx].hand = list(hand)
@@ -859,14 +869,11 @@ def simulate_game(
         for player in players:
             if player.player_id == judge_id:
                 continue
-            if player.discards_used >= config.discard_limit:
-                continue
-            discard_id = choose_discard(player.hand, card_map, target_family, objective, flop_ids)
-            if discard_id is None:
-                continue
-            if discard_id in player.hand:
+            while player.discards_used < config.discard_limit and remaining_cards:
+                discard_id = choose_discard(player.hand, card_map, target_family, objective, flop_ids)
+                if discard_id is None:
+                    break
                 player.hand.remove(discard_id)
-            if remaining_cards:
                 replacement = remaining_cards.pop(0)
                 player.hand.append(replacement["id"])
                 player.discards_used += 1
