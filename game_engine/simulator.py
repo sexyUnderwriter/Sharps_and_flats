@@ -6,7 +6,8 @@ import random
 import xml.etree.ElementTree as ET
 from collections import Counter
 from dataclasses import dataclass, field
-from math import comb, isfinite, prod
+from functools import lru_cache
+from math import comb, isfinite
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
@@ -60,7 +61,7 @@ class GameConfig:
     flop_size: int = 4
     discard_limit: int = 1
     rounds: int = 6
-    deal_mode: str = "balanced"
+    deal_mode: str = "raw"
     target_family_cycle: Sequence[str] = field(default_factory=lambda: FAMILY_ORDER)
     objective_cycle: Sequence[str] = field(default_factory=lambda: OBJECTIVES)
     min_phrase_beats: int = 8
@@ -133,14 +134,71 @@ def count_legal_phrase_selections(
     fallback_family: str = "C major",
 ) -> int:
     required_counts = Counter(progression_families(objective, fallback_family))
-    available_counts = Counter(
-        card_map[card_id]["familyCompatibility"][0]
-        for card_id in list(hand) + list(flop)
-        if card_map[card_id].get("familyCompatibility")
+    required_families = tuple(required_counts)
+    category_counts = [0] * (1 << len(required_families))
+    for card_id in list(hand) + list(flop):
+        compatibility = set(card_map[card_id].get("familyCompatibility", []))
+        category_mask = sum(
+            1 << index
+            for index, family in enumerate(required_families)
+            if family in compatibility
+        )
+        if category_mask:
+            category_counts[category_mask] += 1
+    return _count_assignable_subsets(
+        tuple(category_counts),
+        tuple(required_counts[family] for family in required_families),
     )
-    if any(available_counts[family] < required for family, required in required_counts.items()):
-        return 0
-    return prod(comb(available_counts[family], required) for family, required in required_counts.items())
+
+
+@lru_cache(maxsize=8192)
+def _count_assignable_subsets(
+    category_counts: Tuple[int, ...],
+    requirements: Tuple[int, ...],
+) -> int:
+    family_count = len(requirements)
+    target_cards = sum(requirements)
+    categories = [
+        (mask, count)
+        for mask, count in enumerate(category_counts)
+        if mask and count
+    ]
+    selected_counts = [0] * len(categories)
+
+    def selection_is_assignable() -> bool:
+        states = {(0,) * family_count}
+        for category_index, (mask, _) in enumerate(categories):
+            for _ in range(selected_counts[category_index]):
+                next_states = set()
+                for state in states:
+                    for family_index in range(family_count):
+                        if mask & (1 << family_index) and state[family_index] < requirements[family_index]:
+                            updated = list(state)
+                            updated[family_index] += 1
+                            next_states.add(tuple(updated))
+                states = next_states
+                if not states:
+                    return False
+        return requirements in states
+
+    def count_selections(category_index: int, selected_total: int, ways: int) -> int:
+        if category_index == len(categories):
+            return ways if selected_total == target_cards and selection_is_assignable() else 0
+
+        _, available = categories[category_index]
+        remaining_slots = target_cards - selected_total
+        total = 0
+        for selected in range(min(available, remaining_slots) + 1):
+            selected_counts[category_index] = selected
+            total += count_selections(
+                category_index + 1,
+                selected_total + selected,
+                ways * comb(available, selected),
+            )
+        selected_counts[category_index] = 0
+        return total
+
+    return count_selections(0, 0, 1)
 
 
 def _card_fits_progression_position(
@@ -230,15 +288,17 @@ def objective_bonus(card: Dict[str, Any], objective: str) -> float:
 
 
 def _card_score(card: Dict[str, Any], family: str, objective: str) -> float:
+    family_fit = float(card.get("familyFit", {}).get(family, 0.0))
+    primary_weight = 1.0 if card.get("primaryFamily") == family else 0.35
     score = 0.0
-    score += 1.5 if family in card.get("familyCompatibility", []) else 0.0
-    score += objective_bonus(card, objective)
+    score += 1.5 * family_fit
+    score += objective_bonus(card, objective) * primary_weight
     if "tonic" in card.get("tags", []):
-        score += 0.5
+        score += 0.5 * primary_weight
     if "cadence" in card.get("tags", []):
-        score += 0.5
+        score += 0.5 * primary_weight
     if "leading" in card.get("tags", []):
-        score += 0.4
+        score += 0.4 * primary_weight
     if "rest" in card.get("tags", []):
         score -= 0.3
     return score
@@ -379,19 +439,21 @@ def choose_discard(
     if not card_ids:
         return None
 
-    required_counts = Counter(progression_families(objective, family))
-    available_counts = Counter(
-        card_map[card_id]["familyCompatibility"][0]
-        for card_id in list(card_ids) + list(flop)
-        if card_map[card_id].get("familyCompatibility")
-    )
+    current_choices = count_legal_phrase_selections(card_ids, flop, card_map, objective, family)
+    required_families = set(progression_families(objective, family))
     scored = []
-    for card_id in card_ids:
+    for card_index, card_id in enumerate(card_ids):
         card = card_map[card_id]
-        card_family = card["familyCompatibility"][0]
-        if card_family in required_counts and available_counts[card_family] <= required_counts[card_family]:
+        trial_hand = list(card_ids)
+        trial_hand.pop(card_index)
+        remaining_choices = count_legal_phrase_selections(trial_hand, flop, card_map, objective, family)
+        if current_choices and not remaining_choices:
             continue
-        score = _card_score(card, card_family, objective)
+        best_fit = max(
+            (float(card.get("familyFit", {}).get(required_family, 0.0)) for required_family in required_families),
+            default=0.0,
+        )
+        score = best_fit - 0.05 * remaining_choices
         scored.append((score, card_id))
 
     scored.sort(key=lambda item: item[0])
@@ -610,6 +672,7 @@ def _render_measure_from_cards(
     card_ids: Sequence[str],
     card_map: Dict[str, Dict[str, Any]],
     family: str,
+    objective: str,
     measure_number: int,
     include_attributes: bool,
     flop_ids: Sequence[str] = (),
@@ -640,14 +703,19 @@ def _render_measure_from_cards(
         return measure
 
     flop_id_set = set(flop_ids)
-    for card_id in card_ids:
+    assigned_families = progression_families(objective, family)
+    for card_index, card_id in enumerate(card_ids):
         card = card_map[card_id]
+        beat_index = (measure_number - 1) * 4 + card_index
+        assigned_family = assigned_families[beat_index]
         direction = ET.SubElement(measure, "direction", {"placement": "above"})
         direction_type = ET.SubElement(direction, "direction-type")
         is_flop_card = card_id in flop_id_set
         words_attributes = {"font-weight": "bold", "enclosure": "rectangle"} if is_flop_card else {}
         source_label = "FLOP" if is_flop_card else "HAND"
-        ET.SubElement(direction_type, "words", words_attributes).text = f"{source_label}: {card['id']} | {card['rhythm']}"
+        ET.SubElement(direction_type, "words", words_attributes).text = (
+            f"{source_label}: {card['id']} | {card['rhythm']} | AS {assigned_family}"
+        )
 
         payload = _card_payload(card)
         for item_index, item in enumerate(payload):
@@ -692,8 +760,7 @@ def _render_measure_from_cards(
                     )
                 else:
                     ET.SubElement(notations, "tuplet", {"type": "stop"})
-            card_family = card["familyCompatibility"][0]
-            _add_color(note_el, card_family)
+            _add_color(note_el, assigned_family)
 
     ET.SubElement(measure, "barline", {"location": "right"})
     return measure
@@ -703,13 +770,14 @@ def _group_phrase_by_measures(phrase_ids: Sequence[str]) -> List[List[str]]:
     return [list(phrase_ids[index:index + 4]) for index in range(0, len(phrase_ids), 4)]
 
 
-def _append_empty_phrase(part: ET.Element, family: str, measure_count: int = 2) -> None:
+def _append_empty_phrase(part: ET.Element, family: str, objective: str, measure_count: int = 2) -> None:
     for measure_number in range(1, measure_count + 1):
         part.append(
             _render_measure_from_cards(
                 [],
                 {},
                 family,
+                objective,
                 measure_number,
                 include_attributes=measure_number == 1,
             )
@@ -735,7 +803,7 @@ def render_phrase_to_musicxml(
     part = ET.SubElement(root, "part", {"id": "P1"})
 
     if not phrase_ids:
-        _append_empty_phrase(part, target_family)
+        _append_empty_phrase(part, target_family, objective)
     else:
         measures = _group_phrase_by_measures(phrase_ids)
         for index, measure_card_ids in enumerate(measures, start=1):
@@ -744,6 +812,7 @@ def render_phrase_to_musicxml(
                     measure_card_ids,
                     card_map,
                     target_family,
+                    objective,
                     index,
                     include_attributes=index == 1,
                     flop_ids=flop_ids,
@@ -783,7 +852,7 @@ def export_round_musicxml(round_result: RoundResult, card_map: Dict[str, Dict[st
         part = ET.SubElement(root, "part", {"id": player_id})
 
         if not phrase:
-            _append_empty_phrase(part, round_result.target_family)
+            _append_empty_phrase(part, round_result.target_family, round_result.objective)
         else:
             measures = _group_phrase_by_measures(phrase)
             for index, measure_card_ids in enumerate(measures, start=1):
@@ -792,6 +861,7 @@ def export_round_musicxml(round_result: RoundResult, card_map: Dict[str, Dict[st
                         measure_card_ids,
                         card_map,
                         round_result.target_family,
+                        round_result.objective,
                         index,
                         include_attributes=index == 1,
                         flop_ids=round_result.flop,

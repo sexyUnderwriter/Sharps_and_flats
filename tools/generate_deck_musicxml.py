@@ -89,7 +89,7 @@ def token_payload(card: dict) -> list[dict]:
 
 
 def render_card_measure(card: dict, measure_number: int) -> ET.Element:
-    family = card["familyCompatibility"][0]
+    family = card["primaryFamily"]
     measure = ET.Element("measure", {"number": str(measure_number)})
 
     attrs = ET.SubElement(measure, "attributes")
@@ -106,7 +106,10 @@ def render_card_measure(card: dict, measure_number: int) -> ET.Element:
 
     direction = ET.SubElement(measure, "direction", {"placement": "above"})
     direction_type = ET.SubElement(direction, "direction-type")
-    ET.SubElement(direction_type, "words").text = f"{card['id']} | {card['rhythm']}"
+    compatible_families = "/".join(card["familyCompatibility"])
+    ET.SubElement(direction_type, "words").text = (
+        f"{card['id']} | {card['rhythm']} | compatible: {compatible_families}"
+    )
 
     payload = token_payload(card)
     for item_index, item in enumerate(payload):
@@ -180,7 +183,7 @@ def build_musicxml(deck: dict) -> ET.Element:
     added_ids = set()
     for family in FAMILY_ORDER:
         for card in deck["cards"]:
-            if family in card.get("familyCompatibility", []) and card["id"] not in added_ids:
+            if card.get("primaryFamily") == family and card["id"] not in added_ids:
                 ordered_cards.append(card)
                 added_ids.add(card["id"])
 

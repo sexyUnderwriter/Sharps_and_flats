@@ -101,7 +101,9 @@
         "id",
         "tokenType",
         "rhythm",
+        "primaryFamily",
         "familyCompatibility",
+        "familyFit",
         "notes",
         "duration",
         "function",
@@ -147,6 +149,20 @@
           },
           "minItems": 1,
           "uniqueItems": true
+        },
+        "primaryFamily": {
+          "$ref": "#/$defs/tonalFamily",
+          "description": "The family for which the card was originally designed; used for deck organization, not exclusive legality."
+        },
+        "familyFit": {
+          "type": "object",
+          "description": "A 0–1 harmonic-effectiveness score for every compatible family.",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "minProperties": 1
         },
         "notes": {
           "type": "array",

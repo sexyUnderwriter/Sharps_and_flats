@@ -50,7 +50,7 @@ SCENARIOS = (
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Compare raw and progression-balanced game configurations.")
     parser.add_argument("--games", type=int, default=10_000, help="Games to run per mode/configuration scenario.")
-    parser.add_argument("--scored-games", type=int, default=500, help="Games per scenario that also run full phrase optimization and scoring.")
+    parser.add_argument("--scored-games", type=int, default=25, help="Games per scenario that also run full phrase optimization and scoring.")
     parser.add_argument("--mode", choices=("both", "balanced", "raw"), default="both")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--workers", type=int, default=8)
@@ -61,7 +61,7 @@ def parse_args() -> argparse.Namespace:
 def _family_selection_ratios(card_map: dict[str, dict[str, Any]], selections: Counter[str]) -> dict[str, float]:
     family_cards: dict[str, list[str]] = defaultdict(list)
     for card_id, card in card_map.items():
-        family_cards[card["familyCompatibility"][0]].append(card_id)
+        family_cards[card["primaryFamily"]].append(card_id)
 
     ratios = {}
     for family, card_ids in family_cards.items():

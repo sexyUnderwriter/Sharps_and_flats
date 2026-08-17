@@ -22,7 +22,10 @@
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -47,14 +50,24 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "C major breath rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "C major breath rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.7000000000000001,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "C-0002",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -79,14 +92,24 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "C major cadential rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "C major cadential rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.7000000000000001,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "C-0003",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -111,14 +134,24 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "C major suspension rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "C major suspension rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.7000000000000001,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "C-0004",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -143,14 +176,24 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "C major reset rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "C major reset rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.7000000000000001,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "C-0005",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -175,14 +218,24 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Root tone for phrase opening and closure."
+      "designNotes": "Root tone for phrase opening and closure.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 1.0,
+        "F major": 0.95,
+        "G major": 0.35,
+        "D minor": 0.35
+      }
     },
     {
       "id": "C-0006",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -207,14 +260,24 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Third degree keeps the phrase singable and grounded."
+      "designNotes": "Third degree keeps the phrase singable and grounded.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 1.0,
+        "F major": 0.35,
+        "G major": 0.35,
+        "D minor": 0.35
+      }
     },
     {
       "id": "C-0007",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -239,14 +302,22 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Dominant-like motion creates clear tension."
+      "designNotes": "Dominant-like motion creates clear tension.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 1.0,
+        "F major": 0.35,
+        "G major": 0.95,
+        "D minor": 0.35
+      }
     },
     {
       "id": "C-0008",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "G major"
       ],
       "notes": [
         {
@@ -271,14 +342,22 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Useful for strong arrival and melodic urge."
+      "designNotes": "Useful for strong arrival and melodic urge.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.4,
+        "G major": 0.95
+      }
     },
     {
       "id": "C-0009",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -303,14 +382,23 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Stepwise motion keeps the phrase flowing."
+      "designNotes": "Stepwise motion keeps the phrase flowing.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.4,
+        "F major": 0.35,
+        "G major": 0.95,
+        "D minor": 0.95
+      }
     },
     {
       "id": "C-0010",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -335,14 +423,23 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Adds shape without disturbing tonal identity."
+      "designNotes": "Adds shape without disturbing tonal identity.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.4,
+        "F major": 0.95,
+        "D minor": 0.95
+      }
     },
     {
       "id": "C-0011",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -367,14 +464,22 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion gives local contour and elegance."
+      "designNotes": "Neighbor motion gives local contour and elegance.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.4,
+        "F major": 0.95,
+        "G major": 0.35,
+        "D minor": 0.95
+      }
     },
     {
       "id": "C-0012",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "G major"
       ],
       "notes": [
         {
@@ -399,14 +504,22 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.4,
+        "G major": 0.95
+      }
     },
     {
       "id": "C-0013",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -440,14 +553,24 @@
         "continuation"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.625,
+        "G major": 0.675,
+        "D minor": 0.675
+      }
     },
     {
       "id": "C-0014",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -481,14 +604,23 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A relaxed descending motion supports phrase closure."
+      "designNotes": "A relaxed descending motion supports phrase closure.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.35,
+        "G major": 0.675,
+        "D minor": 0.675
+      }
     },
     {
       "id": "C-0015",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -522,14 +654,23 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion adds tonal color without excess tension."
+      "designNotes": "Neighbor motion adds tonal color without excess tension.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.725,
+        "F major": 0.625,
+        "D minor": 0.625
+      }
     },
     {
       "id": "C-0016",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -563,14 +704,24 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Rising dominant motion energizes the phrase."
+      "designNotes": "Rising dominant motion energizes the phrase.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.675,
+        "G major": 0.625,
+        "D minor": 0.675
+      }
     },
     {
       "id": "C-0017",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -604,14 +755,22 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A softer drift from tonic-support tone."
+      "designNotes": "A softer drift from tonic-support tone.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.725,
+        "F major": 0.675,
+        "G major": 0.625,
+        "D minor": 0.625
+      }
     },
     {
       "id": "C-0018",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "G major"
       ],
       "notes": [
         {
@@ -645,14 +804,22 @@
         "tension"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A quick approach to a pitch goal."
+      "designNotes": "A quick approach to a pitch goal.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.4,
+        "G major": 0.675
+      }
     },
     {
       "id": "C-0019",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -686,14 +853,23 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "The paired notes create clear contour."
+      "designNotes": "The paired notes create clear contour.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 1.0,
+        "F major": 0.625,
+        "G major": 0.35,
+        "D minor": 0.35
+      }
     },
     {
       "id": "C-0020",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -727,14 +903,22 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A turning figure gives rhetorical motion."
+      "designNotes": "A turning figure gives rhetorical motion.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.675,
+        "D minor": 0.675
+      }
     },
     {
       "id": "C-0021",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -786,14 +970,22 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.775,
+        "D minor": 0.675
+      }
     },
     {
       "id": "C-0022",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -845,14 +1037,22 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar descent creates a stable exit."
+      "designNotes": "A compact scalar descent creates a stable exit.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.725,
+        "F major": 0.775,
+        "D minor": 0.625
+      }
     },
     {
       "id": "C-0023",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -904,14 +1104,21 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Turning motion adds character and motion."
+      "designNotes": "Turning motion adds character and motion.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.438,
+        "D minor": 0.675
+      }
     },
     {
       "id": "C-0024",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "G major"
       ],
       "notes": [
         {
@@ -963,14 +1170,20 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Emphasizes tension before release."
+      "designNotes": "Emphasizes tension before release.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.675,
+        "G major": 0.862
+      }
     },
     {
       "id": "C-0025",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "G major"
       ],
       "notes": [
         {
@@ -1022,14 +1235,22 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A lush cadential lift with phrase-final impact."
+      "designNotes": "A lush cadential lift with phrase-final impact.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.725,
+        "G major": 0.438
+      }
     },
     {
       "id": "C-0026",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1081,14 +1302,23 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+      "designNotes": "A neighbor-flavored fill that enriches a phrase.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.725,
+        "F major": 0.438,
+        "G major": 0.625,
+        "D minor": 0.625
+      }
     },
     {
       "id": "C-0027",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1140,14 +1370,23 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A gentle support pattern for a longer phrase."
+      "designNotes": "A gentle support pattern for a longer phrase.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.725,
+        "F major": 0.625,
+        "D minor": 0.625
+      }
     },
     {
       "id": "C-0028",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1199,14 +1438,24 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+      "designNotes": "A bright tonic pattern useful for reinforcing the center.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 1.0,
+        "F major": 0.537,
+        "G major": 0.438,
+        "D minor": 0.35
+      }
     },
     {
       "id": "C-0029",
       "tokenType": 9,
       "rhythm": "triplet32",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1249,14 +1498,22 @@
         "arpeggio"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 1.0,
+        "F major": 0.567,
+        "G major": 0.617,
+        "D minor": 0.35
+      }
     },
     {
       "id": "C-0030",
       "tokenType": 9,
       "rhythm": "triplet32",
       "familyCompatibility": [
-        "C major"
+        "C major",
+        "G major"
       ],
       "notes": [
         {
@@ -1299,14 +1556,22 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending.",
+      "primaryFamily": "C major",
+      "familyFit": {
+        "C major": 0.883,
+        "G major": 0.683
+      }
     },
     {
       "id": "F-0001",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1331,14 +1596,24 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "F major breath rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "F major breath rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.7000000000000001,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "F-0002",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1363,14 +1638,24 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "F major cadential rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "F major cadential rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.7000000000000001,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "F-0003",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1395,14 +1680,24 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "F major suspension rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "F major suspension rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.7000000000000001,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "F-0004",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1427,14 +1722,23 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "F major reset rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "F major reset rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.7000000000000001,
+        "G major": 0.65,
+        "D minor": 0.65
+      }
     },
     {
       "id": "F-0005",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1459,14 +1763,23 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Root tone for phrase opening and closure."
+      "designNotes": "Root tone for phrase opening and closure.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 1.0,
+        "D minor": 0.95
+      }
     },
     {
       "id": "F-0006",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1491,14 +1804,24 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Third degree keeps the phrase singable and grounded."
+      "designNotes": "Third degree keeps the phrase singable and grounded.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 1.0,
+        "G major": 0.35,
+        "D minor": 0.95
+      }
     },
     {
       "id": "F-0007",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1523,14 +1846,24 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Dominant-like motion creates clear tension."
+      "designNotes": "Dominant-like motion creates clear tension.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 1.0,
+        "G major": 0.35,
+        "D minor": 0.35
+      }
     },
     {
       "id": "F-0008",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1555,14 +1888,24 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Useful for strong arrival and melodic urge."
+      "designNotes": "Useful for strong arrival and melodic urge.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.4,
+        "G major": 0.35,
+        "D minor": 0.35
+      }
     },
     {
       "id": "F-0009",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1587,14 +1930,22 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Stepwise motion keeps the phrase flowing."
+      "designNotes": "Stepwise motion keeps the phrase flowing.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.4,
+        "G major": 0.95,
+        "D minor": 0.35
+      }
     },
     {
       "id": "F-0010",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1619,14 +1970,22 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Adds shape without disturbing tonal identity."
+      "designNotes": "Adds shape without disturbing tonal identity.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "F major": 0.4,
+        "D minor": 0.35
+      }
     },
     {
       "id": "F-0011",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1651,14 +2010,24 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion gives local contour and elegance."
+      "designNotes": "Neighbor motion gives local contour and elegance.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.4,
+        "G major": 0.95,
+        "D minor": 0.95
+      }
     },
     {
       "id": "F-0012",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1683,14 +2052,23 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.4,
+        "G major": 0.35,
+        "D minor": 0.35
+      }
     },
     {
       "id": "F-0013",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1724,14 +2102,23 @@
         "continuation"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.675,
+        "D minor": 0.625
+      }
     },
     {
       "id": "F-0014",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1765,14 +2152,22 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A relaxed descending motion supports phrase closure."
+      "designNotes": "A relaxed descending motion supports phrase closure.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.675,
+        "G major": 0.675,
+        "D minor": 0.625
+      }
     },
     {
       "id": "F-0015",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1806,14 +2201,22 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion adds tonal color without excess tension."
+      "designNotes": "Neighbor motion adds tonal color without excess tension.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "F major": 0.725,
+        "D minor": 0.675
+      }
     },
     {
       "id": "F-0016",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1847,14 +2250,23 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Rising dominant motion energizes the phrase."
+      "designNotes": "Rising dominant motion energizes the phrase.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.675,
+        "G major": 0.675,
+        "D minor": 0.675
+      }
     },
     {
       "id": "F-0017",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1888,14 +2300,23 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A softer drift from tonic-support tone."
+      "designNotes": "A softer drift from tonic-support tone.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.725,
+        "D minor": 0.675
+      }
     },
     {
       "id": "F-0018",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1929,14 +2350,23 @@
         "tension"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A quick approach to a pitch goal."
+      "designNotes": "A quick approach to a pitch goal.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.4,
+        "G major": 0.625,
+        "D minor": 0.625
+      }
     },
     {
       "id": "F-0019",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -1970,14 +2400,21 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "The paired notes create clear contour."
+      "designNotes": "The paired notes create clear contour.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 1.0,
+        "D minor": 0.95
+      }
     },
     {
       "id": "F-0020",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "F major"
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2011,14 +2448,20 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A turning figure gives rhetorical motion."
+      "designNotes": "A turning figure gives rhetorical motion.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "F major": 0.675,
+        "D minor": 0.625
+      }
     },
     {
       "id": "F-0021",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2070,14 +2513,20 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "F major": 0.675,
+        "D minor": 0.625
+      }
     },
     {
       "id": "F-0022",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2129,14 +2578,20 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar descent creates a stable exit."
+      "designNotes": "A compact scalar descent creates a stable exit.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "F major": 0.725,
+        "D minor": 0.675
+      }
     },
     {
       "id": "F-0023",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2188,14 +2643,22 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Turning motion adds character and motion."
+      "designNotes": "Turning motion adds character and motion.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "F major": 0.675,
+        "D minor": 0.625
+      }
     },
     {
       "id": "F-0024",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2247,14 +2710,23 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Emphasizes tension before release."
+      "designNotes": "Emphasizes tension before release.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.862,
+        "F major": 0.675,
+        "G major": 0.438,
+        "D minor": 0.438
+      }
     },
     {
       "id": "F-0025",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2306,14 +2778,22 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A lush cadential lift with phrase-final impact."
+      "designNotes": "A lush cadential lift with phrase-final impact.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.438,
+        "F major": 0.725,
+        "D minor": 0.862
+      }
     },
     {
       "id": "F-0026",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2365,14 +2845,21 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+      "designNotes": "A neighbor-flavored fill that enriches a phrase.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.725,
+        "D minor": 0.675
+      }
     },
     {
       "id": "F-0027",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2424,14 +2911,21 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A gentle support pattern for a longer phrase."
+      "designNotes": "A gentle support pattern for a longer phrase.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "F major": 0.725,
+        "D minor": 0.438
+      }
     },
     {
       "id": "F-0028",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2483,14 +2977,22 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+      "designNotes": "A bright tonic pattern useful for reinforcing the center.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.438,
+        "F major": 1.0,
+        "D minor": 0.862
+      }
     },
     {
       "id": "F-0029",
       "tokenType": 9,
       "rhythm": "triplet32",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2533,14 +3035,22 @@
         "arpeggio"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.617,
+        "F major": 1.0,
+        "D minor": 0.683
+      }
     },
     {
       "id": "F-0030",
       "tokenType": 9,
       "rhythm": "triplet32",
       "familyCompatibility": [
-        "F major"
+        "C major",
+        "F major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2583,14 +3093,23 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending.",
+      "primaryFamily": "F major",
+      "familyFit": {
+        "C major": 0.683,
+        "F major": 0.883,
+        "D minor": 0.617
+      }
     },
     {
       "id": "G-0001",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2615,14 +3134,24 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "G major breath rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "G major breath rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.7000000000000001,
+        "D minor": 0.65
+      }
     },
     {
       "id": "G-0002",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2647,14 +3176,24 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "G major cadential rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "G major cadential rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.7000000000000001,
+        "D minor": 0.65
+      }
     },
     {
       "id": "G-0003",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2679,14 +3218,24 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "G major suspension rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "G major suspension rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.7000000000000001,
+        "D minor": 0.65
+      }
     },
     {
       "id": "G-0004",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2711,14 +3260,24 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "G major reset rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "G major reset rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.7000000000000001,
+        "D minor": 0.65
+      }
     },
     {
       "id": "G-0005",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2743,13 +3302,21 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Root tone for phrase opening and closure."
+      "designNotes": "Root tone for phrase opening and closure.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.35,
+        "G major": 1.0,
+        "D minor": 0.35
+      }
     },
     {
       "id": "G-0006",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -2775,14 +3342,22 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Third degree keeps the phrase singable and grounded."
+      "designNotes": "Third degree keeps the phrase singable and grounded.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.35,
+        "G major": 1.0
+      }
     },
     {
       "id": "G-0007",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2807,7 +3382,14 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Dominant-like motion creates clear tension."
+      "designNotes": "Dominant-like motion creates clear tension.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.35,
+        "G major": 1.0,
+        "D minor": 0.95
+      }
     },
     {
       "id": "G-0008",
@@ -2839,14 +3421,21 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Useful for strong arrival and melodic urge."
+      "designNotes": "Useful for strong arrival and melodic urge.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "G major": 0.4
+      }
     },
     {
       "id": "G-0009",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2871,14 +3460,24 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Stepwise motion keeps the phrase flowing."
+      "designNotes": "Stepwise motion keeps the phrase flowing.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.95,
+        "G major": 0.4,
+        "D minor": 0.95
+      }
     },
     {
       "id": "G-0010",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2903,14 +3502,24 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Adds shape without disturbing tonal identity."
+      "designNotes": "Adds shape without disturbing tonal identity.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.95,
+        "G major": 0.4,
+        "D minor": 0.35
+      }
     },
     {
       "id": "G-0011",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -2935,7 +3544,14 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion gives local contour and elegance."
+      "designNotes": "Neighbor motion gives local contour and elegance.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.35,
+        "G major": 0.4,
+        "D minor": 0.35
+      }
     },
     {
       "id": "G-0012",
@@ -2967,14 +3583,21 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "G major": 0.4
+      }
     },
     {
       "id": "G-0013",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -3008,13 +3631,21 @@
         "continuation"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.675,
+        "G major": 0.675,
+        "D minor": 0.675
+      }
     },
     {
       "id": "G-0014",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3049,13 +3680,19 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A relaxed descending motion supports phrase closure."
+      "designNotes": "A relaxed descending motion supports phrase closure.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.35,
+        "G major": 0.675
+      }
     },
     {
       "id": "G-0015",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3090,14 +3727,22 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion adds tonal color without excess tension."
+      "designNotes": "Neighbor motion adds tonal color without excess tension.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.625,
+        "G major": 0.725
+      }
     },
     {
       "id": "G-0016",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -3131,14 +3776,24 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Rising dominant motion energizes the phrase."
+      "designNotes": "Rising dominant motion energizes the phrase.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.35,
+        "G major": 0.675,
+        "D minor": 0.625
+      }
     },
     {
       "id": "G-0017",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
-        "G major"
+        "C major",
+        "F major",
+        "G major",
+        "D minor"
       ],
       "notes": [
         {
@@ -3172,7 +3827,14 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A softer drift from tonic-support tone."
+      "designNotes": "A softer drift from tonic-support tone.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.625,
+        "G major": 0.725,
+        "D minor": 0.625
+      }
     },
     {
       "id": "G-0018",
@@ -3213,13 +3875,18 @@
         "tension"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A quick approach to a pitch goal."
+      "designNotes": "A quick approach to a pitch goal.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "G major": 0.4
+      }
     },
     {
       "id": "G-0019",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3254,13 +3921,19 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "The paired notes create clear contour."
+      "designNotes": "The paired notes create clear contour.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.625,
+        "G major": 1.0
+      }
     },
     {
       "id": "G-0020",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3295,13 +3968,19 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A turning figure gives rhetorical motion."
+      "designNotes": "A turning figure gives rhetorical motion.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.675,
+        "G major": 0.675
+      }
     },
     {
       "id": "G-0021",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3354,13 +4033,19 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.775,
+        "G major": 0.675
+      }
     },
     {
       "id": "G-0022",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3413,13 +4098,19 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar descent creates a stable exit."
+      "designNotes": "A compact scalar descent creates a stable exit.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.775,
+        "G major": 0.725
+      }
     },
     {
       "id": "G-0023",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3472,7 +4163,12 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Turning motion adds character and motion."
+      "designNotes": "Turning motion adds character and motion.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.438,
+        "G major": 0.675
+      }
     },
     {
       "id": "G-0024",
@@ -3531,7 +4227,11 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Emphasizes tension before release."
+      "designNotes": "Emphasizes tension before release.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "G major": 0.675
+      }
     },
     {
       "id": "G-0025",
@@ -3590,13 +4290,18 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A lush cadential lift with phrase-final impact."
+      "designNotes": "A lush cadential lift with phrase-final impact.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "G major": 0.725
+      }
     },
     {
       "id": "G-0026",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3649,13 +4354,19 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+      "designNotes": "A neighbor-flavored fill that enriches a phrase.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.438,
+        "G major": 0.725
+      }
     },
     {
       "id": "G-0027",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3708,13 +4419,19 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A gentle support pattern for a longer phrase."
+      "designNotes": "A gentle support pattern for a longer phrase.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.625,
+        "G major": 0.725
+      }
     },
     {
       "id": "G-0028",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3767,13 +4484,19 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+      "designNotes": "A bright tonic pattern useful for reinforcing the center.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.537,
+        "G major": 1.0
+      }
     },
     {
       "id": "G-0029",
       "tokenType": 9,
       "rhythm": "triplet32",
       "familyCompatibility": [
+        "C major",
         "G major"
       ],
       "notes": [
@@ -3817,7 +4540,12 @@
         "arpeggio"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "C major": 0.567,
+        "G major": 1.0
+      }
     },
     {
       "id": "G-0030",
@@ -3867,13 +4595,20 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending.",
+      "primaryFamily": "G major",
+      "familyFit": {
+        "G major": 0.883
+      }
     },
     {
       "id": "D-0001",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -3899,13 +4634,23 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "D minor breath rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "D minor breath rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.7000000000000001
+      }
     },
     {
       "id": "D-0002",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -3931,13 +4676,23 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "D minor cadential rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "D minor cadential rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.7000000000000001
+      }
     },
     {
       "id": "D-0003",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -3963,13 +4718,23 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "D minor suspension rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "D minor suspension rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.7000000000000001
+      }
     },
     {
       "id": "D-0004",
       "tokenType": 0,
       "rhythm": "quarterRest",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -3995,13 +4760,23 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "D minor reset rest: a short breathing point that restores rhythmic clarity."
+      "designNotes": "D minor reset rest: a short breathing point that restores rhythmic clarity.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.65,
+        "F major": 0.65,
+        "G major": 0.65,
+        "D minor": 0.7000000000000001
+      }
     },
     {
       "id": "D-0005",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4027,13 +4802,22 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Root tone for phrase opening and closure."
+      "designNotes": "Root tone for phrase opening and closure.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.35,
+        "G major": 0.95,
+        "D minor": 1.0
+      }
     },
     {
       "id": "D-0006",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4059,13 +4843,22 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Third degree keeps the phrase singable and grounded."
+      "designNotes": "Third degree keeps the phrase singable and grounded.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.95,
+        "D minor": 1.0
+      }
     },
     {
       "id": "D-0007",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4091,13 +4884,23 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Dominant-like motion creates clear tension."
+      "designNotes": "Dominant-like motion creates clear tension.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.95,
+        "G major": 0.35,
+        "D minor": 1.0
+      }
     },
     {
       "id": "D-0008",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4123,13 +4926,23 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Useful for strong arrival and melodic urge."
+      "designNotes": "Useful for strong arrival and melodic urge.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.95,
+        "G major": 0.35,
+        "D minor": 0.4
+      }
     },
     {
       "id": "D-0009",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4155,13 +4968,23 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Stepwise motion keeps the phrase flowing."
+      "designNotes": "Stepwise motion keeps the phrase flowing.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.35,
+        "G major": 0.35,
+        "D minor": 0.4
+      }
     },
     {
       "id": "D-0010",
       "tokenType": 1,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4187,13 +5010,21 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Adds shape without disturbing tonal identity."
+      "designNotes": "Adds shape without disturbing tonal identity.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.35,
+        "G major": 0.95,
+        "D minor": 0.4
+      }
     },
     {
       "id": "D-0011",
       "tokenType": 2,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4219,13 +5050,21 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion gives local contour and elegance."
+      "designNotes": "Neighbor motion gives local contour and elegance.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "F major": 0.35,
+        "D minor": 0.4
+      }
     },
     {
       "id": "D-0012",
       "tokenType": 3,
       "rhythm": "quarter",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4251,13 +5090,23 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A strong arrival tone for end-of-phrase emphasis."
+      "designNotes": "A strong arrival tone for end-of-phrase emphasis.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.95,
+        "F major": 0.95,
+        "G major": 0.35,
+        "D minor": 0.4
+      }
     },
     {
       "id": "D-0013",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4292,13 +5141,22 @@
         "continuation"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Smooth stepwise motion keeps the phrase cohesive."
+      "designNotes": "Smooth stepwise motion keeps the phrase cohesive.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.35,
+        "G major": 0.625,
+        "D minor": 0.675
+      }
     },
     {
       "id": "D-0014",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4333,13 +5191,21 @@
         "release"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A relaxed descending motion supports phrase closure."
+      "designNotes": "A relaxed descending motion supports phrase closure.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.625,
+        "D minor": 0.675
+      }
     },
     {
       "id": "D-0015",
       "tokenType": 4,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4374,13 +5240,20 @@
         "supportive"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Neighbor motion adds tonal color without excess tension."
+      "designNotes": "Neighbor motion adds tonal color without excess tension.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.675,
+        "D minor": 0.725
+      }
     },
     {
       "id": "D-0016",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4415,13 +5288,21 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Rising dominant motion energizes the phrase."
+      "designNotes": "Rising dominant motion energizes the phrase.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "F major": 0.625,
+        "D minor": 0.675
+      }
     },
     {
       "id": "D-0017",
       "tokenType": 5,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -4456,13 +5337,21 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A softer drift from tonic-support tone."
+      "designNotes": "A softer drift from tonic-support tone.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.35,
+        "G major": 0.675,
+        "D minor": 0.725
+      }
     },
     {
       "id": "D-0018",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4497,13 +5386,20 @@
         "tension"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A quick approach to a pitch goal."
+      "designNotes": "A quick approach to a pitch goal.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "F major": 0.675,
+        "D minor": 0.4
+      }
     },
     {
       "id": "D-0019",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4538,13 +5434,21 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "The paired notes create clear contour."
+      "designNotes": "The paired notes create clear contour.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.675,
+        "D minor": 1.0
+      }
     },
     {
       "id": "D-0020",
       "tokenType": 6,
       "rhythm": "eighthPair",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4579,13 +5483,21 @@
         "cadential"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A turning figure gives rhetorical motion."
+      "designNotes": "A turning figure gives rhetorical motion.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.625,
+        "D minor": 0.675
+      }
     },
     {
       "id": "D-0021",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4638,13 +5550,21 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar ascent with plenty of phrase momentum."
+      "designNotes": "A compact scalar ascent with plenty of phrase momentum.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.438,
+        "D minor": 0.675
+      }
     },
     {
       "id": "D-0022",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4697,13 +5617,21 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact scalar descent creates a stable exit."
+      "designNotes": "A compact scalar descent creates a stable exit.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.438,
+        "D minor": 0.725
+      }
     },
     {
       "id": "D-0023",
       "tokenType": 7,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4756,13 +5684,20 @@
         "melodic"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Turning motion adds character and motion."
+      "designNotes": "Turning motion adds character and motion.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.675,
+        "F major": 0.625,
+        "D minor": 0.675
+      }
     },
     {
       "id": "D-0024",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4815,13 +5750,19 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "Emphasizes tension before release."
+      "designNotes": "Emphasizes tension before release.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "F major": 0.862,
+        "D minor": 0.675
+      }
     },
     {
       "id": "D-0025",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4874,13 +5815,20 @@
         "leading"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A lush cadential lift with phrase-final impact."
+      "designNotes": "A lush cadential lift with phrase-final impact.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "F major": 0.675,
+        "D minor": 0.725
+      }
     },
     {
       "id": "D-0026",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4933,13 +5881,21 @@
         "smooth"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A neighbor-flavored fill that enriches a phrase."
+      "designNotes": "A neighbor-flavored fill that enriches a phrase.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.588,
+        "D minor": 0.725
+      }
     },
     {
       "id": "D-0027",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -4992,13 +5948,21 @@
         "safe"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A gentle support pattern for a longer phrase."
+      "designNotes": "A gentle support pattern for a longer phrase.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.625,
+        "F major": 0.675,
+        "D minor": 0.725
+      }
     },
     {
       "id": "D-0028",
       "tokenType": 8,
       "rhythm": "sixteenthFour",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -5051,13 +6015,21 @@
         "stable"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A bright tonic pattern useful for reinforcing the center."
+      "designNotes": "A bright tonic pattern useful for reinforcing the center.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.762,
+        "D minor": 1.0
+      }
     },
     {
       "id": "D-0029",
       "tokenType": 9,
       "rhythm": "triplet32",
       "familyCompatibility": [
+        "C major",
+        "F major",
         "D minor"
       ],
       "notes": [
@@ -5101,13 +6073,22 @@
         "arpeggio"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center."
+      "designNotes": "A compact triplet arpeggio that immediately establishes the tonal center.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.35,
+        "F major": 0.733,
+        "D minor": 1.0
+      }
     },
     {
       "id": "D-0030",
       "tokenType": 9,
       "rhythm": "triplet32",
       "familyCompatibility": [
+        "C major",
+        "F major",
+        "G major",
         "D minor"
       ],
       "notes": [
@@ -5151,7 +6132,14 @@
         "arrival"
       ],
       "sourcePool": "expanded-prototype",
-      "designNotes": "A more rhetorical triplet figure that favors phrase ending."
+      "designNotes": "A more rhetorical triplet figure that favors phrase ending.",
+      "primaryFamily": "D minor",
+      "familyFit": {
+        "C major": 0.467,
+        "F major": 0.683,
+        "G major": 0.617,
+        "D minor": 0.883
+      }
     }
   ]
 }

@@ -32,7 +32,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0001 | quarterRest</words>
+          <words>C-0001 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -61,7 +61,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0002 | quarterRest</words>
+          <words>C-0002 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -90,7 +90,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0003 | quarterRest</words>
+          <words>C-0003 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -119,7 +119,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0004 | quarterRest</words>
+          <words>C-0004 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -148,7 +148,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0005 | quarter</words>
+          <words>C-0005 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -180,7 +180,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0006 | quarter</words>
+          <words>C-0006 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -212,7 +212,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0007 | quarter</words>
+          <words>C-0007 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -244,7 +244,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0008 | quarter</words>
+          <words>C-0008 | quarter | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -276,7 +276,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0009 | quarter</words>
+          <words>C-0009 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -308,7 +308,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0010 | quarter</words>
+          <words>C-0010 | quarter | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -340,7 +340,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0011 | quarter</words>
+          <words>C-0011 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -372,7 +372,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0012 | quarter</words>
+          <words>C-0012 | quarter | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -404,7 +404,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0013 | eighthPair</words>
+          <words>C-0013 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -447,7 +447,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0014 | eighthPair</words>
+          <words>C-0014 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -490,7 +490,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0015 | eighthPair</words>
+          <words>C-0015 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -533,7 +533,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0016 | eighthPair</words>
+          <words>C-0016 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -576,7 +576,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0017 | eighthPair</words>
+          <words>C-0017 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -619,7 +619,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0018 | eighthPair</words>
+          <words>C-0018 | eighthPair | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -662,7 +662,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0019 | eighthPair</words>
+          <words>C-0019 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -705,7 +705,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0020 | eighthPair</words>
+          <words>C-0020 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -748,7 +748,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0021 | sixteenthFour</words>
+          <words>C-0021 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -815,7 +815,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0022 | sixteenthFour</words>
+          <words>C-0022 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -882,7 +882,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0023 | sixteenthFour</words>
+          <words>C-0023 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -949,7 +949,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0024 | sixteenthFour</words>
+          <words>C-0024 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -1016,7 +1016,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0025 | sixteenthFour</words>
+          <words>C-0025 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -1083,7 +1083,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0026 | sixteenthFour</words>
+          <words>C-0026 | sixteenthFour | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -1150,7 +1150,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0027 | sixteenthFour</words>
+          <words>C-0027 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -1217,7 +1217,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0028 | sixteenthFour</words>
+          <words>C-0028 | sixteenthFour | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -1284,7 +1284,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0029 | triplet32</words>
+          <words>C-0029 | triplet32 | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -1355,7 +1355,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>C-0030 | triplet32</words>
+          <words>C-0030 | triplet32 | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -1426,7 +1426,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0001 | quarterRest</words>
+          <words>F-0001 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1455,7 +1455,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0002 | quarterRest</words>
+          <words>F-0002 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1484,7 +1484,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0003 | quarterRest</words>
+          <words>F-0003 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1513,7 +1513,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0004 | quarterRest</words>
+          <words>F-0004 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1542,7 +1542,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0005 | quarter</words>
+          <words>F-0005 | quarter | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1574,7 +1574,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0006 | quarter</words>
+          <words>F-0006 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1606,7 +1606,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0007 | quarter</words>
+          <words>F-0007 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1638,7 +1638,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0008 | quarter</words>
+          <words>F-0008 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1670,7 +1670,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0009 | quarter</words>
+          <words>F-0009 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1702,7 +1702,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0010 | quarter</words>
+          <words>F-0010 | quarter | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1736,7 +1736,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0011 | quarter</words>
+          <words>F-0011 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1768,7 +1768,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0012 | quarter</words>
+          <words>F-0012 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1800,7 +1800,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0013 | eighthPair</words>
+          <words>F-0013 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1843,7 +1843,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0014 | eighthPair</words>
+          <words>F-0014 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1886,7 +1886,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0015 | eighthPair</words>
+          <words>F-0015 | eighthPair | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1931,7 +1931,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0016 | eighthPair</words>
+          <words>F-0016 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -1974,7 +1974,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0017 | eighthPair</words>
+          <words>F-0017 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2017,7 +2017,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0018 | eighthPair</words>
+          <words>F-0018 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2060,7 +2060,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0019 | eighthPair</words>
+          <words>F-0019 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2103,7 +2103,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0020 | eighthPair</words>
+          <words>F-0020 | eighthPair | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2148,7 +2148,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0021 | sixteenthFour</words>
+          <words>F-0021 | sixteenthFour | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2217,7 +2217,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0022 | sixteenthFour</words>
+          <words>F-0022 | sixteenthFour | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2286,7 +2286,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0023 | sixteenthFour</words>
+          <words>F-0023 | sixteenthFour | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2355,7 +2355,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0024 | sixteenthFour</words>
+          <words>F-0024 | sixteenthFour | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2422,7 +2422,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0025 | sixteenthFour</words>
+          <words>F-0025 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2489,7 +2489,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0026 | sixteenthFour</words>
+          <words>F-0026 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2556,7 +2556,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0027 | sixteenthFour</words>
+          <words>F-0027 | sixteenthFour | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2627,7 +2627,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0028 | sixteenthFour</words>
+          <words>F-0028 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2694,7 +2694,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0029 | triplet32</words>
+          <words>F-0029 | triplet32 | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2765,7 +2765,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>F-0030 | triplet32</words>
+          <words>F-0030 | triplet32 | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#FF8000">
@@ -2836,7 +2836,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0001 | quarterRest</words>
+          <words>G-0001 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -2865,7 +2865,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0002 | quarterRest</words>
+          <words>G-0002 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -2894,7 +2894,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0003 | quarterRest</words>
+          <words>G-0003 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -2923,7 +2923,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0004 | quarterRest</words>
+          <words>G-0004 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -2952,7 +2952,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0005 | quarter</words>
+          <words>G-0005 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -2984,7 +2984,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0006 | quarter</words>
+          <words>G-0006 | quarter | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3016,7 +3016,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0007 | quarter</words>
+          <words>G-0007 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3048,7 +3048,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0008 | quarter</words>
+          <words>G-0008 | quarter | compatible: G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3082,7 +3082,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0009 | quarter</words>
+          <words>G-0009 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3114,7 +3114,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0010 | quarter</words>
+          <words>G-0010 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3146,7 +3146,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0011 | quarter</words>
+          <words>G-0011 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3178,7 +3178,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0012 | quarter</words>
+          <words>G-0012 | quarter | compatible: G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3212,7 +3212,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0013 | eighthPair</words>
+          <words>G-0013 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3255,7 +3255,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0014 | eighthPair</words>
+          <words>G-0014 | eighthPair | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3298,7 +3298,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0015 | eighthPair</words>
+          <words>G-0015 | eighthPair | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3341,7 +3341,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0016 | eighthPair</words>
+          <words>G-0016 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3384,7 +3384,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0017 | eighthPair</words>
+          <words>G-0017 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3427,7 +3427,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0018 | eighthPair</words>
+          <words>G-0018 | eighthPair | compatible: G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3472,7 +3472,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0019 | eighthPair</words>
+          <words>G-0019 | eighthPair | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3515,7 +3515,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0020 | eighthPair</words>
+          <words>G-0020 | eighthPair | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3558,7 +3558,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0021 | sixteenthFour</words>
+          <words>G-0021 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3625,7 +3625,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0022 | sixteenthFour</words>
+          <words>G-0022 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3692,7 +3692,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0023 | sixteenthFour</words>
+          <words>G-0023 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3759,7 +3759,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0024 | sixteenthFour</words>
+          <words>G-0024 | sixteenthFour | compatible: G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3828,7 +3828,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0025 | sixteenthFour</words>
+          <words>G-0025 | sixteenthFour | compatible: G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3897,7 +3897,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0026 | sixteenthFour</words>
+          <words>G-0026 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -3964,7 +3964,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0027 | sixteenthFour</words>
+          <words>G-0027 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -4031,7 +4031,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0028 | sixteenthFour</words>
+          <words>G-0028 | sixteenthFour | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -4098,7 +4098,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0029 | triplet32</words>
+          <words>G-0029 | triplet32 | compatible: C major/G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -4169,7 +4169,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>G-0030 | triplet32</words>
+          <words>G-0030 | triplet32 | compatible: G major</words>
         </direction-type>
       </direction>
       <note color="#009900">
@@ -4242,7 +4242,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0001 | quarterRest</words>
+          <words>D-0001 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4271,7 +4271,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0002 | quarterRest</words>
+          <words>D-0002 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4300,7 +4300,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0003 | quarterRest</words>
+          <words>D-0003 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4329,7 +4329,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0004 | quarterRest</words>
+          <words>D-0004 | quarterRest | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4358,7 +4358,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0005 | quarter</words>
+          <words>D-0005 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4390,7 +4390,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0006 | quarter</words>
+          <words>D-0006 | quarter | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4422,7 +4422,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0007 | quarter</words>
+          <words>D-0007 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4454,7 +4454,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0008 | quarter</words>
+          <words>D-0008 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4486,7 +4486,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0009 | quarter</words>
+          <words>D-0009 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4518,7 +4518,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0010 | quarter</words>
+          <words>D-0010 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4550,7 +4550,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0011 | quarter</words>
+          <words>D-0011 | quarter | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4584,7 +4584,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0012 | quarter</words>
+          <words>D-0012 | quarter | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4616,7 +4616,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0013 | eighthPair</words>
+          <words>D-0013 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4659,7 +4659,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0014 | eighthPair</words>
+          <words>D-0014 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4702,7 +4702,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0015 | eighthPair</words>
+          <words>D-0015 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4745,7 +4745,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0016 | eighthPair</words>
+          <words>D-0016 | eighthPair | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4790,7 +4790,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0017 | eighthPair</words>
+          <words>D-0017 | eighthPair | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4833,7 +4833,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0018 | eighthPair</words>
+          <words>D-0018 | eighthPair | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4878,7 +4878,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0019 | eighthPair</words>
+          <words>D-0019 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4921,7 +4921,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0020 | eighthPair</words>
+          <words>D-0020 | eighthPair | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -4964,7 +4964,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0021 | sixteenthFour</words>
+          <words>D-0021 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5031,7 +5031,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0022 | sixteenthFour</words>
+          <words>D-0022 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5098,7 +5098,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0023 | sixteenthFour</words>
+          <words>D-0023 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5165,7 +5165,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0024 | sixteenthFour</words>
+          <words>D-0024 | sixteenthFour | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5234,7 +5234,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0025 | sixteenthFour</words>
+          <words>D-0025 | sixteenthFour | compatible: F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5303,7 +5303,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0026 | sixteenthFour</words>
+          <words>D-0026 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5370,7 +5370,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0027 | sixteenthFour</words>
+          <words>D-0027 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5437,7 +5437,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0028 | sixteenthFour</words>
+          <words>D-0028 | sixteenthFour | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5504,7 +5504,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0029 | triplet32</words>
+          <words>D-0029 | triplet32 | compatible: C major/F major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
@@ -5575,7 +5575,7 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>D-0030 | triplet32</words>
+          <words>D-0030 | triplet32 | compatible: C major/F major/G major/D minor</words>
         </direction-type>
       </direction>
       <note color="#0000FF">
