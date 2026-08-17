@@ -332,6 +332,7 @@ def build_page_document(deck: dict[str, object], page_index: int, cache_dir: Pat
     style.text = """
       .page-bg { fill: #ffffff; }
       .page-guide { fill: none; stroke: #e0e0e0; stroke-width: 1; }
+      .cut-guide { fill: none; stroke: #9a9a9a; stroke-width: 0.8; stroke-dasharray: 4 4; }
       .card-border { fill: #fffdf9; stroke: #222; stroke-width: 1.1; }
       .badge-text { fill: #fff; font-family: Arial, sans-serif; font-weight: 700; }
       .card-title { fill: #111; font-family: Arial, sans-serif; font-weight: 700; }
@@ -341,7 +342,22 @@ def build_page_document(deck: dict[str, object], page_index: int, cache_dir: Pat
 
     sub(root, "rect", x="0", y="0", width=f"{PAGE_WIDTH}", height=f"{PAGE_HEIGHT}", class_="page-bg")
     sub(root, "rect", x="0", y="0", width=f"{PAGE_WIDTH}", height=f"{PAGE_HEIGHT}", class_="page-guide")
-    add_text(root, 28, 22, f"Page {page_index + 1}", "tiny-text", size=10)
+
+    half_gutter = GUTTER / 2
+    cut_x0 = PAGE_X_OFFSET - half_gutter
+    cut_y0 = MARGIN - half_gutter
+    cut_x1 = PAGE_X_OFFSET + COLS * CARD_WIDTH + (COLS - 1) * GUTTER + half_gutter
+    cut_y1 = MARGIN + ROWS * CARD_HEIGHT + (ROWS - 1) * GUTTER + half_gutter
+    sub(root, "line", x1=f"{cut_x0}", y1=f"{cut_y0}", x2=f"{cut_x1}", y2=f"{cut_y0}", class_="cut-guide")
+    sub(root, "line", x1=f"{cut_x0}", y1=f"{cut_y1}", x2=f"{cut_x1}", y2=f"{cut_y1}", class_="cut-guide")
+    sub(root, "line", x1=f"{cut_x0}", y1=f"{cut_y0}", x2=f"{cut_x0}", y2=f"{cut_y1}", class_="cut-guide")
+    sub(root, "line", x1=f"{cut_x1}", y1=f"{cut_y0}", x2=f"{cut_x1}", y2=f"{cut_y1}", class_="cut-guide")
+    for col in range(1, COLS):
+        x = PAGE_X_OFFSET + col * CARD_WIDTH + (col - 0.5) * GUTTER
+        sub(root, "line", x1=f"{x}", y1=f"{cut_y0}", x2=f"{x}", y2=f"{cut_y1}", class_="cut-guide")
+    for row in range(1, ROWS):
+        y = MARGIN + row * CARD_HEIGHT + (row - 0.5) * GUTTER
+        sub(root, "line", x1=f"{cut_x0}", y1=f"{y}", x2=f"{cut_x1}", y2=f"{y}", class_="cut-guide")
 
     for slot in range(COLS * ROWS):
         card_index = page_index * COLS * ROWS + slot
