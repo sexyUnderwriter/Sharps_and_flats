@@ -254,16 +254,18 @@ function buildVexVoice(VF, events, clef) {
 
 function drawNotation(container, bar) {
   const VF = window.Vex.Flow;
-  const width = 340;
-  const height = 150;
+  const width = Math.max(container.clientWidth || 340, 240);
+  const height = Math.round(width * (150 / 340));
   container.innerHTML = "";
   const renderer = new VF.Renderer(container, VF.Renderer.Backends.SVG);
   renderer.resize(width, height);
   const context = renderer.getContext();
 
-  const staveWidth = width - 20;
-  const trebleStave = new VF.Stave(5, 0, staveWidth).addClef("treble");
-  const bassStave = new VF.Stave(5, 75, staveWidth).addClef("bass");
+  // Keep the staves close to the card edges so the notes occupy more of the sheet.
+  const sidePadding = 4;
+  const staveWidth = width - sidePadding * 2;
+  const trebleStave = new VF.Stave(sidePadding, 0, staveWidth).addClef("treble");
+  const bassStave = new VF.Stave(sidePadding, 75, staveWidth).addClef("bass");
   trebleStave.setContext(context).draw();
   bassStave.setContext(context).draw();
   new VF.StaveConnector(trebleStave, bassStave)
@@ -297,7 +299,7 @@ function drawNotation(container, bar) {
   new VF.Formatter()
     .joinVoices([trebleVoice])
     .joinVoices([bassVoice])
-    .format([trebleVoice, bassVoice], staveWidth - 50);
+    .format([trebleVoice, bassVoice], staveWidth - 18);
 
   trebleVoice.draw(context, trebleStave);
   bassVoice.draw(context, bassStave);

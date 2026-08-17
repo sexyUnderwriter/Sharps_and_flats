@@ -10,7 +10,7 @@
   indent = 0
   tagline = ##f
   print-page-number = ##f
-  line-width = 100\mm
+  line-width = 90\mm
 }
 
 \layout {
@@ -18,7 +18,6 @@
   \context {
     \Score
     \omit BarNumber
-    \override SpacingSpanner.uniform-stretching = ##t
   }
   \context {
     \Staff

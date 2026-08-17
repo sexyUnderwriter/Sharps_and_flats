@@ -52,7 +52,7 @@ Generate the deck score:
 python tools/generate_deck_musicxml.py
 ```
 
-Generate a printable SVG sheet with LilyPond-rendered notation:
+Generate printable SVG pages with LilyPond-rendered notation:
 
 ```bash
 python tools/generate_printable_deck_lilypond.py
@@ -91,6 +91,7 @@ python balance_simulation.py --games 10000 --scored-games 25 --mode both --worke
 - `data/round_exports/*`
 - `data/balance-report.json`
 - `data/lilypond-cache/*`
+- `data/printable-deck-pages/*.svg`
 
 ## Notes
 

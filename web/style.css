@@ -162,6 +162,11 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   padding: 8px;
   cursor: pointer;
 }
+.variant-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 .variant-card:hover { border-color: var(--accent); }
 .variant-card.chosen { border-color: #5fd67d; }
 .variant-card .measure-label { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
@@ -179,6 +184,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   width: 100%;
   aspect-ratio: 340 / 150;
   background: #fdfdfb;
+  border: 1px solid #e0ddd3;
   border-radius: 4px;
   overflow: visible;
 }
@@ -201,5 +207,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
 .phrase-bar.playing .roll { outline: 2px solid #ff5d5d; }
 .phrase-bar.playing .notation { outline: 2px solid #ff5d5d; }
 
-body.view-notation #variant-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
-body.view-notation .phrase-bar { width: 260px; }
+body.view-notation #variant-grid { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 14px; }
+body.view-notation .variant-card { padding: 10px; }
+body.view-notation .phrase-bar { width: 360px; }
+body.view-notation .phrase-bar .notation { aspect-ratio: 340 / 155; }

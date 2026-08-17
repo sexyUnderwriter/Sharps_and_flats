@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Generate a printable SVG sheet for the current deck using LilyPond snippets."""
+"""Generate printable per-page SVG sheets for the current deck using LilyPond snippets."""
 
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import shutil
 import subprocess
 import textwrap
@@ -25,10 +26,10 @@ CARD_WIDTH = CARD_HEIGHT * STANDARD_CARD_ASPECT_RATIO
 COLS = 4
 PAGE_X_OFFSET = (PAGE_WIDTH - (COLS * CARD_WIDTH + (COLS - 1) * GUTTER)) / 2
 
-MUSIC_BOX_X = 2
-MUSIC_BOX_Y = 74
-MUSIC_BOX_WIDTH = CARD_WIDTH - 4
-MUSIC_BOX_HEIGHT = 128
+MUSIC_BOX_X = 0
+MUSIC_BOX_Y = 56
+MUSIC_BOX_WIDTH = CARD_WIDTH
+MUSIC_BOX_HEIGHT = 154
 
 FAMILY_COLOR = {
     "C major": "#e34a4a",
@@ -42,12 +43,13 @@ FAMILY_ABBREV = {
     "G major": "G",
     "D minor": "Dm",
 }
+SVG_CANVAS_SCALE = 1.5
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate a printable SVG deck sheet with LilyPond.")
+    parser = argparse.ArgumentParser(description="Generate printable per-page SVG deck sheets with LilyPond.")
     parser.add_argument("--input", type=Path, default=Path("data/starter-deck.json"))
-    parser.add_argument("--output", type=Path, default=Path("data/printable-deck-sheet.svg"))
+    parser.add_argument("--output-dir", type=Path, default=Path("data/printable-deck-pages"))
     parser.add_argument("--cache-dir", type=Path, default=Path("data/lilypond-cache"))
     parser.add_argument("--lilypond-bin", type=str, default="lilypond")
     return parser.parse_args()
@@ -96,6 +98,12 @@ def wrap_text(text: str, max_chars: int) -> list[str]:
     return lines
 
 
+def parse_dimension(value: str) -> tuple[float, str]:
+    if value.endswith("mm"):
+        return float(value[:-2]), "mm"
+    return float(value), ""
+
+
 def lilypond_pitch(note: dict[str, object]) -> str:
     step = str(note["step"]).lower()
     alter = int(note.get("alter", 0))
@@ -142,7 +150,7 @@ def lilypond_source(card: dict[str, object]) -> str:
           indent = 0
           tagline = ##f
           print-page-number = ##f
-          line-width = 100\\mm
+          line-width = 90\\mm
         }}
 
         \\layout {{
@@ -150,7 +158,6 @@ def lilypond_source(card: dict[str, object]) -> str:
           \\context {{
             \\Score
             \\omit BarNumber
-            \\override SpacingSpanner.uniform-stretching = ##t
           }}
           \\context {{
             \\Staff
@@ -176,6 +183,48 @@ def lilypond_source(card: dict[str, object]) -> str:
     )
 
 
+def extract_staff_top_y(svg_path: Path) -> float:
+    root = ET.parse(svg_path).getroot()
+    return extract_staff_top_y_from_root(root)
+
+
+def normalize_staff_position(root: ET.Element, target_top_y: float) -> None:
+    staff_top_y = extract_staff_top_y_from_root(root)
+    delta_y = target_top_y - staff_top_y
+    if abs(delta_y) < 1e-9:
+        return
+
+    style_nodes = [child for child in list(root) if child.tag == f"{{{NS}}}style"]
+    drawing_nodes = [child for child in list(root) if child.tag != f"{{{NS}}}style"]
+    for child in drawing_nodes:
+        root.remove(child)
+
+    wrapped = svg("g", transform=f"translate(0,{delta_y:.4f})")
+    for child in drawing_nodes:
+        wrapped.append(child)
+    for style in style_nodes:
+        root.append(style)
+    root.append(wrapped)
+
+
+def extract_staff_top_y_from_root(root: ET.Element) -> float:
+    staff_y_values: list[float] = []
+    for element in root.iter():
+        if element.tag != f"{{{NS}}}g":
+            continue
+        if not any(child.tag == f"{{{NS}}}line" for child in list(element)):
+            continue
+        transform = element.attrib.get("transform", "")
+        match = re.search(r"translate\(\s*([^,\s]+)\s*,\s*([^\)]+)\s*\)", transform)
+        if match is None:
+            continue
+        _, y_value = match.groups()
+        staff_y_values.append(float(y_value))
+    if not staff_y_values:
+        return 0.0
+    return max(staff_y_values)
+
+
 def render_lilypond_svg(card: dict[str, object], cache_dir: Path, lilypond_bin: str) -> Path:
     cache_dir.mkdir(parents=True, exist_ok=True)
     stem = card["id"].lower().replace("-", "_")
@@ -194,7 +243,6 @@ def render_lilypond_svg(card: dict[str, object], cache_dir: Path, lilypond_bin: 
                 lilypond_bin,
                 "-dbackend=svg",
                 "-dno-point-and-click",
-                "-dclip-systems",
                 "-o",
                 stem,
                 ly_path.name,
@@ -204,6 +252,23 @@ def render_lilypond_svg(card: dict[str, object], cache_dir: Path, lilypond_bin: 
             capture_output=True,
             text=True,
         )
+
+    root = ET.parse(svg_path).getroot()
+    reference_svg = cache_dir / "f_0012.svg"
+    target_top_y = extract_staff_top_y(reference_svg) if reference_svg.exists() else 6.8831
+    normalize_staff_position(root, target_top_y)
+
+    width = root.attrib.get("width")
+    height = root.attrib.get("height")
+    view_box = root.attrib.get("viewBox")
+    if width and height and view_box:
+        width_value, width_unit = parse_dimension(width)
+        height_value, height_unit = parse_dimension(height)
+        view_x, view_y, view_w, view_h = map(float, view_box.split())
+        root.attrib["width"] = f"{width_value * SVG_CANVAS_SCALE:.2f}{width_unit}"
+        root.attrib["height"] = f"{height_value * SVG_CANVAS_SCALE:.2f}{height_unit}"
+        root.attrib["viewBox"] = f"{view_x:.4f} {view_y:.4f} {view_w * SVG_CANVAS_SCALE:.4f} {view_h * SVG_CANVAS_SCALE:.4f}"
+        ET.ElementTree(root).write(svg_path, encoding="utf-8", xml_declaration=False)
 
     return svg_path
 
@@ -232,39 +297,32 @@ def render_card(card: dict[str, object], page_x: float, page_y: float, col: int,
     group = svg("g", transform=f"translate({x},{y})")
     sub(group, "rect", x="0", y="0", width=f"{CARD_WIDTH}", height=f"{CARD_HEIGHT}", rx="14", ry="14", class_="card-border")
 
-    family = str(card["primaryFamily"])
-    badge_w = 58 if family != "D minor" else 66
-    badge_x = CARD_WIDTH - badge_w - 12
-    badge = sub(group, "g", transform=f"translate({badge_x},12)")
-    sub(badge, "rect", x="0", y="0", width=f"{badge_w}", height="22", rx="11", ry="11", fill=FAMILY_COLOR[family], class_="badge")
-    add_text(badge, badge_w / 2, 15.5, FAMILY_ABBREV[family], "badge-text", anchor="middle", size=12)
+    compatible_families = list(card["familyCompatibility"])
+    badge_gap = 5
+    badge_h = 20
+    badge_w = 28
+    total_badge_w = len(compatible_families) * badge_w + max(0, len(compatible_families) - 1) * badge_gap
+    badge_x = CARD_WIDTH - total_badge_w - 12
+    badge_row = sub(group, "g", transform=f"translate({badge_x},12)")
+    for index, family_name in enumerate(compatible_families):
+        badge = sub(badge_row, "g", transform=f"translate({index * (badge_w + badge_gap)},0)")
+        sub(badge, "rect", x="0", y="0", width=f"{badge_w}", height=f"{badge_h}", rx="10", ry="10", fill=FAMILY_COLOR[family_name], class_="badge")
+        add_text(badge, badge_w / 2, 14.0, FAMILY_ABBREV[family_name], "badge-text", anchor="middle", size=10)
 
-    title = f"{card['id']} · {card['rhythm']}"
-    title_max_chars = max(12, int((CARD_WIDTH - 18) / 6.6))
-    title_lines = wrap_text(title, title_max_chars)
-    for idx, line in enumerate(title_lines[:4]):
-        add_text(group, 12, 22 + idx * 11, line, "card-title", size=11)
-
-    compatible = "/".join(FAMILY_ABBREV[f] for f in card["familyCompatibility"])
-    add_text(group, 12, 48, f"fits: {compatible}", "compat-text", size=9)
+    add_text(group, 12, CARD_HEIGHT - 12, str(card["id"]), "card-title", size=11)
 
     music_svg = render_lilypond_svg(card, cache_dir, lilypond_bin)
     group.append(embed_svg(music_svg, MUSIC_BOX_X, MUSIC_BOX_Y, MUSIC_BOX_WIDTH, MUSIC_BOX_HEIGHT))
-
-    primary_fit = float(card.get("familyFit", {}).get(family, 0.0))
-    add_text(group, 12, CARD_HEIGHT - 12, f"fit {primary_fit:.2f}", "tiny-text", size=8)
-    add_text(group, CARD_WIDTH - 12, CARD_HEIGHT - 12, "LilyPond", "tiny-text", anchor="end", size=8)
     return group
 
 
-def build_document(deck: dict[str, object], cache_dir: Path, lilypond_bin: str) -> ET.Element:
+def build_page_document(deck: dict[str, object], page_index: int, cache_dir: Path, lilypond_bin: str) -> ET.Element:
     cards = list(deck["cards"])
-    pages = -(-len(cards) // (COLS * ROWS))
     root = svg(
         "svg",
         width="8.5in",
-        height=f"{pages * 11}in",
-        viewBox=f"0 0 {PAGE_WIDTH} {pages * PAGE_HEIGHT}",
+        height="11in",
+        viewBox=f"0 0 {PAGE_WIDTH} {PAGE_HEIGHT}",
         version="1.1",
     )
 
@@ -279,19 +337,17 @@ def build_document(deck: dict[str, object], cache_dir: Path, lilypond_bin: str) 
       .tiny-text { fill: #555; font-family: Arial, sans-serif; }
     """
 
-    for page_index in range(pages):
-        page_y = page_index * PAGE_HEIGHT
-        sub(root, "rect", x="0", y=f"{page_y}", width=f"{PAGE_WIDTH}", height=f"{PAGE_HEIGHT}", class_="page-bg")
-        sub(root, "rect", x="0", y=f"{page_y}", width=f"{PAGE_WIDTH}", height=f"{PAGE_HEIGHT}", class_="page-guide")
-        add_text(root, 28, page_y + 22, f"Page {page_index + 1}", "tiny-text", size=10)
+    sub(root, "rect", x="0", y="0", width=f"{PAGE_WIDTH}", height=f"{PAGE_HEIGHT}", class_="page-bg")
+    sub(root, "rect", x="0", y="0", width=f"{PAGE_WIDTH}", height=f"{PAGE_HEIGHT}", class_="page-guide")
+    add_text(root, 28, 22, f"Page {page_index + 1}", "tiny-text", size=10)
 
-        for slot in range(COLS * ROWS):
-            card_index = page_index * COLS * ROWS + slot
-            if card_index >= len(cards):
-                break
-            card = cards[card_index]
-            row, col = divmod(slot, COLS)
-            root.append(render_card(card, 0, page_y, col, row, cache_dir, lilypond_bin))
+    for slot in range(COLS * ROWS):
+        card_index = page_index * COLS * ROWS + slot
+        if card_index >= len(cards):
+            break
+        card = cards[card_index]
+        row, col = divmod(slot, COLS)
+        root.append(render_card(card, 0, 0, col, row, cache_dir, lilypond_bin))
 
     return root
 
@@ -299,11 +355,16 @@ def build_document(deck: dict[str, object], cache_dir: Path, lilypond_bin: str) 
 def main() -> None:
     args = parse_args()
     deck = json.loads(args.input.read_text(encoding="utf-8"))
-    root = build_document(deck, args.cache_dir, args.lilypond_bin)
-    ET.indent(root, space="  ")
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    ET.ElementTree(root).write(args.output, encoding="utf-8", xml_declaration=True)
-    print(f"Wrote {args.output}")
+    cards = list(deck["cards"])
+    pages = -(-len(cards) // (COLS * ROWS))
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+
+    for page_index in range(pages):
+        root = build_page_document(deck, page_index, args.cache_dir, args.lilypond_bin)
+        ET.indent(root, space="  ")
+        output_path = args.output_dir / f"printable-deck-page-{page_index + 1:02d}.svg"
+        ET.ElementTree(root).write(output_path, encoding="utf-8", xml_declaration=True)
+        print(f"Wrote {output_path}")
 
 
 if __name__ == "__main__":
