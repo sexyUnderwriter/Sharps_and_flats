@@ -11,7 +11,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--rounds", type=int, default=6)
     parser.add_argument("--players", type=int, default=3)
-    parser.add_argument("--hand-size", type=int, default=5)
+    parser.add_argument("--hand-size", type=int, default=6)
     parser.add_argument("--flop-size", type=int, default=4)
     parser.add_argument("--export-musicxml", type=str, default=None, help="Directory to write MusicXML phrase exports for each round and player.")
     args = parser.parse_args()

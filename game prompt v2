@@ -33,7 +33,7 @@ This is a phrase-building game first and a music theory exercise second.
    - 1–3 = Quarter Note
    - 4–6 = Pair of Eighth Notes
    - 7–8 = Four Sixteenth Notes
-   - 9 = 3:2 Tuplet (three notes in the span of two beats)
+   - 9 = 3:2 Tuplet (three eighth-note triplets in one beat, in the time of two eighth notes)
 8. Duplicate tokens are required to make the deck statistically useful.
    - Start with 4 copies of each token.
 
@@ -54,9 +54,9 @@ The flop is a shared pool of random cards drawn from the deck.
 
 Rules:
 - The flop contains 4 cards.
-- Any player may use any number of flop cards in their phrase.
+- Players may use 2–4 flop cards in a phrase; with a 6-card hand, at least 2 shared cards are required to reach 8 beats.
 - The flop is refreshed each round.
-- The flop is not fixed or house-defined; it is random, like in Poker.
+- The physical flop is random. During balance testing, the simulator uses a progression-weighted flop so every player can produce a legal phrase while deck ratios are being tuned.
 
 5. Round target
 A round target is a tonal progression, optionally framed by a tonal family.
@@ -77,7 +77,11 @@ Round target rules:
 - The judge chooses the target or the table agrees on one.
 - The judge should prefer a target that is simple and playable for a short round.
 - Players must consider the intended cadence and end of phrase as part of the phrase design, not just the local family color.
-- Players may use any token that can reasonably be interpreted in the active tonal family, even if a given note is legal across multiple tonalities.
+- The 8 beat positions have explicit tonal-family zones:
+  - G->C: beats 1–4 use G-major tokens; beats 5–8 use C-major tokens.
+  - F->C: beats 1–4 use F-major tokens; beats 5–8 use C-major tokens.
+  - Dm->G->C: beats 1–2 use D-minor tokens; beats 3–4 use G-major tokens; beats 5–8 use C-major tokens.
+- Cards selected from the hand and flop may be played in any order, but each card must fit the tonal family required at its chosen beat.
 
 6. Hand and discard
 Players begin each round with a hand of 6 cards.
@@ -95,6 +99,7 @@ A legal phrase must satisfy all of the following:
 - Length is exactly 8 beats total.
 - It is made only from legal token units.
 - Tokens may not be rearranged internally in a way that breaks the token definition.
+- Whole tokens from the hand and flop may be arranged in any order.
 - Notes must fit within C3 to G4.
 - Notes must be legal in the active tonal family or be acceptable as a recognized Baroque non-chord tone.
 - The final phrase must support the target progression and hear as a convincing cadence or harmonic arrival.

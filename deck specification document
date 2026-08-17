@@ -9,7 +9,7 @@ Game Scope
 - Each player holds a hand of 6 cards
 - Each player gets one discard action per round
 - Phrase length is exactly 8 beats
-- Round target is a tonal family and optional phrase objective
+- Round target is an explicit 8-beat tonal progression
 - Deck supports C major, F major, G major, and D minor
 - Human voting decides the round winner
 
@@ -43,6 +43,13 @@ The base game supports four families:
 - D minor
 
 Each card can be compatible with one or more of these families, depending on the pitch content and musical function.
+
+Progression zones
+- G->C: 4 G-major beats followed by 4 C-major beats
+- F->C: 4 F-major beats followed by 4 C-major beats
+- Dm->G->C: 2 D-minor beats, 2 G-major beats, then 4 C-major beats
+- Whole tokens may be arranged in any order, but each selected token must fit the family required at its beat position.
+- The simulator uses a progression-weighted 4-card flop during balancing: 2+2 cards for two-family targets and 1 D-minor + 1 G-major + 2 C-major cards for ii-V-I.
 
 4. Legal Pitch Universe
 The valid pitch range for all cards is:
@@ -218,9 +225,9 @@ Examples:
 Triplet cards should be used to create rhythmic contrast and phrasing interest.
 
 Examples:
-- C4–E4–G4 over two beats
-- D4–F4–A4 over two beats
-- B4–C5–D5 over two beats
+- C4–E4–G4 in one beat as three notes in the time of two eighth notes
+- D4–F4–A4 in one beat as three notes in the time of two eighth notes
+- B4–C5–D5 in one beat as three notes in the time of two eighth notes
 
 These cards should be a bit more specialized and higher risk because they create more rhythmic tension.
 

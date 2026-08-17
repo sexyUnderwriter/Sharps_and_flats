@@ -1237,7 +1237,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "easy",
       "rarity": "uncommon",
@@ -1287,7 +1287,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "medium",
       "rarity": "rare",
@@ -1598,7 +1598,7 @@
       ],
       "notes": [
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -1776,7 +1776,7 @@
       ],
       "notes": [
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -1990,7 +1990,7 @@
           "role": "leading note"
         },
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -2049,7 +2049,7 @@
           "role": "event 3"
         },
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -2081,7 +2081,7 @@
       ],
       "notes": [
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -2149,7 +2149,7 @@
           "role": "event 1"
         },
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -2376,7 +2376,7 @@
       ],
       "notes": [
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -2394,7 +2394,7 @@
           "role": "event 2"
         },
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -2521,7 +2521,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "easy",
       "rarity": "uncommon",
@@ -2571,7 +2571,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "medium",
       "rarity": "rare",
@@ -2818,7 +2818,7 @@
       ],
       "notes": [
         {
-          "step": "F#",
+          "step": "F",
           "octave": 4,
           "alter": 1,
           "duration": 1,
@@ -2946,7 +2946,7 @@
       ],
       "notes": [
         {
-          "step": "F#",
+          "step": "F",
           "octave": 4,
           "alter": 1,
           "duration": 1,
@@ -3192,7 +3192,7 @@
           "role": "leading note"
         },
         {
-          "step": "F#",
+          "step": "F",
           "octave": 4,
           "alter": 1,
           "duration": 1,
@@ -3510,7 +3510,7 @@
           "role": "event 3"
         },
         {
-          "step": "F#",
+          "step": "F",
           "octave": 4,
           "alter": 1,
           "duration": 1,
@@ -3551,7 +3551,7 @@
           "role": "event 1"
         },
         {
-          "step": "F#",
+          "step": "F",
           "octave": 4,
           "alter": 1,
           "duration": 1,
@@ -3805,7 +3805,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "easy",
       "rarity": "uncommon",
@@ -3837,7 +3837,7 @@
           "role": "triplet 1"
         },
         {
-          "step": "F#",
+          "step": "F",
           "octave": 4,
           "alter": 1,
           "duration": 1,
@@ -3855,7 +3855,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "medium",
       "rarity": "rare",
@@ -4198,7 +4198,7 @@
       ],
       "notes": [
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -4394,7 +4394,7 @@
           "role": "leading note"
         },
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -4467,7 +4467,7 @@
       ],
       "notes": [
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -4776,7 +4776,7 @@
           "role": "event 1"
         },
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -4826,7 +4826,7 @@
       ],
       "notes": [
         {
-          "step": "Bb",
+          "step": "B",
           "octave": 4,
           "alter": -1,
           "duration": 1,
@@ -5089,7 +5089,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "easy",
       "rarity": "uncommon",
@@ -5139,7 +5139,7 @@
           "role": "triplet 3"
         }
       ],
-      "duration": 2,
+      "duration": 1,
       "function": "triplet motion",
       "difficulty": "medium",
       "rarity": "rare",

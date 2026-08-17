@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <score-partwise version="3.1">
   <work>
-    <work-title>Round 5 - C major - F-&gt;C imperfect cadence</work-title>
+    <work-title>Round 3 - C major - Dm-&gt;G-&gt;C ii-V-I cadence</work-title>
   </work>
   <part-list>
     <score-part id="P1">
-      <part-name>P1 (player)</part-name>
+      <part-name>P1 (winner)</part-name>
     </score-part>
     <score-part id="P2">
-      <part-name>P2 (judge)</part-name>
+      <part-name>P2 (player)</part-name>
     </score-part>
     <score-part id="P3">
-      <part-name>P3 (winner)</part-name>
+      <part-name>P3 (judge)</part-name>
     </score-part>
   </part-list>
   <part id="P1">
@@ -33,36 +33,49 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words>HAND: F-0012 | quarter</words>
+          <words>HAND: D-0016 | eighthPair</words>
         </direction-type>
       </direction>
-      <note color="#FF8000">
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <beam number="1">end</beam>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words font-weight="bold" enclosure="rectangle">FLOP: D-0017 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
         <pitch>
           <step>E</step>
           <octave>4</octave>
         </pitch>
-        <duration>960</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words>HAND: F-0019 | eighthPair</words>
-        </direction-type>
-      </direction>
-      <note color="#FF8000">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
         <duration>480</duration>
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">begin</beam>
       </note>
-      <note color="#FF8000">
+      <note color="#0000FF">
         <pitch>
-          <step>A</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>480</duration>
@@ -72,91 +85,35 @@
       </note>
       <direction placement="above">
         <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: F-0010 | quarter</words>
+          <words>HAND: G-0010 | quarter</words>
         </direction-type>
       </direction>
-      <note color="#FF8000">
+      <note color="#009900">
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>960</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>flat</accidental>
       </note>
       <direction placement="above">
         <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: F-0022 | sixteenthFour</words>
+          <words font-weight="bold" enclosure="rectangle">FLOP: G-0002 | quarterRest</words>
         </direction-type>
       </direction>
-      <note color="#FF8000">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
+      <note color="#009900">
+        <rest />
+        <duration>960</duration>
         <voice>1</voice>
-        <type>16th</type>
-        <accidental>flat</accidental>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-      </note>
-      <note color="#FF8000">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-      </note>
-      <note color="#FF8000">
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-      </note>
-      <note color="#FF8000">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <type>quarter</type>
       </note>
       <barline location="right" />
     </measure>
     <measure number="2">
       <direction placement="above">
         <direction-type>
-          <words>HAND: C-0010 | quarter</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>960</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words>HAND: C-0007 | quarter</words>
+          <words>HAND: C-0016 | eighthPair</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
@@ -164,18 +121,57 @@
           <step>G</step>
           <octave>4</octave>
         </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF0000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words>HAND: C-0008 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
         <duration>960</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
       <direction placement="above">
         <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: C-0027 | sixteenthFour</words>
+          <words>HAND: C-0005 | quarter</words>
         </direction-type>
       </direction>
       <note color="#FF0000">
         <pitch>
-          <step>F</step>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words font-weight="bold" enclosure="rectangle">FLOP: C-0028 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
@@ -197,7 +193,7 @@
       </note>
       <note color="#FF0000">
         <pitch>
-          <step>F</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
@@ -208,7 +204,7 @@
       </note>
       <note color="#FF0000">
         <pitch>
-          <step>G</step>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
@@ -216,17 +212,6 @@
         <type>16th</type>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: C-0004 | quarterRest</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000">
-        <rest />
-        <duration>960</duration>
-        <voice>1</voice>
-        <type>quarter</type>
       </note>
       <barline location="right" />
     </measure>
@@ -248,20 +233,176 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note color="#FF0000">
-        <rest />
-        <duration>3840</duration>
+      <direction placement="above">
+        <direction-type>
+          <words>HAND: D-0010 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
         <voice>1</voice>
-        <type>whole</type>
+        <type>quarter</type>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words font-weight="bold" enclosure="rectangle">FLOP: D-0017 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words font-weight="bold" enclosure="rectangle">FLOP: G-0002 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words>HAND: G-0012 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
       </note>
       <barline location="right" />
     </measure>
     <measure number="2">
+      <direction placement="above">
+        <direction-type>
+          <words>HAND: C-0015 | eighthPair</words>
+        </direction-type>
+      </direction>
       <note color="#FF0000">
-        <rest />
-        <duration>3840</duration>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
         <voice>1</voice>
-        <type>whole</type>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words>HAND: C-0010 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words font-weight="bold" enclosure="rectangle">FLOP: C-0028 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF0000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <direction placement="above">
+        <direction-type>
+          <words>HAND: C-0012 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
       </note>
       <barline location="right" />
     </measure>
@@ -283,243 +424,20 @@
           <line>2</line>
         </clef>
       </attributes>
-      <direction placement="above">
-        <direction-type>
-          <words>HAND: F-0015 | eighthPair</words>
-        </direction-type>
-      </direction>
-      <note color="#FF8000">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>480</duration>
+      <note color="#FF0000">
+        <rest />
+        <duration>3840</duration>
         <voice>1</voice>
-        <type>eighth</type>
-        <accidental>flat</accidental>
-        <beam number="1">begin</beam>
-      </note>
-      <note color="#FF8000">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>480</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <beam number="1">end</beam>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: F-0010 | quarter</words>
-        </direction-type>
-      </direction>
-      <note color="#FF8000">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>960</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <accidental>flat</accidental>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: F-0022 | sixteenthFour</words>
-        </direction-type>
-      </direction>
-      <note color="#FF8000">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <accidental>flat</accidental>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-      </note>
-      <note color="#FF8000">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-      </note>
-      <note color="#FF8000">
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-      </note>
-      <note color="#FF8000">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words>HAND: F-0009 | quarter</words>
-        </direction-type>
-      </direction>
-      <note color="#FF8000">
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>960</duration>
-        <voice>1</voice>
-        <type>quarter</type>
+        <type>whole</type>
       </note>
       <barline location="right" />
     </measure>
     <measure number="2">
-      <direction placement="above">
-        <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: C-0027 | sixteenthFour</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-      </note>
-      <note color="#FF0000">
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-      </note>
-      <note color="#FF0000">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-      </note>
-      <note color="#FF0000">
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words font-weight="bold" enclosure="rectangle">FLOP: C-0004 | quarterRest</words>
-        </direction-type>
-      </direction>
       <note color="#FF0000">
         <rest />
-        <duration>960</duration>
+        <duration>3840</duration>
         <voice>1</voice>
-        <type>quarter</type>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words>HAND: C-0029 | triplet32</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>320</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-        </time-modification>
-        <beam number="1">begin</beam>
-        <notations>
-          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
-        </notations>
-      </note>
-      <note color="#FF0000">
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>320</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-        </time-modification>
-        <beam number="1">continue</beam>
-      </note>
-      <note color="#FF0000">
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>320</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-        </time-modification>
-        <beam number="1">end</beam>
-        <notations>
-          <tuplet type="stop" />
-        </notations>
-      </note>
-      <direction placement="above">
-        <direction-type>
-          <words>HAND: C-0006 | quarter</words>
-        </direction-type>
-      </direction>
-      <note color="#FF0000">
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>960</duration>
-        <voice>1</voice>
-        <type>quarter</type>
+        <type>whole</type>
       </note>
       <barline location="right" />
     </measure>

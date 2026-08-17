@@ -1,8 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <score-partwise version="3.1">
   <work>
-    <work-title>Starter Phrase Deck</work-title>
+    <work-title>Expanded Starter Phrase Deck</work-title>
   </work>
+  <identification>
+    <encoding>
+      <supports element="note" attribute="color" type="yes" />
+    </encoding>
+  </identification>
   <part-list>
     <score-part id="P1">
       <part-name>Tokens</part-name>
@@ -17,7 +22,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -25,29 +30,16 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0001 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
       </note>
       <barline location="right" />
     </measure>
@@ -59,7 +51,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -67,32 +59,16 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0002 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
       </note>
       <barline location="right" />
     </measure>
@@ -104,7 +80,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -112,32 +88,16 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0003 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
       </note>
       <barline location="right" />
     </measure>
@@ -149,7 +109,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -157,32 +117,16 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0004 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
       </note>
       <barline location="right" />
     </measure>
@@ -194,7 +138,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -202,35 +146,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0005 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>C</step>
           <octave>4</octave>
         </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
       </note>
       <barline location="right" />
     </measure>
@@ -242,7 +170,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -250,35 +178,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0006 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>G</step>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF0000" />
       </note>
       <barline location="right" />
     </measure>
@@ -290,7 +202,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -298,41 +210,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0007 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>C</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF0000" />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
       </note>
       <barline location="right" />
     </measure>
@@ -344,7 +234,7 @@
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -352,38 +242,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0008 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>C</step>
+          <step>B</step>
           <octave>4</octave>
         </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#FF0000" />
-      </note>
-      <note>
-        <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF0000" />
       </note>
       <barline location="right" />
     </measure>
@@ -391,11 +262,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -403,29 +274,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <rest />
+      <direction placement="above">
+        <direction-type>
+          <words>C-0009 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
       </note>
       <barline location="right" />
     </measure>
@@ -433,11 +294,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -445,32 +306,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0010 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>F</step>
           <octave>4</octave>
         </pitch>
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
       </note>
       <barline location="right" />
     </measure>
@@ -478,11 +326,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -490,32 +338,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0011 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
       </note>
       <barline location="right" />
     </measure>
@@ -523,11 +358,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -535,32 +370,19 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0012 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>E</step>
+          <step>B</step>
           <octave>4</octave>
         </pitch>
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
       </note>
       <barline location="right" />
     </measure>
@@ -568,11 +390,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -580,35 +402,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0013 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>F</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>480</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#FF8000" />
+        <beam number="1">begin</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
-          <step>G</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>480</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -616,11 +433,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -628,35 +445,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0014 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>480</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#FF8000" />
+        <beam number="1">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
+      <note color="#FF0000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -664,11 +476,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -676,41 +488,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0015 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>F</step>
           <octave>4</octave>
         </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF8000" />
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
-          <step>G</step>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#FF8000" />
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -718,11 +519,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -730,38 +531,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0016 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>F</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>320</duration>
+        <duration>480</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#FF8000" />
+        <beam number="1">begin</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <duration>320</duration>
+        <duration>480</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#FF8000" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#FF8000" />
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -769,11 +562,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -781,29 +574,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+      <direction placement="above">
+        <direction-type>
+          <words>C-0017 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+      <note color="#FF0000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -811,11 +605,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -823,32 +617,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0018 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>G</step>
+          <step>A</step>
           <octave>4</octave>
         </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -856,11 +648,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -868,32 +660,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0019 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>B</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -901,11 +691,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -913,34 +703,30 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0020 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF0000">
         <pitch>
           <step>F</step>
           <octave>4</octave>
-          <alter>1</alter>
         </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <accidental>sharp</accidental>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -948,11 +734,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -960,35 +746,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0021 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>G</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#009900" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
-          <step>A</step>
+          <step>D</step>
           <octave>4</octave>
         </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#009900" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+      <note color="#FF0000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -996,11 +801,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1008,35 +813,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0022 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF0000">
         <pitch>
           <step>D</step>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#009900" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
           <step>C</step>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -1044,11 +868,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1056,41 +880,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0023 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>G</step>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#009900" />
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
-          <step>A</step>
+          <step>F</step>
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#009900" />
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
-          <step>B</step>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#009900" />
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
-          <step>C</step>
-          <octave>5</octave>
+          <step>D</step>
+          <octave>4</octave>
         </pitch>
         <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#009900" />
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -1098,11 +935,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>1</fifths>
+          <fifths>0</fifths>
           <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1110,38 +947,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0024 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#009900" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note>
+      <note color="#FF0000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF0000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF0000">
         <pitch>
           <step>B</step>
           <octave>4</octave>
         </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#009900" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#009900" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -1149,11 +1002,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
-          <mode>minor</mode>
+          <fifths>0</fifths>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1161,29 +1014,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <direction placement="above">
+        <direction-type>
+          <words>C-0025 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -1191,11 +1069,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
-          <mode>minor</mode>
+          <fifths>0</fifths>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1203,32 +1081,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0026 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>D</step>
           <octave>4</octave>
         </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -1236,11 +1136,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
-          <mode>minor</mode>
+          <fifths>0</fifths>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1248,32 +1148,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0027 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>F</step>
           <octave>4</octave>
         </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -1281,11 +1203,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
-          <mode>minor</mode>
+          <fifths>0</fifths>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1293,34 +1215,54 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0028 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>C</step>
-          <octave>5</octave>
-          <alter>1</alter>
+          <octave>4</octave>
         </pitch>
-        <duration>960</duration>
-        <type>quarter</type>
-        <accidental>sharp</accidental>
-        <color color="#0000FF" />
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
       </note>
       <barline location="right" />
     </measure>
@@ -1328,11 +1270,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
-          <mode>minor</mode>
+          <fifths>0</fifths>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1340,35 +1282,58 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0029 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
-          <step>D</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
-        <duration>480</duration>
+        <duration>320</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#0000FF" />
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
       </note>
-      <note>
+      <note color="#FF0000">
         <pitch>
           <step>E</step>
           <octave>4</octave>
         </pitch>
-        <duration>480</duration>
+        <duration>320</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#0000FF" />
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
-      </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
       </note>
       <barline location="right" />
     </measure>
@@ -1376,11 +1341,11 @@
       <attributes>
         <divisions>960</divisions>
         <key>
-          <fifths>-1</fifths>
-          <mode>minor</mode>
+          <fifths>0</fifths>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1388,35 +1353,58 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>480</duration>
-        <type>eighth</type>
-        <color color="#0000FF" />
-      </note>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>C-0030 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
         <pitch>
           <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>480</duration>
+        <duration>320</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#0000FF" />
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
       </note>
-      <note>
-        <rest />
-        <duration>960</duration>
-        <type>quarter</type>
-        <color color="#0000FF" />
+      <note color="#FF0000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
       </note>
       <barline location="right" />
     </measure>
@@ -1425,10 +1413,10 @@
         <divisions>960</divisions>
         <key>
           <fifths>-1</fifths>
-          <mode>minor</mode>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1436,41 +1424,16 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#0000FF" />
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#0000FF" />
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#0000FF" />
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>240</duration>
-        <type>sixteenth</type>
-        <color color="#0000FF" />
+      <direction placement="above">
+        <direction-type>
+          <words>F-0001 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
       </note>
       <barline location="right" />
     </measure>
@@ -1479,10 +1442,10 @@
         <divisions>960</divisions>
         <key>
           <fifths>-1</fifths>
-          <mode>minor</mode>
+          <mode>major</mode>
         </key>
         <time>
-          <beats>4</beats>
+          <beats>1</beats>
           <beat-type>4</beat-type>
         </time>
         <clef>
@@ -1490,38 +1453,4178 @@
           <line>2</line>
         </clef>
       </attributes>
-      <note>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0002 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="33">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0003 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="34">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0004 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="35">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0005 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="36">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0006 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="37">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0007 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="38">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0008 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="39">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0009 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="40">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0010 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="41">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0011 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
         <pitch>
           <step>D</step>
           <octave>4</octave>
         </pitch>
-        <duration>320</duration>
-        <type>eighth</type>
-        <color color="#0000FF" />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
       </note>
-      <note>
+      <barline location="right" />
+    </measure>
+    <measure number="42">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0012 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="43">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0013 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="44">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0014 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="45">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0015 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="46">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0016 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="47">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0017 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="48">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0018 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="49">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0019 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="50">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0020 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="51">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0021 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="52">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0022 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="53">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0023 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="54">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0024 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="55">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0025 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="56">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0026 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="57">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0027 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="58">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0028 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="59">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0029 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
         <pitch>
           <step>F</step>
           <octave>4</octave>
         </pitch>
         <duration>320</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#0000FF" />
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
       </note>
-      <note>
+      <note color="#FF8000">
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>320</duration>
+        <voice>1</voice>
         <type>eighth</type>
-        <color color="#0000FF" />
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
       </note>
-      <note>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="60">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>F-0030 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#FF8000">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#FF8000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="61">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0001 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
         <rest />
         <duration>960</duration>
+        <voice>1</voice>
         <type>quarter</type>
-        <color color="#0000FF" />
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="62">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0002 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="63">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0003 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="64">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0004 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="65">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0005 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="66">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0006 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="67">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0007 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="68">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0008 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="69">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0009 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="70">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0010 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="71">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0011 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="72">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0012 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="73">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0013 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="74">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0014 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="75">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0015 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="76">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0016 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="77">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0017 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="78">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0018 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="79">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0019 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="80">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0020 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="81">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0021 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="82">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0022 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="83">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0023 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="84">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0024 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="85">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0025 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="86">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0026 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="87">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0027 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="88">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0028 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="89">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0029 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="90">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>G-0030 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#009900">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#009900">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="91">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0001 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="92">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0002 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="93">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0003 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="94">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0004 | quarterRest</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <rest />
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="95">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0005 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="96">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0006 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="97">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0007 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="98">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0008 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="99">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0009 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="100">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0010 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="101">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0011 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>flat</accidental>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="102">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0012 | quarter</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="103">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0013 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="104">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0014 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="105">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0015 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="106">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0016 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="107">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0017 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="108">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0018 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="109">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0019 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="110">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0020 | eighthPair</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="111">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0021 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="112">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0022 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="113">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0023 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="114">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0024 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="115">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0025 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="116">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0026 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="117">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0027 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="118">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0028 | sixteenthFour</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="119">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0029 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
+      </note>
+      <barline location="right" />
+    </measure>
+    <measure number="120">
+      <attributes>
+        <divisions>960</divisions>
+        <key>
+          <fifths>-1</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>1</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words>D-0030 | triplet32</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">begin</beam>
+        <notations>
+          <tuplet type="start" placement="above" bracket="no" show-number="actual" />
+        </notations>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#0000FF">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>320</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification>
+        <beam number="1">end</beam>
+        <notations>
+          <tuplet type="stop" />
+        </notations>
       </note>
       <barline location="right" />
     </measure>
