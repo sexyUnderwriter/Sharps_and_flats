@@ -10,7 +10,7 @@ tspan { white-space: pre; }
 
 </style>
 <g transform="translate(0,-0.3456)"><g transform="translate(0.4552, 7.2287)">
-<rect x="-0.3265" y="-0.0704" width="1.9588" height="0.1409" ry="0.0704" fill="currentColor" />
+<rect x="0.0281" y="-0.0704" width="1.9588" height="0.1409" ry="0.0704" fill="currentColor" />
 </g>
 <g transform="translate(0.4552, 6.2287)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
@@ -27,30 +27,30 @@ tspan { white-space: pre; }
 <g transform="translate(0.4552, 2.2287)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
 </g>
-<g transform="translate(1.7080, 3.4482)">
+<g transform="translate(2.0625, 3.4482)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0080" fill="currentColor" stroke="currentColor" points="3.2609 -1.2360 3.2609 -0.7640 0.0040 0.2360 0.0040 -0.2360" />
 </g>
-<g transform="translate(2.9034, 2.1800)">
+<g transform="translate(3.2579, 2.1800)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(0.4552, 7.2287)">
+<g transform="translate(0.8098, 7.2287)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
 </g>
-<g transform="translate(1.7346, 4.2287)">
+<g transform="translate(2.0891, 4.2287)">
 <rect x="-0.0266" y="-0.7886" width="0.0531" height="3.5919" ry="0.0040" fill="currentColor" />
 </g>
-<g transform="translate(2.0611, 6.2287)">
+<g transform="translate(2.4156, 6.2287)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
 </g>
-<g transform="translate(3.3404, 4.2287)">
+<g transform="translate(3.6950, 4.2287)">
 <rect x="-0.0266" y="-1.2804" width="0.0531" height="3.0838" ry="0.0040" fill="currentColor" />
 </g>
-<g transform="translate(3.6670, 5.2287)">
+<g transform="translate(4.0215, 5.2287)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
 </g>
-<g transform="translate(4.9463, 4.2287)">
+<g transform="translate(5.3008, 4.2287)">
 <rect x="-0.0266" y="-1.7723" width="0.0531" height="2.5756" ry="0.0040" fill="currentColor" />
 </g>
 </g></svg>

@@ -24,30 +24,30 @@ tspan { white-space: pre; }
 <g transform="translate(0.4552, 2.4482)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
 </g>
-<g transform="translate(1.7080, 3.4482)">
+<g transform="translate(2.0625, 3.4482)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0080" fill="currentColor" stroke="currentColor" points="3.2609 -1.2360 3.2609 -0.7640 0.0040 0.2360 0.0040 -0.2360" />
 </g>
-<g transform="translate(2.9034, 2.1800)">
+<g transform="translate(3.2579, 2.1800)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(0.4552, 6.9482)">
+<g transform="translate(0.8098, 6.9482)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
 </g>
-<g transform="translate(1.7346, 4.4482)">
+<g transform="translate(2.0891, 4.4482)">
 <rect x="-0.0266" y="-1.0081" width="0.0531" height="3.3115" ry="0.0040" fill="currentColor" />
 </g>
-<g transform="translate(2.0611, 5.9482)">
+<g transform="translate(2.4156, 5.9482)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
 </g>
-<g transform="translate(3.3404, 4.4482)">
+<g transform="translate(3.6950, 4.4482)">
 <rect x="-0.0266" y="-1.5000" width="0.0531" height="2.8033" ry="0.0040" fill="currentColor" />
 </g>
-<g transform="translate(3.6670, 4.9482)">
+<g transform="translate(4.0215, 4.9482)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
 </g>
-<g transform="translate(4.9463, 4.4482)">
+<g transform="translate(5.3008, 4.4482)">
 <rect x="-0.0266" y="-1.9919" width="0.0531" height="2.2952" ry="0.0040" fill="currentColor" />
 </g>
 </g></svg>

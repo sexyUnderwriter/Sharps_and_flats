@@ -158,6 +158,10 @@ def lilypond_source(card: dict[str, object]) -> str:
           \\context {{
             \\Score
             \\omit BarNumber
+            \\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
+            \\override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+            \\override SpacingSpanner.strict-note-spacing = ##t
+            \\override SpacingSpanner.uniform-stretching = ##t
           }}
           \\context {{
             \\Staff
