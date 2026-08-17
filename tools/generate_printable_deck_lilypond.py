@@ -212,8 +212,6 @@ def extract_staff_top_y_from_root(root: ET.Element) -> float:
     for element in root.iter():
         if element.tag != f"{{{NS}}}g":
             continue
-        if not any(child.tag == f"{{{NS}}}line" for child in list(element)):
-            continue
         transform = element.attrib.get("transform", "")
         match = re.search(r"translate\(\s*([^,\s]+)\s*,\s*([^\)]+)\s*\)", transform)
         if match is None:
