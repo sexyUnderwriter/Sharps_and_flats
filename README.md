@@ -60,6 +60,14 @@ python tools/generate_printable_deck_lilypond.py --formats pdf
 python tools/generate_printable_deck_lilypond.py --formats both
 ```
 
+Generate chord-family instruction cards:
+
+```bash
+python tools/generate_chord_family_cards.py --formats svg
+python tools/generate_chord_family_cards.py --formats pdf
+python tools/generate_chord_family_cards.py --formats both
+```
+
 Run a simulation and export round MusicXML:
 
 ```bash
@@ -94,6 +102,7 @@ python balance_simulation.py --games 10000 --scored-games 25 --mode both --worke
 - `data/balance-report.json`
 - `data/lilypond-cache/*`
 - `data/printable-deck-pages/*.svg`
+- `data/chord-family-cards-pages/*.svg`
 
 ## Notes
 

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 816 1056" version="1.1">
+  <style>
+      .page-bg { fill: #ffffff; }
+      .page-guide { fill: none; stroke: #e0e0e0; stroke-width: 1; }
+      .cut-guide { fill: none; stroke: #9a9a9a; stroke-width: 0.8; stroke-dasharray: 4 4; }
+      .page-meta { fill: #666; font-family: Arial, sans-serif; font-size: 10px; font-weight: 600; }
+    </style>
+  <rect x="0" y="0" width="816" height="1056" class="page-bg" />
+  <rect x="0" y="0" width="816" height="1056" class="page-guide" />
+  <line x1="36.85714285714283" y1="18.0" x2="779.1428571428571" y2="18.0" class="cut-guide" />
+  <line x1="36.85714285714283" y1="1038.0" x2="779.1428571428571" y2="1038.0" class="cut-guide" />
+  <line x1="36.85714285714283" y1="18.0" x2="36.85714285714283" y2="1038.0" class="cut-guide" />
+  <line x1="779.1428571428571" y1="18.0" x2="779.1428571428571" y2="1038.0" class="cut-guide" />
+  <line x1="222.42857142857142" y1="18.0" x2="222.42857142857142" y2="1038.0" class="cut-guide" />
+  <line x1="408.0" y1="18.0" x2="408.0" y2="1038.0" class="cut-guide" />
+  <line x1="593.5714285714287" y1="18.0" x2="593.5714285714287" y2="1038.0" class="cut-guide" />
+  <line x1="36.85714285714283" y1="273.0" x2="779.1428571428571" y2="273.0" class="cut-guide" />
+  <line x1="36.85714285714283" y1="528.0" x2="779.1428571428571" y2="528.0" class="cut-guide" />
+  <line x1="36.85714285714283" y1="783.0" x2="779.1428571428571" y2="783.0" class="cut-guide" />
+  <text x="408.0" y="12" fill="#666" font-family="Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">2 of 2</text>
+  <g transform="translate(42.85714285714283,24.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#e34a4a" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">C major</text>
+  </g>
+  <g transform="translate(228.42857142857142,24.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#f39c34" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">F major</text>
+  </g>
+  <g transform="translate(414.0,24.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#2eae5f" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">G major</text>
+  </g>
+  <g transform="translate(599.5714285714287,24.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#4d79ff" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">D minor</text>
+  </g>
+  <g transform="translate(42.85714285714283,279.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#e34a4a" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">C major</text>
+  </g>
+  <g transform="translate(228.42857142857142,279.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#f39c34" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">F major</text>
+  </g>
+  <g transform="translate(414.0,279.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#2eae5f" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">G major</text>
+  </g>
+  <g transform="translate(599.5714285714287,279.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#4d79ff" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">D minor</text>
+  </g>
+  <g transform="translate(42.85714285714283,534.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#e34a4a" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">C major</text>
+  </g>
+  <g transform="translate(228.42857142857142,534.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#f39c34" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">F major</text>
+  </g>
+  <g transform="translate(414.0,534.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#2eae5f" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">G major</text>
+  </g>
+  <g transform="translate(599.5714285714287,534.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#4d79ff" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">D minor</text>
+  </g>
+  <g transform="translate(42.85714285714283,789.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#e34a4a" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">C major</text>
+  </g>
+  <g transform="translate(228.42857142857142,789.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#f39c34" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">F major</text>
+  </g>
+  <g transform="translate(414.0,789.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#2eae5f" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">G major</text>
+  </g>
+  <g transform="translate(599.5714285714287,789.0)">
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" fill="#4d79ff" stroke="#ffffff" stroke-width="1.5" />
+    <text x="86.78571428571429" y="133.5" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">D minor</text>
+  </g>
+</svg>
