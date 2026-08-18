@@ -10,6 +10,7 @@ import re
 import shutil
 import subprocess
 import textwrap
+from datetime import datetime
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -337,7 +338,14 @@ def render_card(card: dict[str, object], page_x: float, page_y: float, col: int,
     return group
 
 
-def build_page_document(deck: dict[str, object], page_index: int, cache_dir: Path, lilypond_bin: str) -> ET.Element:
+def build_page_document(
+    deck: dict[str, object],
+    page_index: int,
+    page_count: int,
+    generation_time: str,
+    cache_dir: Path,
+    lilypond_bin: str,
+) -> ET.Element:
     cards = list(deck["cards"])
     root = svg(
         "svg",
@@ -357,6 +365,7 @@ def build_page_document(deck: dict[str, object], page_index: int, cache_dir: Pat
       .card-title { fill: #111; font-family: Arial, sans-serif; font-weight: 700; }
       .compat-text { fill: #444; font-family: Arial, sans-serif; }
       .tiny-text { fill: #555; font-family: Arial, sans-serif; }
+      .page-meta { fill: #666; font-family: Arial, sans-serif; font-size: 10px; font-weight: 600; }
     """
 
     sub(root, "rect", x="0", y="0", width=f"{PAGE_WIDTH}", height=f"{PAGE_HEIGHT}", class_="page-bg")
@@ -377,6 +386,11 @@ def build_page_document(deck: dict[str, object], page_index: int, cache_dir: Pat
     for row in range(1, ROWS):
         y = MARGIN + row * CARD_HEIGHT + (row - 0.5) * GUTTER
         sub(root, "line", x1=f"{cut_x0}", y1=f"{y}", x2=f"{cut_x1}", y2=f"{y}", class_="cut-guide")
+
+    page_label = f"{page_index + 1} of {page_count}"
+    page_meta_y = PAGE_HEIGHT - 18
+    add_text(root, PAGE_WIDTH / 2, page_meta_y, page_label, "page-meta", anchor="middle", size=10)
+    add_text(root, PAGE_WIDTH / 2, page_meta_y + 14, generation_time, "page-meta", anchor="middle", size=8)
 
     for slot in range(COLS * ROWS):
         card_index = page_index * COLS * ROWS + slot
@@ -447,11 +461,12 @@ def main() -> None:
     deck = json.loads(args.input.read_text(encoding="utf-8"))
     cards = list(deck["cards"])
     pages = -(-len(cards) // (COLS * ROWS))
+    generation_time = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %Z")
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     svg_paths: list[Path] = []
     for page_index in range(pages):
-        root = build_page_document(deck, page_index, args.cache_dir, args.lilypond_bin)
+        root = build_page_document(deck, page_index, pages, generation_time, args.cache_dir, args.lilypond_bin)
         ET.indent(root, space="  ")
         output_path = args.output_dir / f"printable-deck-page-{page_index + 1:02d}.svg"
         ET.ElementTree(root).write(output_path, encoding="utf-8", xml_declaration=True)
