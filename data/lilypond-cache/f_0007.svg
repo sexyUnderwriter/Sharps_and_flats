@@ -4,7 +4,12 @@
 tspan { white-space: pre; }
 
 </style>
-<g transform="translate(0.4552, 6.8831)">
+<style type="text/css">
+
+tspan { white-space: pre; }
+
+</style>
+<g transform="translate(0,1.0000)"><g transform="translate(0.4552, 6.8831)">
 <rect x="0.9397" y="-0.0704" width="1.9588" height="0.1409" ry="0.0704" fill="currentColor" />
 </g>
 <g transform="translate(0.4552, 5.8831)">
@@ -28,4 +33,4 @@ tspan { white-space: pre; }
 <g transform="translate(3.0007, 3.8831)">
 <rect x="-0.0266" y="-0.5000" width="0.0531" height="3.3033" ry="0.0040" fill="currentColor" />
 </g>
-</svg>
+</g></svg>

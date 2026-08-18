@@ -232,7 +232,7 @@ def normalize_staff_position(root: ET.Element, target_top_y: float) -> None:
 
 
 def extract_staff_top_y_from_root(root: ET.Element) -> float:
-    staff_y_values: list[float] = []
+    staff_line_ys: list[float] = []
     for element in root.iter():
         if element.tag != f"{{{NS}}}g":
             continue
@@ -241,10 +241,17 @@ def extract_staff_top_y_from_root(root: ET.Element) -> float:
         if match is None:
             continue
         _, y_value = match.groups()
-        staff_y_values.append(float(y_value))
-    if not staff_y_values:
+        children = list(element)
+        if len(children) == 1 and children[0].tag == f"{{{NS}}}line":
+            staff_line_ys.append(float(y_value))
+    if not staff_line_ys:
         return 0.0
-    return max(staff_y_values)
+    staff_line_ys.sort(reverse=True)
+    for index in range(len(staff_line_ys) - 4):
+        run = staff_line_ys[index : index + 5]
+        if all(abs((run[i] - run[i + 1]) - 1.0) < 1e-3 for i in range(4)):
+            return run[0]
+    return max(staff_line_ys)
 
 
 def render_lilypond_svg(card: dict[str, object], cache_dir: Path, lilypond_bin: str) -> Path:
