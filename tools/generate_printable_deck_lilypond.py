@@ -388,9 +388,14 @@ def build_page_document(
         sub(root, "line", x1=f"{cut_x0}", y1=f"{y}", x2=f"{cut_x1}", y2=f"{y}", class_="cut-guide")
 
     page_label = f"{page_index + 1} of {page_count}"
-    page_meta_y = PAGE_HEIGHT - 18
-    add_text(root, PAGE_WIDTH / 2, page_meta_y, page_label, "page-meta", anchor="middle", size=10)
-    add_text(root, PAGE_WIDTH / 2, page_meta_y + 14, generation_time, "page-meta", anchor="middle", size=8)
+    sub(
+        root,
+        "text",
+        page_label,
+        x=f"{PAGE_WIDTH / 2}",
+        y="12",
+        **{"fill": "#666", "font-family": "Arial, sans-serif", "font-size": "10", "font-weight": "600", "text-anchor": "middle"},
+    )
 
     for slot in range(COLS * ROWS):
         card_index = page_index * COLS * ROWS + slot
@@ -405,6 +410,16 @@ def build_page_document(
 
 def convert_svg_to_pdf(svg_path: Path, pdf_path: Path) -> None:
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
+
+    inkscape_path = shutil.which("inkscape") or "/Applications/Inkscape.app/Contents/MacOS/inkscape"
+    if Path(inkscape_path).exists():
+        subprocess.run(
+            [inkscape_path, "--export-type=pdf", f"--export-filename={pdf_path}", str(svg_path)],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        return
 
     brew_prefix = None
     if shutil.which("brew"):
@@ -430,8 +445,6 @@ def convert_svg_to_pdf(svg_path: Path, pdf_path: Path) -> None:
         return
 
     attempts: list[list[str]] = []
-    if shutil.which("inkscape"):
-        attempts.append(["inkscape", "--export-type=pdf", f"--export-filename={pdf_path}", str(svg_path)])
     if shutil.which("rsvg-convert"):
         attempts.append(["rsvg-convert", "-f", "pdf", "-o", str(pdf_path), str(svg_path)])
     if shutil.which("magick"):
@@ -441,7 +454,7 @@ def convert_svg_to_pdf(svg_path: Path, pdf_path: Path) -> None:
 
     if not attempts:
         raise RuntimeError(
-            "No PDF converter available. Install cairosvg, inkscape, or rsvg-convert to export printable deck PDFs."
+            "No PDF converter available. Install inkscape, cairosvg, or rsvg-convert to export printable deck PDFs."
         )
 
     last_error: Exception | None = None
