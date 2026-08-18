@@ -22,6 +22,39 @@ FAMILY_CHORDS = {
     "G major": {2, 7, 11},
     "D minor": {2, 5, 9},
 }
+FAMILY_ROLE_TEXT = {
+    "C major": {
+        "role": "tonic / home",
+        "lead": "resolves cleanly to the home chord",
+    },
+    "F major": {
+        "role": "subdominant / supportive lift",
+        "lead": "feels like a supportive lift before a return",
+    },
+    "G major": {
+        "role": "dominant / forward pull",
+        "lead": "pushes the phrase forward toward a strong resolution",
+    },
+    "D minor": {
+        "role": "relative minor / reflective return",
+        "lead": "leans toward a reflective, grounding resolution",
+    },
+}
+
+
+def fit_description(family: str, fit: float) -> str:
+    role = FAMILY_ROLE_TEXT[family]
+    if fit >= 0.85:
+        fit_word = "strongly resolves to"
+    elif fit >= 0.72:
+        fit_word = "plays well next to"
+    elif fit >= 0.60:
+        fit_word = "works as a soft lead into"
+    elif fit >= 0.45:
+        fit_word = "loosely supports"
+    else:
+        fit_word = "barely fits"
+    return f"{fit_word} {family} — {role['role']} harmony, and {role['lead']}."
 
 
 def parse_args() -> argparse.Namespace:
@@ -35,14 +68,19 @@ def note_pitch_class(note: dict[str, Any]) -> int:
     return (STEP_PITCH_CLASS[note["step"]] + int(note.get("alter", 0))) % 12
 
 
-def analyze_card(card: dict[str, Any]) -> tuple[list[str], dict[str, float]]:
+def analyze_card(card: dict[str, Any]) -> tuple[list[str], dict[str, float], dict[str, str]]:
     primary_family = card.get("primaryFamily") or card["familyCompatibility"][0]
     if card.get("isRest", False):
         compatibility = list(FAMILY_ORDER)
-        return compatibility, {
+        family_fit = {
             family: 0.65 + (0.05 if family == primary_family else 0.0)
             for family in compatibility
         }
+        family_fit_text = {
+            family: fit_description(family, score)
+            for family, score in family_fit.items()
+        }
+        return compatibility, family_fit, family_fit_text
 
     pitch_classes = [note_pitch_class(note) for note in card.get("notes", [])]
     pitch_class_set = set(pitch_classes)
@@ -66,16 +104,21 @@ def analyze_card(card: dict[str, Any]) -> tuple[list[str], dict[str, float]]:
             + 0.05 * (family == primary_family)
         )
         family_fit[family] = round(min(1.0, fit), 3)
-    return compatibility, family_fit
+    family_fit_text = {
+        family: fit_description(family, score)
+        for family, score in family_fit.items()
+    }
+    return compatibility, family_fit, family_fit_text
 
 
 def update_deck(deck: dict[str, Any]) -> dict[str, Any]:
     for card in deck["cards"]:
         primary_family = card.get("primaryFamily") or card["familyCompatibility"][0]
-        compatibility, family_fit = analyze_card(card)
+        compatibility, family_fit, family_fit_text = analyze_card(card)
         card["primaryFamily"] = primary_family
         card["familyCompatibility"] = compatibility
         card["familyFit"] = family_fit
+        card["familyFitDescription"] = family_fit_text
     return deck
 
 

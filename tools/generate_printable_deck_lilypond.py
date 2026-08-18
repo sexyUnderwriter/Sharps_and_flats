@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -47,12 +48,30 @@ SVG_CANVAS_SCALE = 1.5
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate printable per-page SVG deck sheets with LilyPond.")
+    parser = argparse.ArgumentParser(description="Generate printable per-page deck sheets with LilyPond.")
     parser.add_argument("--input", type=Path, default=Path("data/starter-deck.json"))
     parser.add_argument("--output-dir", type=Path, default=Path("data/printable-deck-pages"))
     parser.add_argument("--cache-dir", type=Path, default=Path("data/lilypond-cache"))
     parser.add_argument("--lilypond-bin", type=str, default="lilypond")
+    parser.add_argument(
+        "--formats",
+        nargs="+",
+        default=["both"],
+        help="Output formats to generate: svg, pdf, or both (default).",
+    )
     return parser.parse_args()
+
+
+def normalize_output_formats(raw_formats: list[str]) -> set[str]:
+    formats: set[str] = set()
+    for raw in raw_formats:
+        for value in raw.split(","):
+            normalized = value.strip().lower()
+            if normalized in {"svg", "pdf"}:
+                formats.add(normalized)
+            elif normalized in {"both", "all"}:
+                formats.update({"svg", "pdf"})
+    return formats or {"svg"}
 
 
 def svg(tag: str, **attrs: str) -> ET.Element:
@@ -370,19 +389,85 @@ def build_page_document(deck: dict[str, object], page_index: int, cache_dir: Pat
     return root
 
 
+def convert_svg_to_pdf(svg_path: Path, pdf_path: Path) -> None:
+    pdf_path.parent.mkdir(parents=True, exist_ok=True)
+
+    brew_prefix = None
+    if shutil.which("brew"):
+        try:
+            brew_prefix = subprocess.check_output(["brew", "--prefix", "cairo"], text=True).strip()
+        except subprocess.CalledProcessError:
+            brew_prefix = None
+    if brew_prefix:
+        for env_var in ("DYLD_LIBRARY_PATH", "LD_LIBRARY_PATH"):
+            current = os.environ.get(env_var, "")
+            paths = [p for p in current.split(":") if p]
+            cairo_lib = f"{brew_prefix}/lib"
+            if cairo_lib not in paths:
+                os.environ[env_var] = ":".join([cairo_lib, *paths])
+
+    try:
+        import cairosvg  # type: ignore
+    except (ImportError, OSError):
+        cairosvg = None
+
+    if cairosvg is not None:
+        cairosvg.svg2pdf(url=str(svg_path), write_to=str(pdf_path))
+        return
+
+    attempts: list[list[str]] = []
+    if shutil.which("inkscape"):
+        attempts.append(["inkscape", "--export-type=pdf", f"--export-filename={pdf_path}", str(svg_path)])
+    if shutil.which("rsvg-convert"):
+        attempts.append(["rsvg-convert", "-f", "pdf", "-o", str(pdf_path), str(svg_path)])
+    if shutil.which("magick"):
+        attempts.append(["magick", str(svg_path), str(pdf_path)])
+    if shutil.which("convert"):
+        attempts.append(["convert", str(svg_path), str(pdf_path)])
+
+    if not attempts:
+        raise RuntimeError(
+            "No PDF converter available. Install cairosvg, inkscape, or rsvg-convert to export printable deck PDFs."
+        )
+
+    last_error: Exception | None = None
+    for command in attempts:
+        try:
+            subprocess.run(command, check=True, capture_output=True, text=True)
+            return
+        except (subprocess.CalledProcessError, FileNotFoundError) as exc:
+            last_error = exc
+    if last_error is not None:
+        raise RuntimeError(f"Failed to convert {svg_path} to PDF: {last_error}") from last_error
+
+
 def main() -> None:
     args = parse_args()
+    formats = normalize_output_formats(args.formats)
     deck = json.loads(args.input.read_text(encoding="utf-8"))
     cards = list(deck["cards"])
     pages = -(-len(cards) // (COLS * ROWS))
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
+    svg_paths: list[Path] = []
     for page_index in range(pages):
         root = build_page_document(deck, page_index, args.cache_dir, args.lilypond_bin)
         ET.indent(root, space="  ")
         output_path = args.output_dir / f"printable-deck-page-{page_index + 1:02d}.svg"
         ET.ElementTree(root).write(output_path, encoding="utf-8", xml_declaration=True)
-        print(f"Wrote {output_path}")
+        svg_paths.append(output_path)
+        if "svg" in formats:
+            print(f"Wrote {output_path}")
+
+    if "pdf" in formats:
+        pdf_dir = args.output_dir / "pdf"
+        for svg_path in svg_paths:
+            pdf_path = pdf_dir / svg_path.name.replace(".svg", ".pdf")
+            try:
+                convert_svg_to_pdf(svg_path, pdf_path)
+                print(f"Wrote {pdf_path}")
+            except RuntimeError as exc:
+                print(f"Warning: {exc}")
 
 
 if __name__ == "__main__":

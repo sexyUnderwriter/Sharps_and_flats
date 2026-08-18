@@ -52,10 +52,12 @@ Generate the deck score:
 python tools/generate_deck_musicxml.py
 ```
 
-Generate printable SVG pages with LilyPond-rendered notation:
+Generate printable deck pages in SVG and/or PDF with LilyPond-rendered notation:
 
 ```bash
-python tools/generate_printable_deck_lilypond.py
+python tools/generate_printable_deck_lilypond.py --formats svg
+python tools/generate_printable_deck_lilypond.py --formats pdf
+python tools/generate_printable_deck_lilypond.py --formats both
 ```
 
 Run a simulation and export round MusicXML:

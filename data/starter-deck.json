@@ -57,6 +57,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -99,6 +105,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -141,6 +153,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -183,6 +201,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -225,6 +249,12 @@
         "F major": 0.95,
         "G major": 0.35,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -267,6 +297,12 @@
         "F major": 0.35,
         "G major": 0.35,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -309,6 +345,12 @@
         "F major": 0.35,
         "G major": 0.95,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -347,6 +389,10 @@
       "familyFit": {
         "C major": 0.4,
         "G major": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -389,6 +435,12 @@
         "F major": 0.35,
         "G major": 0.95,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -429,6 +481,11 @@
         "C major": 0.4,
         "F major": 0.95,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -471,6 +528,12 @@
         "F major": 0.95,
         "G major": 0.35,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -509,6 +572,10 @@
       "familyFit": {
         "C major": 0.4,
         "G major": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -560,6 +627,12 @@
         "F major": 0.625,
         "G major": 0.675,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -611,6 +684,12 @@
         "F major": 0.35,
         "G major": 0.675,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -660,6 +739,11 @@
         "C major": 0.725,
         "F major": 0.625,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -711,6 +795,12 @@
         "F major": 0.675,
         "G major": 0.625,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -762,6 +852,12 @@
         "F major": 0.675,
         "G major": 0.625,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -809,6 +905,10 @@
       "familyFit": {
         "C major": 0.4,
         "G major": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -860,6 +960,12 @@
         "F major": 0.625,
         "G major": 0.35,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -909,6 +1015,11 @@
         "C major": 0.675,
         "F major": 0.675,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -976,6 +1087,11 @@
         "C major": 0.675,
         "F major": 0.775,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1043,6 +1159,11 @@
         "C major": 0.725,
         "F major": 0.775,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1110,6 +1231,11 @@
         "C major": 0.675,
         "F major": 0.438,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1175,6 +1301,10 @@
       "familyFit": {
         "C major": 0.675,
         "G major": 0.862
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -1240,6 +1370,10 @@
       "familyFit": {
         "C major": 0.725,
         "G major": 0.438
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -1309,6 +1443,12 @@
         "F major": 0.438,
         "G major": 0.625,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1376,6 +1516,11 @@
         "C major": 0.725,
         "F major": 0.625,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1445,6 +1590,12 @@
         "F major": 0.537,
         "G major": 0.438,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "loosely supports F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1505,6 +1656,12 @@
         "F major": 0.567,
         "G major": 0.617,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "loosely supports F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1561,6 +1718,10 @@
       "familyFit": {
         "C major": 0.883,
         "G major": 0.683
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -1603,6 +1764,12 @@
         "F major": 0.7000000000000001,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1645,6 +1812,12 @@
         "F major": 0.7000000000000001,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1687,6 +1860,12 @@
         "F major": 0.7000000000000001,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1729,6 +1908,12 @@
         "F major": 0.7000000000000001,
         "G major": 0.65,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1769,6 +1954,11 @@
         "C major": 0.35,
         "F major": 1.0,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1811,6 +2001,12 @@
         "F major": 1.0,
         "G major": 0.35,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1853,6 +2049,12 @@
         "F major": 1.0,
         "G major": 0.35,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1895,6 +2097,12 @@
         "F major": 0.4,
         "G major": 0.35,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1937,6 +2145,12 @@
         "F major": 0.4,
         "G major": 0.95,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -1975,6 +2189,10 @@
       "familyFit": {
         "F major": 0.4,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2017,6 +2235,12 @@
         "F major": 0.4,
         "G major": 0.95,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2059,6 +2283,12 @@
         "F major": 0.4,
         "G major": 0.35,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2108,6 +2338,11 @@
         "C major": 0.675,
         "F major": 0.675,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2159,6 +2394,12 @@
         "F major": 0.675,
         "G major": 0.675,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2206,6 +2447,10 @@
       "familyFit": {
         "F major": 0.725,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2257,6 +2502,12 @@
         "F major": 0.675,
         "G major": 0.675,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2306,6 +2557,11 @@
         "C major": 0.625,
         "F major": 0.725,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2357,6 +2613,12 @@
         "F major": 0.4,
         "G major": 0.625,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2406,6 +2668,11 @@
         "C major": 0.35,
         "F major": 1.0,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2453,6 +2720,10 @@
       "familyFit": {
         "F major": 0.675,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2518,6 +2789,10 @@
       "familyFit": {
         "F major": 0.675,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2583,6 +2858,10 @@
       "familyFit": {
         "F major": 0.725,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2648,6 +2927,10 @@
       "familyFit": {
         "F major": 0.675,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2717,6 +3000,12 @@
         "F major": 0.675,
         "G major": 0.438,
         "D minor": 0.438
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2784,6 +3073,11 @@
         "C major": 0.438,
         "F major": 0.725,
         "D minor": 0.862
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2851,6 +3145,11 @@
         "C major": 0.625,
         "F major": 0.725,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2916,6 +3215,10 @@
       "familyFit": {
         "F major": 0.725,
         "D minor": 0.438
+      },
+      "familyFitDescription": {
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -2983,6 +3286,11 @@
         "C major": 0.438,
         "F major": 1.0,
         "D minor": 0.862
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3041,6 +3349,11 @@
         "C major": 0.617,
         "F major": 1.0,
         "D minor": 0.683
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3099,6 +3412,11 @@
         "C major": 0.683,
         "F major": 0.883,
         "D minor": 0.617
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3141,6 +3459,12 @@
         "F major": 0.65,
         "G major": 0.7000000000000001,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3183,6 +3507,12 @@
         "F major": 0.65,
         "G major": 0.7000000000000001,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3225,6 +3555,12 @@
         "F major": 0.65,
         "G major": 0.7000000000000001,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3267,6 +3603,12 @@
         "F major": 0.65,
         "G major": 0.7000000000000001,
         "D minor": 0.65
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3309,6 +3651,12 @@
         "F major": 0.35,
         "G major": 1.0,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3347,6 +3695,10 @@
       "familyFit": {
         "C major": 0.35,
         "G major": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -3389,6 +3741,12 @@
         "F major": 0.35,
         "G major": 1.0,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3425,6 +3783,9 @@
       "primaryFamily": "G major",
       "familyFit": {
         "G major": 0.4
+      },
+      "familyFitDescription": {
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -3467,6 +3828,12 @@
         "F major": 0.95,
         "G major": 0.4,
         "D minor": 0.95
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3509,6 +3876,12 @@
         "F major": 0.95,
         "G major": 0.4,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3551,6 +3924,12 @@
         "F major": 0.35,
         "G major": 0.4,
         "D minor": 0.35
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3587,6 +3966,9 @@
       "primaryFamily": "G major",
       "familyFit": {
         "G major": 0.4
+      },
+      "familyFitDescription": {
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -3638,6 +4020,12 @@
         "F major": 0.675,
         "G major": 0.675,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3685,6 +4073,10 @@
       "familyFit": {
         "C major": 0.35,
         "G major": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -3732,6 +4124,10 @@
       "familyFit": {
         "C major": 0.625,
         "G major": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "plays well next to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -3783,6 +4179,12 @@
         "F major": 0.35,
         "G major": 0.675,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3834,6 +4236,12 @@
         "F major": 0.625,
         "G major": 0.725,
         "D minor": 0.625
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "plays well next to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -3879,6 +4287,9 @@
       "primaryFamily": "G major",
       "familyFit": {
         "G major": 0.4
+      },
+      "familyFitDescription": {
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -3926,6 +4337,10 @@
       "familyFit": {
         "C major": 0.625,
         "G major": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -3973,6 +4388,10 @@
       "familyFit": {
         "C major": 0.675,
         "G major": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4038,6 +4457,10 @@
       "familyFit": {
         "C major": 0.775,
         "G major": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4103,6 +4526,10 @@
       "familyFit": {
         "C major": 0.775,
         "G major": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "plays well next to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "plays well next to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4168,6 +4595,10 @@
       "familyFit": {
         "C major": 0.438,
         "G major": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4231,6 +4662,9 @@
       "primaryFamily": "G major",
       "familyFit": {
         "G major": 0.675
+      },
+      "familyFitDescription": {
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4294,6 +4728,9 @@
       "primaryFamily": "G major",
       "familyFit": {
         "G major": 0.725
+      },
+      "familyFitDescription": {
+        "G major": "plays well next to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4359,6 +4796,10 @@
       "familyFit": {
         "C major": 0.438,
         "G major": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "plays well next to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4424,6 +4865,10 @@
       "familyFit": {
         "C major": 0.625,
         "G major": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "plays well next to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4489,6 +4934,10 @@
       "familyFit": {
         "C major": 0.537,
         "G major": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "loosely supports C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4545,6 +4994,10 @@
       "familyFit": {
         "C major": 0.567,
         "G major": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "loosely supports C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4599,6 +5052,9 @@
       "primaryFamily": "G major",
       "familyFit": {
         "G major": 0.883
+      },
+      "familyFitDescription": {
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution."
       }
     },
     {
@@ -4641,6 +5097,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.7000000000000001
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4683,6 +5145,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.7000000000000001
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4725,6 +5193,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.7000000000000001
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4767,6 +5241,12 @@
         "F major": 0.65,
         "G major": 0.65,
         "D minor": 0.7000000000000001
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4809,6 +5289,12 @@
         "F major": 0.35,
         "G major": 0.95,
         "D minor": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4849,6 +5335,11 @@
         "C major": 0.35,
         "F major": 0.95,
         "D minor": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4891,6 +5382,12 @@
         "F major": 0.95,
         "G major": 0.35,
         "D minor": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4933,6 +5430,12 @@
         "F major": 0.95,
         "G major": 0.35,
         "D minor": 0.4
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -4975,6 +5478,12 @@
         "F major": 0.35,
         "G major": 0.35,
         "D minor": 0.4
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5017,6 +5526,12 @@
         "F major": 0.35,
         "G major": 0.95,
         "D minor": 0.4
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "strongly resolves to G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5055,6 +5570,10 @@
       "familyFit": {
         "F major": 0.35,
         "D minor": 0.4
+      },
+      "familyFitDescription": {
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5097,6 +5616,12 @@
         "F major": 0.95,
         "G major": 0.35,
         "D minor": 0.4
+      },
+      "familyFitDescription": {
+        "C major": "strongly resolves to C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "barely fits G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5148,6 +5673,12 @@
         "F major": 0.35,
         "G major": 0.625,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5197,6 +5728,11 @@
         "C major": 0.675,
         "F major": 0.625,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5246,6 +5782,11 @@
         "C major": 0.625,
         "F major": 0.675,
         "D minor": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "plays well next to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5293,6 +5834,10 @@
       "familyFit": {
         "F major": 0.625,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5344,6 +5889,12 @@
         "F major": 0.35,
         "G major": 0.675,
         "D minor": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "plays well next to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5391,6 +5942,10 @@
       "familyFit": {
         "F major": 0.675,
         "D minor": 0.4
+      },
+      "familyFitDescription": {
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "barely fits D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5440,6 +5995,11 @@
         "C major": 0.35,
         "F major": 0.675,
         "D minor": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5489,6 +6049,11 @@
         "C major": 0.675,
         "F major": 0.625,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5556,6 +6121,11 @@
         "C major": 0.675,
         "F major": 0.438,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5623,6 +6193,11 @@
         "C major": 0.625,
         "F major": 0.438,
         "D minor": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "barely fits F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "plays well next to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5690,6 +6265,11 @@
         "C major": 0.675,
         "F major": 0.625,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5755,6 +6335,10 @@
       "familyFit": {
         "F major": 0.862,
         "D minor": 0.675
+      },
+      "familyFitDescription": {
+        "F major": "strongly resolves to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "works as a soft lead into D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5820,6 +6404,10 @@
       "familyFit": {
         "F major": 0.675,
         "D minor": 0.725
+      },
+      "familyFitDescription": {
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "plays well next to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5887,6 +6475,11 @@
         "C major": 0.625,
         "F major": 0.588,
         "D minor": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "loosely supports F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "plays well next to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -5954,6 +6547,11 @@
         "C major": 0.625,
         "F major": 0.675,
         "D minor": 0.725
+      },
+      "familyFitDescription": {
+        "C major": "works as a soft lead into C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "plays well next to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -6021,6 +6619,11 @@
         "C major": 0.35,
         "F major": 0.762,
         "D minor": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -6079,6 +6682,11 @@
         "C major": 0.35,
         "F major": 0.733,
         "D minor": 1.0
+      },
+      "familyFitDescription": {
+        "C major": "barely fits C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "plays well next to F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     },
     {
@@ -6139,6 +6747,12 @@
         "F major": 0.683,
         "G major": 0.617,
         "D minor": 0.883
+      },
+      "familyFitDescription": {
+        "C major": "loosely supports C major \u2014 tonic / home harmony, and resolves cleanly to the home chord.",
+        "F major": "works as a soft lead into F major \u2014 subdominant / supportive lift harmony, and feels like a supportive lift before a return.",
+        "G major": "works as a soft lead into G major \u2014 dominant / forward pull harmony, and pushes the phrase forward toward a strong resolution.",
+        "D minor": "strongly resolves to D minor \u2014 relative minor / reflective return harmony, and leans toward a reflective, grounding resolution."
       }
     }
   ]
