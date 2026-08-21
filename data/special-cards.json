@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "deck": {
+    "name": "Phrase Deck Special Cards",
+    "game": "music-phrase-game",
+    "prototypeState": "prototype",
+    "description": "Optional effect cards that alter phrase playback or bar length without replacing musical note cards."
+  },
+  "cards": [
+    {
+      "id": "SP-REPEAT",
+      "kind": "phrase-effect",
+      "name": "Repeat Phrase",
+      "symbol": "||: :||",
+      "copies": 2,
+      "rule": "Place after a completed phrase. Play the entire phrase before this card one additional time, in the same order.",
+      "tags": ["repeat", "phrase", "enhancement"]
+    },
+    {
+      "id": "SP-TIE",
+      "kind": "phrase-effect",
+      "name": "Tie",
+      "symbol": "tie",
+      "copies": 3,
+      "rule": "Place between cards when the final note on the left and first note on the right are the same pitch. Sustain it across the boundary.",
+      "tags": ["tie", "sustain", "enhancement"]
+    },
+    {
+      "id": "SP-METER-2-4",
+      "kind": "meter",
+      "name": "Two Four",
+      "symbol": "2/4",
+      "beatsPerBar": 2,
+      "copies": 1,
+      "rule": "Set each bar to 2 beats for this phrase. Fill every bar exactly before beginning the next.",
+      "tags": ["meter", "2-4", "bar"]
+    },
+    {
+      "id": "SP-METER-3-4",
+      "kind": "meter",
+      "name": "Three Four",
+      "symbol": "3/4",
+      "beatsPerBar": 3,
+      "copies": 1,
+      "rule": "Set each bar to 3 beats for this phrase. Fill every bar exactly before beginning the next.",
+      "tags": ["meter", "3-4", "bar"]
+    },
+    {
+      "id": "SP-METER-4-4",
+      "kind": "meter",
+      "name": "Four Four",
+      "symbol": "4/4",
+      "beatsPerBar": 4,
+      "copies": 1,
+      "rule": "Set each bar to 4 beats for this phrase. Fill every bar exactly before beginning the next.",
+      "tags": ["meter", "4-4", "bar"]
+    }
+  ]
+}
