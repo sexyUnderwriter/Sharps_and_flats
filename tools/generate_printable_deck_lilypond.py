@@ -327,6 +327,8 @@ def render_card(card: dict[str, object], page_x: float, page_y: float, col: int,
     sub(group, "rect", x="0", y="0", width=f"{CARD_WIDTH}", height=f"{CARD_HEIGHT}", rx="14", ry="14", class_="card-border")
 
     compatible_families = list(card["familyCompatibility"])
+    family_fit = card["familyFit"]
+    compatible_families.sort(key=lambda family_name: family_fit[family_name], reverse=True)
     badge_gap = 5
     badge_h = 20
     badge_w = 28

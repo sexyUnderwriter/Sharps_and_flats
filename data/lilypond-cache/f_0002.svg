@@ -4,27 +4,22 @@
 tspan { white-space: pre; }
 
 </style>
-<style type="text/css">
-
-tspan { white-space: pre; }
-
-</style>
-<g transform="translate(0,-0.5185)"><g transform="translate(0.4552, 7.4016)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 5.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 6.4016)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 4.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 5.4016)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 3.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 4.4016)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 2.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 3.4016)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 1.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(1.8714, 5.4016)">
-<path transform="scale(0.0040, -0.0040)" d="M-4 79c0 59 125 82 125 181c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -59 -125 -82 -125 -181c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-6 0 -48 48 -112 48 c-14 0 -52 -1 -52 -70c0 -63 30 -99 30 -101c0 -4 -3 -6 -7 -6c-12 0 -98 130 -98 206c0 12 0 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25z" fill="currentColor" />
+<g transform="translate(1.7860, 3.0204)">
+<path transform="scale(0.0040, -0.0040)" d="M-4 79c0 59 125 82 125 181c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -59 -125 -82 -125 -181c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-6 0 -48 48 -112 48 c-14 0 -52 -1 -52 -70c0 -35 11 -75 28 -96c6 -7 -4 -16 -10 -9c-46 55 -93 150 -93 204c0 12 0 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25z" fill="currentColor" />
 </g>
-</g></svg>
+</svg>

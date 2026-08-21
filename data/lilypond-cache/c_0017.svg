@@ -4,42 +4,37 @@
 tspan { white-space: pre; }
 
 </style>
-<style type="text/css">
-
-tspan { white-space: pre; }
-
-</style>
-<g transform="translate(0,1.0000)"><g transform="translate(0.4552, 6.8831)">
-<rect x="2.1840" y="-0.0704" width="1.7823" height="0.1409" ry="0.0704" fill="currentColor" />
+<g transform="translate(0.2845, 6.0204)">
+<rect x="2.2559" y="-0.0704" width="1.7823" height="0.1409" ry="0.0704" fill="currentColor" />
 </g>
-<g transform="translate(0.4552, 5.8831)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 5.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 4.8831)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 4.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 3.8831)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 3.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 2.8831)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 2.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(0.4552, 1.8831)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.0442" y2="0" />
+<g transform="translate(0.2845, 1.0204)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
 </g>
-<g transform="translate(2.4362, 3.6636)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0080" fill="currentColor" stroke="currentColor" points="1.6550 -0.0164 1.6550 0.4556 0.0040 0.2360 0.0040 -0.2360" />
+<g transform="translate(2.3373, 2.8009)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0080" fill="currentColor" stroke="currentColor" points="1.6549 -0.0164 1.6549 0.4556 0.0040 0.2360 0.0040 -0.2360" />
 </g>
-<g transform="translate(1.1834, 6.3831)">
-<path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
+<g transform="translate(1.0846, 5.5204)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c64 0 104 -35 104 -86c0 -89 -114 -184 -221 -184c-64 0 -105 35 -105 86c0 89 115 184 222 184z" fill="currentColor" />
 </g>
-<g transform="translate(2.4627, 3.8831)">
-<rect x="-0.0266" y="-0.2161" width="0.0531" height="2.5194" ry="0.0040" fill="currentColor" />
+<g transform="translate(2.3638, 3.0204)">
+<rect x="-0.0266" y="-0.2161" width="0.0531" height="2.5193" ry="0.0040" fill="currentColor" />
 </g>
-<g transform="translate(2.7893, 6.8831)">
-<path transform="scale(0.0040, -0.0040)" d="M0 -49c0 91 119 184 221 184c61 0 106 -34 106 -86c0 -87 -114 -184 -224 -184c-65 0 -103 37 -103 86z" fill="currentColor" />
+<g transform="translate(2.6904, 6.0204)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c64 0 104 -35 104 -86c0 -89 -114 -184 -221 -184c-64 0 -105 35 -105 86c0 89 115 184 222 184z" fill="currentColor" />
 </g>
-<g transform="translate(4.0686, 3.8831)">
+<g transform="translate(3.9696, 3.0204)">
 <rect x="-0.0266" y="-0.0035" width="0.0531" height="2.8068" ry="0.0040" fill="currentColor" />
 </g>
-</g></svg>
+</svg>

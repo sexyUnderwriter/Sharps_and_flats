@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2.5in" height="3.5in" viewBox="0 0 173.57142857142858 243.0" version="1.1">
+  <style>
+      .card-border { fill: #fffdf9; stroke: #222; stroke-width: 1.1; }
+      .badge-text { fill: #fff; font-family: Arial, sans-serif; font-weight: 700; }
+      .card-title { fill: #111; font-family: Arial, sans-serif; font-weight: 700; }
+      .fit-text { fill: #fff; font-family: Arial, sans-serif; font-weight: 700; }
+    .card-id-hidden { display: none; }
+    </style>
+  <g>
+    <rect x="0" y="0" width="173.57142857142858" height="243.0" rx="14" ry="14" class="card-border" />
+    <svg x="0" y="44" width="173.57142857142858" height="100" preserveAspectRatio="xMidYMid meet" viewBox="0.0000 -0.0000 8.9627 12.6330">
+      <style type="text/css">
+
+tspan { white-space: pre; }
+
+</style>
+      <g transform="translate(0.2845, 5.0204)">
+        <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
+      </g>
+      <g transform="translate(0.2845, 4.0204)">
+        <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
+      </g>
+      <g transform="translate(0.2845, 3.0204)">
+        <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
+      </g>
+      <g transform="translate(0.2845, 2.0204)">
+        <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
+      </g>
+      <g transform="translate(0.2845, 1.0204)">
+        <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0409" stroke="currentColor" x1="0.0204" y1="0" x2="5.3856" y2="0" />
+      </g>
+      <g transform="translate(1.6360, 4.5204)">
+        <path transform="scale(0.0040, -0.0040)" d="M222 135c64 0 104 -35 104 -86c0 -89 -114 -184 -221 -184c-64 0 -105 35 -105 86c0 89 115 184 222 184z" fill="currentColor" />
+      </g>
+      <g transform="translate(2.9153, 3.0204)">
+        <rect x="-0.0266" y="-2.0000" width="0.0531" height="3.3033" ry="0.0040" fill="currentColor" />
+      </g>
+    </svg>
+    <rect x="8" y="145" width="157.57142857142858" height="23" rx="4" ry="4" fill="#f39c34" />
+    <text x="18" y="160" text-anchor="start" font-size="10" class="fit-text">F  3 pt</text>
+    <rect x="8" y="171" width="157.57142857142858" height="23" rx="4" ry="4" fill="#4d79ff" />
+    <text x="18" y="186" text-anchor="start" font-size="10" class="fit-text">Dm  3 pt</text>
+    <rect x="8" y="197" width="157.57142857142858" height="23" rx="4" ry="4" fill="#e34a4a" />
+    <text x="18" y="212" text-anchor="start" font-size="10" class="fit-text">C  1 pt</text>
+    <text x="12" y="231.0" text-anchor="start" font-size="11" class="card-id-hidden">C-0010</text>
+  </g>
+</svg>
